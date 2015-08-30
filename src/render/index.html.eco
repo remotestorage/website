@@ -1,7 +1,7 @@
 ---
-title: "Homepage"
+title: "RemoteStorage - An open protocol for per-user storage"
 layout: "default"
 isPage: true
 ---
 
-<%= @document.title %>
+index.html.eco
