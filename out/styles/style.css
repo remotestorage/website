@@ -36,10 +36,22 @@ main {
     box-sizing: inherit; }
   #rs-common-nav h1 {
     float: left;
-    font-size: 0;
-    padding: 10px; }
-    #rs-common-nav h1 img {
-      height: 28px; }
+    font-size: 0; }
+    #rs-common-nav h1 a {
+      display: inline-block;
+      padding: 10px; }
+      #rs-common-nav h1 a img {
+        height: 28px; }
+  #rs-common-nav a {
+    color: #ccc;
+    text-decoration: none;
+    border-top: 2px solid #111;
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear; }
+    #rs-common-nav a:hover {
+      background-color: #333;
+      border-top-color: #FF4B03; }
   #rs-common-nav nav.primary {
     float: left; }
   #rs-common-nav nav.secondary {
@@ -50,13 +62,4 @@ main {
     padding-left: 10px;
     padding-right: 10px;
     line-height: 48px;
-    color: #ccc;
-    text-decoration: none;
-    border-bottom: 2px solid #111;
-    border-top: 2px solid #111;
-    -webkit-transition: background-color 0.1s linear;
-    -moz-transition: background-color 0.1s linear;
-    transition: background-color 0.1s linear; }
-    #rs-common-nav nav ul li a:hover {
-      background-color: #333;
-      border-top-color: #FF4B03; }
+    border-bottom: 2px solid #111; }

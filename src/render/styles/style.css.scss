@@ -41,9 +41,22 @@ main {
   h1 {
     float: left;
     font-size: 0;
-    padding: 10px;
-    img {
-      height: 28px;
+    a {
+      display: inline-block;
+      padding: 10px;
+      img {
+        height: 28px;
+      }
+    }
+  }
+  a {
+    color: #ccc;
+    text-decoration: none;
+    border-top: 2px solid #111;
+    @include transition(background-color 0.1s linear);
+    &:hover {
+      background-color: #333;
+      border-top-color: #FF4B03;
     }
   }
   nav {
@@ -62,15 +75,7 @@ main {
           padding-left: 10px;
           padding-right: 10px;
           line-height: 48px;
-          color: #ccc;
-          text-decoration: none;
           border-bottom: 2px solid #111;
-          border-top: 2px solid #111;
-          @include transition(background-color 0.1s linear);
-          &:hover {
-            background-color: #333;
-            border-top-color: #FF4B03;
-          }
         }
       }
     }
