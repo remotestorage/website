@@ -6,6 +6,7 @@ docpadConfig = {
     nodesass:
       outputStyle: 'nested'
       bourbon: true
+      neat: true
 
   environments:
     static:
