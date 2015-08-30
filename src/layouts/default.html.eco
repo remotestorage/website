@@ -14,10 +14,20 @@
   <!-- COMMON TOPNAV USED ON ALL RS SITES -->
   <div id="rs-common-nav">
     <h1><img src="/img/icon.svg" alt="RemoteStorage"></h1>
-    <nav>
+    <nav class="primary">
       <ul>
-        <li><a href="https://wiki.kosmos.org">Wiki</a></li>
+        <li><a href="#">Get Storage</a></li>
+        <li><a href="#">Apps</a></li>
+        <li><a href="#">Develop</a></li>
+        <li><a href="#">Spec</a></li>
+      </ul>
+    </nav>
+    <nav class="secondary">
+      <ul>
+        <li><a href="https://wiki.remotestorage.io">Wiki</a></li>
         <li><a href="https://github.com/67P">GitHub</a></li>
+        <li><a href="https://community.remotestorage.io">Forums</a></li>
+        <li><a href="#">IRC</a></li>
         <li><a href="https://twitter.com/KosmosHQ">Twitter</a></li>
       </ul>
     </nav>

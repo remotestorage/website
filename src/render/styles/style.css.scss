@@ -47,7 +47,12 @@ main {
     }
   }
   nav {
-    float: right;
+    &.primary {
+      float: left;
+    }
+    &.secondary {
+      float: right;
+    }
     * {
       display: inline-block;
     }
