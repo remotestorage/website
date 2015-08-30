@@ -50,6 +50,9 @@ body {
 
 main {
   padding: 2em; }
+  @media screen and (max-width: 768px) {
+    main {
+      padding: 0; } }
 
 #rs-common-nav {
   margin: 0;
@@ -130,6 +133,14 @@ main {
       margin-right: 0; }
     #benefits article:nth-child(2n+1) {
       clear: left; }
+    @media screen and (max-width: 768px) {
+      #benefits article {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        #benefits article:last-child {
+          margin-right: 0; } }
     #benefits article h3 {
       margin-bottom: 14px;
       color: #03B7FF;

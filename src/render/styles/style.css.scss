@@ -10,6 +10,7 @@ $max-width: 1200px;
 @import "bourbon";
 @import "neat";
 
+$mobile: new-breakpoint(max-width 768px);
 
 * {
   margin: 0;
@@ -32,6 +33,9 @@ body {
 
 main {
   padding: 2em;
+  @include media($mobile) {
+    padding: 0;
+  }
 }
 
 #rs-common-nav {
@@ -106,6 +110,9 @@ main {
   article {
     @include span-columns(6);
     @include omega(2n);
+    @include media($mobile) {
+      @include span-columns(12);
+    }
     margin-bottom: 2em;
     h3 {
       margin-bottom: 14px;
