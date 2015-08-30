@@ -1,0 +1,7 @@
+---
+title: "Homepage"
+layout: "default"
+isPage: true
+---
+
+<%= @document.title %>

@@ -1,0 +1,15 @@
+{
+  "name": "kosmosorg-website",
+  "version": "0.1.0",
+  "description": "DocPad-based static site running on kosmos.org",
+  "dependencies": {
+    "docpad": "~6.78.1",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-livereload": "~2.6.1",
+    "docpad-plugin-nodesass": "^2.7.0"
+  },
+  "main": "node_modules/.bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/.bin/docpad-server"
+  }
+}

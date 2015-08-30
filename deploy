@@ -1,0 +1,8 @@
+#!/bin/sh
+
+git up
+./build
+git add dist
+git commit -m "Update static build - `date -u`"
+git subtree push --prefix dist 5apps master
+git push origin master

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility; }
+
+main {
+  padding: 24px; }
+
+#rs-common-nav {
+  margin: 0;
+  background-color: #111;
+  color: #ccc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+  #rs-common-nav::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #rs-common-nav * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  #rs-common-nav *, #rs-common-nav *:before, #rs-common-nav *:after {
+    box-sizing: inherit; }
+  #rs-common-nav h1 {
+    float: left;
+    font-size: 0;
+    padding: 10px; }
+    #rs-common-nav h1 img {
+      height: 28px; }
+  #rs-common-nav nav {
+    float: right; }
+    #rs-common-nav nav * {
+      display: inline-block; }
+    #rs-common-nav nav ul li a {
+      padding-left: 10px;
+      padding-right: 10px;
+      line-height: 48px;
+      color: #ccc;
+      text-decoration: none;
+      border-bottom: 2px solid #111;
+      border-top: 2px solid #111;
+      -webkit-transition: background-color 0.1s linear;
+      -moz-transition: background-color 0.1s linear;
+      transition: background-color 0.1s linear; }
+      #rs-common-nav nav ul li a:hover {
+        background-color: #333;
+        border-top-color: #FF4B03; }
