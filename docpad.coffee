@@ -6,7 +6,7 @@ docpadConfig = {
     nodesass:
       outputStyle: 'nested'
       bourbon: true
-      neat: true
+      neat: false
     ghpages:
       deployRemote: '5apps'
       deployBranch: 'master'

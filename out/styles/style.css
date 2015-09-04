@@ -1,7 +1,3 @@
-/* Neat 1.7.0
- * http://neat.bourbon.io
- * Copyright 2012-2014 thoughtbot, inc.
- * MIT License */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -30,6 +26,13 @@ body:before {
   width: 100%;
   pointer-events: none;
   z-index: -1; }
+  @media screen and (max-width: 768px) {
+    body:before {
+      background-image: -webkit-linear-gradient(left, transparent 0, #E6F6FF 0, #E6F6FF 19.43277%, transparent 19.43277%, transparent 26.85574%, #E6F6FF 26.85574%, #E6F6FF 46.28851%, transparent 46.28851%, transparent 53.71149%, #E6F6FF 53.71149%, #E6F6FF 73.14426%, transparent 73.14426%, transparent 80.56723%, #E6F6FF 80.56723%, #E6F6FF 100%, transparent 100%);
+      background-image: -moz-linear-gradient(left, transparent 0, #E6F6FF 0, #E6F6FF 19.43277%, transparent 19.43277%, transparent 26.85574%, #E6F6FF 26.85574%, #E6F6FF 46.28851%, transparent 46.28851%, transparent 53.71149%, #E6F6FF 53.71149%, #E6F6FF 73.14426%, transparent 73.14426%, transparent 80.56723%, #E6F6FF 80.56723%, #E6F6FF 100%, transparent 100%);
+      background-image: -ms-linear-gradient(left, transparent 0, #E6F6FF 0, #E6F6FF 19.43277%, transparent 19.43277%, transparent 26.85574%, #E6F6FF 26.85574%, #E6F6FF 46.28851%, transparent 46.28851%, transparent 53.71149%, #E6F6FF 53.71149%, #E6F6FF 73.14426%, transparent 73.14426%, transparent 80.56723%, #E6F6FF 80.56723%, #E6F6FF 100%, transparent 100%);
+      background-image: -o-linear-gradient(left, transparent 0, #E6F6FF 0, #E6F6FF 19.43277%, transparent 19.43277%, transparent 26.85574%, #E6F6FF 26.85574%, #E6F6FF 46.28851%, transparent 46.28851%, transparent 53.71149%, #E6F6FF 53.71149%, #E6F6FF 73.14426%, transparent 73.14426%, transparent 80.56723%, #E6F6FF 80.56723%, #E6F6FF 100%, transparent 100%);
+      background-image: linear-gradient(to left, transparent 0, #E6F6FF 0, #E6F6FF 19.43277%, transparent 19.43277%, transparent 26.85574%, #E6F6FF 26.85574%, #E6F6FF 46.28851%, transparent 46.28851%, transparent 53.71149%, #E6F6FF 53.71149%, #E6F6FF 73.14426%, transparent 73.14426%, transparent 80.56723%, #E6F6FF 80.56723%, #E6F6FF 100%, transparent 100%); } }
 
 * {
   margin: 0;
@@ -50,9 +53,6 @@ body {
 
 main {
   padding: 2em; }
-  @media screen and (max-width: 768px) {
-    main {
-      padding: 0; } }
 
 #rs-common-nav {
   margin: 0;
@@ -137,7 +137,7 @@ main {
       #benefits article {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 7.42297%;
         width: 100%; }
         #benefits article:last-child {
           margin-right: 0; } }
@@ -146,5 +146,4 @@ main {
       color: #03B7FF;
       font-weight: 300; }
     #benefits article p {
-      font-weight: 300;
-      line-height: 1.618em; }
+      font-weight: 300; }
