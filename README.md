@@ -1,4 +1,4 @@
-# Kosmos.org Website
+# remotestorage.io Website
 
 This website (or rather foundation for a future website) is based on
 [DocPad](https://docpad.org).
