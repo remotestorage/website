@@ -1,7 +1,8 @@
 #!/bin/sh
+# THIS NEEDS UPGRADING SINCE MOVING FROM DOCPAD TO NPM
 
 git up
-./build
+# npm run build:dist
 git add dist
 git commit -m "Update static build - `date -u`"
 git subtree push --prefix dist 5apps master

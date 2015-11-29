@@ -1,7 +1,7 @@
-# remotestorage.io Website
+# remotestorage.io
 
-This website (or rather foundation for a future website) is based on
-[DocPad](https://docpad.org).
+This static website (or rather foundation for a future website) uses NPM for
+development and as a build system.
 
 ## Prerequisites
 
@@ -10,24 +10,20 @@ You will need the following things properly installed on your computer.
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 
-## Setup/installation
+## Setup
 
 * `git clone <repository-url>` this repository
 * change into the new directory
 * `npm install`
-* Make sure `./node_modules/.bin` is in your $PATH (before system-wide npm modules)
 
-## Running / Development
+## Development
 
-* `docpad run`
-* Visit the website at [http://localhost:9778](http://localhost:9778).
+The following command will create a local build in `out/`, run a Web server
+there, watch for changes and re-build when editing files in `src/`. It'll also
+open your default browser at http://localhost:8001 and live-reload on changes
+(which might not work on some systems).
 
-## Build
+    npm run dev
 
-* `./build`
-
-## Build & deploy
-
-With the correct (5apps) remote added:
-
-* `./deploy`
+Check out the "scripts" part of `package.json` for the various `npm run`
+commands for the respective tasks.

@@ -1,16 +1,34 @@
 {
-  "name": "kosmosorg-website",
+  "name": "remotestorage.io",
   "version": "0.1.0",
-  "description": "DocPad-based static site running on kosmos.org",
-  "dependencies": {
-    "docpad": "~6.78.1",
-    "docpad-plugin-eco": "~2.1.0",
-    "docpad-plugin-ghpages": "~2.4.4",
-    "docpad-plugin-livereload": "~2.6.1",
-    "docpad-plugin-nodesass": "~2.7.0"
-  },
-  "main": "node_modules/.bin/docpad-server",
+  "description": "Static site running on remotestorage.io",
   "scripts": {
-    "start": "node_modules/.bin/docpad-server"
+    "start": "npm run serve",
+    "serve": "http-server -p 8001 out/",
+    "prebuild": "mkdir -p out && npm run clean -s",
+    "build": "npm run build:styles -s && npm run build:html -s && npm run build:assets -s",
+    "build:styles": "node-sass -i src/styles/style.scss -o out/",
+    "build:html": "cp src/*.html out/ && echo 'Built HTML files'",
+    "build:assets": "cp -r src/public/* out/ && echo 'Built assets'",
+    "prewatch": "npm run clean:out -s",
+    "watch": " npm run watch:build",
+    "watch:build": "parallelshell 'npm run watch:styles -s' 'npm run watch:html -s' 'npm run watch:assets -s'",
+    "watch:styles": "nodemon -q -w src/styles/ --ext 'scss' --exec 'npm run build:styles'",
+    "watch:html": "nodemon -q -w src/ --ext 'html' --exec 'npm run build:html'",
+    "watch:assets": "nodemon -q -w src/public/ --ext 'svg,png,jpg,gif,webp' --exec 'npm run build:assets'",
+    "live-reload": "live-reload --port 9091 out/",
+    "open:dev": "opener http://localhost:8001",
+    "predev": "npm run build",
+    "dev": "npm run open:dev -s | parallelshell 'npm run live-reload -s' 'npm run serve -s' 'npm run watch -s'",
+    "clean": "npm run clean:out -s && npm run clean:dist -s",
+    "clean:out": "rimraf out/*",
+    "clean:dist": "rimraf dist/*"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5",
+    "live-reload": "^1.1.0",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.8.1",
+    "rimraf": "^2.4.4"
   }
 }
