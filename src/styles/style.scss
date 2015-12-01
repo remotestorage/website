@@ -21,13 +21,6 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-main {
-  padding: 2em;
-  // @include media($mobile) {
-  //   padding: 0;
-  // }
-}
-
 #rs-common-nav {
   @include clearfix();
   * {
@@ -87,15 +80,35 @@ main {
   }
 }
 
-#hero {
-  @include outer-container;
-  height: 200px;
-  background-color: $visual-grid-color;
-  margin-top: 2em;
-  margin-bottom: 4em;
+main {
+  padding: 2em;
+  @include media($mobile) {
+    padding: 1em;
+  }
 }
 
-#benefits {
+section#hero {
+  @include outer-container;
+  // height: 200px;
+  // background-color: $visual-grid-color;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  .head {
+    @include span-columns(12);
+    text-align: center;
+    img {
+      width: 96px;
+      margin-bottom: 16px;
+    }
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+section#benefits {
   @include outer-container;
   article {
     @include span-columns(6);
