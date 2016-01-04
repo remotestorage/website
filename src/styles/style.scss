@@ -81,9 +81,32 @@ body {
 }
 
 main {
-  padding: 2em;
+  padding: 2em 2em 10em 2em;
   @include media($mobile) {
     padding: 1em;
+  }
+}
+
+.line-container {
+  overflow: hidden;
+  @include background-image( linear-gradient(top, rgba(255,0,0,0), rgba(255,0,0,0) 49%, #ddd 50%, #ddd 52%, rgba(255,0,0,0) 52%, rgba(255,0,0,0)) );
+  text-align: center;
+  margin-bottom: 2rem;
+  h3 {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 0.75rem;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: golden-ratio(1em, 1);
+    background-color: #fff;
+  }
+}
+
+section {
+  p {
+    font-weight: 300;
+    line-height: 1.5em;
   }
 }
 
@@ -92,7 +115,7 @@ section#hero {
   // height: 200px;
   // background-color: $visual-grid-color;
   margin-top: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 4rem;
   .head {
     @include span-columns(12);
     text-align: center;
@@ -105,11 +128,15 @@ section#hero {
       font-weight: bold;
       margin-bottom: 8px;
     }
+    p.claim {
+      font-weight: normal;
+    }
   }
 }
 
 section#benefits {
   @include outer-container;
+  margin-bottom: 2rem;
   article {
     @include span-columns(6);
     @include omega(2n);
@@ -122,9 +149,14 @@ section#benefits {
       color: #03B7FF;
       font-weight: 300;
     }
-    p {
-      font-weight: 300;
-      // line-height: golden-ratio(1em, 1);
-    }
+  }
+}
+
+section#explainer {
+  @include outer-container;
+  margin-bottom: 4rem;
+  .head {
+    @include span-columns(12);
+    text-align: left;
   }
 }
