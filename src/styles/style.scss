@@ -104,6 +104,9 @@ main {
 }
 
 section {
+  @include outer-container;
+  margin-bottom: 4rem;
+
   h4 {
     font-size: 1rem;
     font-weight: bold;
@@ -121,22 +124,35 @@ section {
     line-height: 1.5em;
   }
 
+  figure {
+    margin-bottom: 1rem;
+  }
+
   figcaption {
     font-size: 1rem;
     font-style: italic;
     color: #888;
-    @include media($mobile) {
-      margin-bottom: 2rem;
+  }
+
+  .head {
+    @include span-columns(12);
+    text-align: left;
+    p {
+      margin-bottom: 3rem;
+      a {
+        color: #111;
+        &:hover, &:active {
+          color: #888;
+        }
+      }
     }
   }
 
   &#hero {
-    @include outer-container;
     // background-color: $visual-grid-color;
     margin-top: 2em;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     .head {
-      @include span-columns(12);
       text-align: center;
       img {
         width: 96px;
@@ -154,7 +170,6 @@ section {
   }
 
   &#benefits {
-    @include outer-container;
     margin-bottom: 2rem;
     article {
       @include span-columns(6);
@@ -171,22 +186,33 @@ section {
     }
   }
 
-  &#explainer-unhosted, &#explainer-protocol {
-    @include outer-container;
-    margin-bottom: 4rem;
-    .head {
-      @include span-columns(12);
-      text-align: left;
-      p {
-        margin-bottom: 3rem;
-        a {
-          color: #111;
-          &:hover, &:active {
-            color: #888;
-          }
+  &#explainer-unhosted {
+    .item {
+      @include span-columns(4);
+      text-align: center;
+      padding: 0 20px;
+      @include media($mobile) {
+        @include span-columns(4);
+        padding: 0;
+        margin-bottom: 2rem;
+      }
+      img {
+        width: 90%;
+        margin-bottom: 1.5rem;
+        @include media($mobile) {
+          width: 100%;
+          margin-bottom: 1rem;
         }
       }
+      p {
+        font-size: 0.8rem;
+        .developer { color: red; }
+        .user      { color: green; }
+      }
     }
+  }
+
+  &#explainer-protocol {
     .item {
       @include span-columns(4);
       text-align: center;
@@ -201,11 +227,6 @@ section {
         @include media($mobile) {
           width: 100%;
           margin-bottom: 1rem;
-        }
-      }
-      figcaption {
-        @include media($mobile) {
-          margin-bottom: 2rem;
         }
       }
     }
