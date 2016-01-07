@@ -16,19 +16,18 @@
     <data key="d7"/>
     <node id="n0" yfiles.foldertype="group">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="231.4609375" width="150.0" x="120.0" y="-216.4609375"/>
+              <y:Geometry height="171.4609375" width="160.0" x="120.0" y="-156.4609375"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#CCCCCC" type="dashed_dotted" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#FFFFFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="150.0" x="0.0" y="0.0">App provider</y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#FFFFFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="160.0" x="0.0" y="0.0">App provider</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="70" bottomF="70.0" left="20" leftF="20.0" right="20" rightF="20.0" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="20" leftF="20.0" right="20" rightF="20.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="120.0" y="60.0"/>
@@ -46,10 +45,9 @@
       </data>
       <graph edgedefault="directed" id="n0:">
         <node id="n0::n0">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.dataBase">
-              <y:Geometry height="40.0" width="60.0" x="165.0" y="-110.0"/>
+              <y:Geometry height="40.0" width="60.0" x="185.0" y="-40.0"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="50.951171875" x="4.5244140625" y="11.015625">Storage<y:LabelModel>
@@ -63,10 +61,9 @@
           </data>
         </node>
         <node id="n0::n1">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.cloud">
-              <y:Geometry height="50.0" width="80.0" x="155.0" y="-180.0"/>
+              <y:Geometry height="50.0" width="80.0" x="155.0" y="-120.0"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="43.3515625" x="18.32421875" y="16.015625">Server<y:LabelModel>
@@ -82,7 +79,6 @@
       </graph>
     </node>
     <node id="n1">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="80.0" x="20.0" y="-40.0"/>
@@ -98,13 +94,12 @@
         </y:GenericNode>
       </data>
     </node>
-    <edge id="e0" source="n1" target="n0::n0">
-      <data key="d9"/>
+    <edge id="e0" source="n1" target="n0::n1">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="-20.0" tx="0.0" ty="17.96875">
+          <y:Path sx="0.0" sy="-20.0" tx="-20.0" ty="18.96875">
             <y:Point x="60.0" y="-55.0"/>
-            <y:Point x="195.0" y="-55.0"/>
+            <y:Point x="175.0" y="-55.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
@@ -113,10 +108,9 @@
       </data>
     </edge>
     <edge id="n0::e0" source="n0::n0" target="n0::n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="-18.03125" tx="0.0" ty="22.71875"/>
+          <y:Path sx="0.0" sy="-18.03125" tx="20.0" ty="17.46875"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
           <y:BendStyle smoothed="false"/>
