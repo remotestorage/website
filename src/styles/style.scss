@@ -151,7 +151,7 @@ section {
   &#hero {
     // background-color: $visual-grid-color;
     margin-top: 2em;
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
     .head {
       text-align: center;
       img {
@@ -170,7 +170,6 @@ section {
   }
 
   &#benefits {
-    margin-bottom: 2rem;
     article {
       @include span-columns(6);
       @include omega(2n);
@@ -187,6 +186,7 @@ section {
   }
 
   &#explainer-unhosted {
+    margin-bottom: 6em;
     .item {
       @include span-columns(4);
       text-align: center;
