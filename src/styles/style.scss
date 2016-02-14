@@ -81,9 +81,9 @@ body {
 }
 
 main {
-  padding: 2em 2em 10em 2em;
+  padding: 2em 0 10em 0;
   @include media($mobile) {
-    padding: 1em;
+    padding: 1em 0;
   }
 }
 
@@ -103,9 +103,40 @@ main {
   }
 }
 
+.section-wrapper {
+  width: 100%;
+  &.bg-efefef { background-color: #efefef; }
+  section {
+    padding: 2rem 0;
+    .head {
+      text-align: center;
+      h3 {
+        margin: 0 auto 1rem auto;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1em;
+      }
+      .line {
+        display: inline-block;
+        width: 4rem;
+        border-top: 2px solid #ccc;
+        margin: 0 auto 2rem auto;
+      }
+      p {
+        text-align: left;
+      }
+    }
+  }
+}
+
 section {
   @include outer-container;
   margin-bottom: 4rem;
+
+  @include media($mobile) {
+    margin: 0 1em;
+  }
 
   h4 {
     font-size: 1rem;
