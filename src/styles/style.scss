@@ -1,6 +1,7 @@
 @import "bourbon/bourbon";
 @import "grid-settings";
 @import "neat/neat";
+@import "iconfont";
 
 * {
   margin: 0;
@@ -80,6 +81,10 @@ body {
   }
 }
 
+.row {
+  @include row();
+}
+
 main {
   padding: 2em 0 10em 0;
   @include media($mobile) {
@@ -107,7 +112,7 @@ main {
   width: 100%;
   &.bg-efefef { background-color: #efefef; }
   section {
-    padding: 2rem 0;
+    padding: 3rem 0 1.5rem 0;
     .head {
       text-align: center;
       h3 {
@@ -262,4 +267,29 @@ section {
       }
     }
   }
+
+  &#community {
+    article {
+      @include span-columns(6);
+      @include omega(2n);
+      @include clearfix();
+      @include media($mobile) {
+        @include span-columns(4);
+      }
+      margin-bottom: 2.5em;
+      padding-right: 1rem;
+      h4 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      i {
+        float: left;
+        font-size: 1.5rem;
+      }
+      .description {
+        margin-left: 50px;
+      }
+    }
+  }
+
 }
