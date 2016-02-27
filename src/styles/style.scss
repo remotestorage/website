@@ -249,21 +249,25 @@ section {
   }
 
   &#explainer-protocol {
-    .item {
+    .row {
+      margin-bottom: 2rem;
+    }
+    figure {
       @include span-columns(4);
       text-align: center;
-      padding: 0 20px;
+    }
+    .item {
+      @include span-columns(8);
+      text-align: left;
       @include media($mobile) {
         @include span-columns(4);
         padding: 0;
       }
-      img {
-        width: 90%;
-        margin-bottom: 1.5rem;
-        @include media($mobile) {
-          width: 100%;
-          margin-bottom: 1rem;
-        }
+      h4 {
+        margin-bottom: 1rem;
+      }
+      p {
+        margin-bottom: 1rem;
       }
     }
   }
