@@ -86,7 +86,7 @@ body {
 }
 
 main {
-  padding: 2em 0 10em 0;
+  padding: 2em 0 4em 0;
   @include media($mobile) {
     padding: 1em 0;
   }
@@ -293,6 +293,32 @@ section {
       .description {
         margin-left: 50px;
       }
+    }
+  }
+
+}
+
+footer {
+  @include outer-container;
+  padding: 0 0 4em 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+
+  p {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  span.divider {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  a {
+    color: #888;
+    &:hover, &:active {
+      color: #333;
     }
   }
 
