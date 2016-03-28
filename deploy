@@ -1,9 +1,10 @@
 #!/bin/sh
-# THIS NEEDS UPGRADING SINCE MOVING FROM DOCPAD TO NPM
 
 git up
-# npm run build:dist
-git add dist
+npm run build
+git checkout gh-pages
+cp -r out/* .
+git add --all
 git commit -m "Update static build - `date -u`"
-git subtree push --prefix dist 5apps master
-git push origin master
+git push origin gh-pages:gh-pages
+git checkout master
