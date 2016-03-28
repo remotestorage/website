@@ -35,5 +35,6 @@ for testing/review:
 
     ./deploy
 
-(This currently requires git-up to be installed. You can comment the line, if
-you want. Make sure you're up-to-date on all branches yourself then.)
+This currently requires [git-up](https://github.com/aanand/git-up) to be
+installed. You can comment the line, if you want. Make sure you're up-to-date
+on all branches yourself then.
