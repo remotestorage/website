@@ -27,3 +27,13 @@ open your default browser at http://localhost:8001 and live-reload on changes
 
 Check out the "scripts" part of `package.json` for the various `npm run`
 commands for the respective tasks.
+
+## Deployment
+
+Deploying the site to [GitHub pages](https://remotestorage.github.io/website/)
+for testing/review:
+
+    ./deploy
+
+(This currently requires git-up to be installed. You can comment the line, if
+you want. Make sure you're up-to-date on all branches yourself then.)
