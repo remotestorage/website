@@ -86,7 +86,7 @@ body {
 }
 
 main {
-  padding: 2em 0 4em 0;
+  padding: 2em 0 2em 0;
   @include media($mobile) {
     padding: 1em 0;
   }
