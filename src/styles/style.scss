@@ -32,6 +32,7 @@ main {
   padding: 2em 0 2em 0;
   @include media($mobile) {
     padding: 1em 0;
+    margin-bottom: 2rem;
   }
 }
 
@@ -251,11 +252,21 @@ footer {
   p {
     margin: 0 auto;
     width: auto;
+    line-height: 1.4em;
   }
 
-  span.divider {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  span {
+    @include media($mobile) {
+      display: block;
+      padding: 0.25em 0;
+    }
+    &.divider {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      @include media($mobile) {
+        display: none;
+      }
+    }
   }
 
   a {
@@ -264,5 +275,4 @@ footer {
       color: #333;
     }
   }
-
 }
