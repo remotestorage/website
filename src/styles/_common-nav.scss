@@ -65,12 +65,16 @@ $fgColor: #ccc;
     }
 
     ul {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height .25s linear;
+      @include media($mobile) {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .25s linear;
+      }
       li {
-        visibility: hidden;
-        transition: visibility .25s linear;
+        @include media($mobile) {
+          visibility: hidden;
+          transition: visibility .25s linear;
+        }
         a {
           padding-left: 10px;
           padding-right: 10px;
