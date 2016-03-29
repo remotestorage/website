@@ -2,6 +2,7 @@
 @import "grid-settings";
 @import "neat/neat";
 @import "iconfont";
+@import "common-nav";
 
 * {
   margin: 0;
@@ -20,65 +21,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   text-rendering: optimizeLegibility;
-}
-
-#rs-common-nav {
-  @include clearfix();
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  margin: 0;
-  background-color: #111;
-  color: #ccc;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  h1 {
-    float: left;
-    font-size: 0;
-    a {
-      display: inline-block;
-      padding: 10px;
-      img {
-        height: 28px;
-      }
-    }
-  }
-  a {
-    color: #ccc;
-    text-decoration: none;
-    border-top: 2px solid #111;
-    @include transition(background-color 0.1s linear);
-    &:hover {
-      background-color: #333;
-      border-top-color: #FF4B03;
-    }
-  }
-  nav {
-    &.primary {
-      float: left;
-    }
-    &.secondary {
-      float: right;
-    }
-    * {
-      display: inline-block;
-    }
-    ul {
-      li {
-        a {
-          padding-left: 10px;
-          padding-right: 10px;
-          line-height: 48px;
-          border-bottom: 2px solid #111;
-        }
-      }
-    }
-  }
 }
 
 .row {

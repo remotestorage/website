@@ -17,6 +17,9 @@
         <img src="img/icon.svg" alt="RemoteStorage">
       </a>
     </h1>
+    <div class="mobile-nav-button">
+      <div class="icon"></div>
+    </div>
     <nav class="primary">
       <ul>
         <li><a href="https://wiki.remotestorage.io/Servers">Get Storage</a></li>
@@ -35,6 +38,11 @@
       </ul>
     </nav>
   </div>
+  <script type="text/javascript">
+    document.querySelector('.mobile-nav-button').addEventListener('click', function() {
+      document.querySelector('#rs-common-nav nav').classList.toggle('open');
+    }, false);
+  </script>
   <!-- END TOPNAV -->
 
   <main>
