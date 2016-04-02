@@ -10,6 +10,7 @@
     "build:styles": "node-sass -i src/styles/style.scss -o out/",
     "build:html": "cp src/*.html out/ && echo 'Built HTML files'",
     "build:assets": "cp -r src/public/* out/ && echo 'Built assets'",
+    "build:dist": "npm run build && bash scripts/clean-html.sh",
     "prewatch": "npm run clean:out -s",
     "watch": " npm run watch:build",
     "watch:build": "parallelshell 'npm run watch:styles -s' 'npm run watch:html -s' 'npm run watch:assets -s'",
@@ -20,9 +21,8 @@
     "open:dev": "opener http://localhost:8001",
     "predev": "npm run build",
     "dev": "npm run open:dev -s | parallelshell 'npm run live-reload -s' 'npm run serve -s' 'npm run watch -s'",
-    "clean": "npm run clean:out -s && npm run clean:dist -s",
-    "clean:out": "rimraf out/*",
-    "clean:dist": "rimraf dist/*"
+    "clean": "npm run clean:out -s",
+    "clean:out": "rimraf out/*"
   },
   "devDependencies": {
     "http-server": "^0.8.5",
