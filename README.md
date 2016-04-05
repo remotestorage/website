@@ -1,7 +1,10 @@
 # remotestorage.io
 
-This static website (or rather foundation for a future website) uses NPM for
-development and as a build system.
+This is the remoteStorage website, running on
+[https://remotestorage.io](https://remotestorage.io).
+
+It uses npm for development and as a build system. There's a [waffle
+board](https://waffle.io/remotestorage/website) for project/issue management.
 
 ## Prerequisites
 
@@ -38,3 +41,7 @@ for testing/review:
 This currently requires [git-up](https://github.com/aanand/git-up) to be
 installed. You can comment the line, if you want. Make sure you're up-to-date
 on all branches yourself then.
+
+Deploying to production (need 5apps remote set, see comment in deploy script):
+
+    ./deploy production
