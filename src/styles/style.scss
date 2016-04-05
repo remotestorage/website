@@ -5,6 +5,8 @@
 @import "common-nav";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
 
+$blue: #0088CC;
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,13 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   text-rendering: optimizeLegibility;
+}
+
+a {
+  color: $blue;
+  &:hover, &:active {
+    color: lighten($blue, 10%);
+  }
 }
 
 .row {
@@ -159,7 +168,7 @@ section {
       margin-bottom: 2em;
       h3 {
         margin-bottom: 14px;
-        color: #03B7FF;
+        color: $blue;
         // font-weight: 300;
       }
     }
