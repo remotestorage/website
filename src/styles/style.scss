@@ -63,7 +63,12 @@ main {
 
 .section-wrapper {
   width: 100%;
-  &.bg-efefef { background-color: #efefef; }
+  &.community {
+    background-color: #efefef;
+  }
+  &.sponsors {
+    background-color: #fff;
+  }
   section {
     padding: 3rem 0 1.5rem 0;
     .head {
@@ -226,6 +231,7 @@ section {
   }
 
   &#community {
+    margin-bottom: 0;
     article {
       @include span-columns(6);
       @include omega(2n);
@@ -233,8 +239,8 @@ section {
       @include media($mobile) {
         @include span-columns(4);
       }
-      margin-bottom: 2.5em;
       padding-right: 1rem;
+      margin-bottom: 2.5rem;
       h4 {
         font-size: 1rem;
         margin-bottom: 1rem;
@@ -245,6 +251,37 @@ section {
       }
       .description {
         margin-left: 50px;
+      }
+    }
+  }
+
+  &#sponsors {
+    .item {
+      @include span-columns(3);
+      text-align: center;
+      padding: 0 20px;
+      @include media($mobile) {
+        @include span-columns(4);
+        margin-bottom: 2rem;
+      }
+      a {
+        display: block;
+        height: 96px;
+        line-height: 96px;
+      }
+      img {
+        vertical-align: middle;
+        max-width: 90%;
+        max-height: 96px;
+        @include media($mobile) {
+          width: 100%;
+        }
+      }
+      &.whs {
+        img {
+          max-width: 70%;
+          max-height: 128px;
+        }
       }
     }
   }
