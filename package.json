@@ -22,7 +22,9 @@
     "predev": "npm run build",
     "dev": "npm run open:dev -s | parallelshell 'npm run live-reload -s' 'npm run serve -s' 'npm run watch -s'",
     "clean": "npm run clean:out -s",
-    "clean:out": "rimraf out/*"
+    "clean:out": "rimraf out/*",
+    "deploy:github": "bash scripts/deploy.sh",
+    "deploy:production": "bash scripts/deploy.sh production"
   },
   "devDependencies": {
     "http-server": "^0.8.5",

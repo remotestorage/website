@@ -13,4 +13,4 @@ if [ $1 = "production" ]; then
 else
   git push origin gh-pages:gh-pages
 fi
-git checkout master
+git checkout -

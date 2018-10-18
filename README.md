@@ -36,8 +36,8 @@ commands for the respective tasks.
 Deploying the site to [GitHub pages](https://remotestorage.github.io/website/)
 for testing/review:
 
-    ./deploy
+    npm run deploy:github
 
 Deploying to production (need 5apps remote set, see comment in deploy script):
 
-    ./deploy production
+    npm run deploy:production
