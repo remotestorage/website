@@ -17,7 +17,7 @@
     "watch:styles": "nodemon -q -w src/styles/ --ext 'scss' --exec 'npm run build:styles'",
     "watch:html": "nodemon -q -w src/ --ext 'html' --exec 'npm run build:html'",
     "watch:assets": "nodemon -q -w src/public/ --ext 'svg,png,jpg,gif,webp' --exec 'npm run build:assets'",
-    "live-reload": "live-reload --port 9091 out/",
+    "live-reload": "live-reload out/ --port 9091",
     "open:dev": "opener http://localhost:8001",
     "predev": "npm run build",
     "dev": "npm run open:dev -s | parallelshell 'npm run live-reload -s' 'npm run serve -s' 'npm run watch -s'",
