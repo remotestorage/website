@@ -38,10 +38,6 @@ for testing/review:
 
     ./deploy
 
-This currently requires [git-up](https://github.com/aanand/git-up) to be
-installed. You can comment the line, if you want. Make sure you're up-to-date
-on all branches yourself then.
-
 Deploying to production (need 5apps remote set, see comment in deploy script):
 
     ./deploy production
