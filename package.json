@@ -29,7 +29,7 @@
     "live-reload": "^1.1.0",
     "node-sass": "^3.4.2",
     "nodemon": "^1.8.1",
-    "parallelshell": "^2.0.0",
+    "parallelshell": "^3.0.2",
     "rimraf": "^2.4.4"
   }
 }
