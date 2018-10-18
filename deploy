@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git up
+git pull --rebase --autostash
 npm run build:dist
 git checkout gh-pages
 cp -r out/* .
