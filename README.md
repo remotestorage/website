@@ -26,7 +26,7 @@ there, watch for changes and re-build when editing files in `src/`. It'll also
 open your default browser at http://localhost:8001 and live-reload on changes
 (which might not work on some systems).
 
-	npm run dev
+    npm run dev
 
 Check out the "scripts" part of `package.json` for the various `npm run`
 commands for the respective tasks.
@@ -36,8 +36,8 @@ commands for the respective tasks.
 Deploying the site to [GitHub pages](https://remotestorage.github.io/website/)
 for testing/review:
 
-	./deploy
+    ./deploy
 
 Deploying to production (need 5apps remote set, see comment in deploy script):
 
-	./deploy production
+    ./deploy production
