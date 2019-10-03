@@ -3,8 +3,7 @@
 This is the remoteStorage website, running on
 [https://remotestorage.io](https://remotestorage.io).
 
-It uses npm for development and as a build system. There's a [waffle
-board](https://waffle.io/remotestorage/website) for project/issue management.
+It uses npm for development and as a build system.
 
 ## Prerequisites
 
