@@ -200,8 +200,8 @@ section {
       }
       p {
         font-size: 0.8rem;
-        .developer { color: red; }
-        .user      { color: green; }
+        .developer { color: darken(#f5793a, 10%); }
+        .user      { color: darken(#85c0f9, 20%); }
       }
     }
   }
