@@ -3,8 +3,6 @@
 This is the remoteStorage website, running on
 [https://remotestorage.io](https://remotestorage.io).
 
-It uses npm for development and as a build system.
-
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
