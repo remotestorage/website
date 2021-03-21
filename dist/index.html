@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>remoteStorage ‒ An open protocol for per-user storage on the Web</title>
+  <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="canonical" href="https://remotestorage.io" />
+  <!--[if IE]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!-- COMMON TOPNAV USED ON ALL RS SITES -->
+  <div id="rs-common-nav">
+    <h1>
+      <a href="https://remotestorage.io">
+        <img src="img/icon.svg" alt="remoteStorage">
+      </a>
+    </h1>
+    <div class="mobile-nav-button">
+      <div class="icon"></div>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="https://wiki.remotestorage.io/Servers">Get Storage</a></li>
+        <li><a href="https://wiki.remotestorage.io/Apps">Apps</a></li>
+        <li><a href="https://wiki.remotestorage.io/Developer_Portal">Develop</a></li>
+        <li><a href="https://wiki.remotestorage.io/Protocol">Spec</a></li>
+      </ul>
+    </nav>
+    <nav class="secondary">
+      <ul>
+        <li><a href="https://wiki.remotestorage.io">Wiki</a></li>
+        <li><a href="https://community.remotestorage.io">Forums</a></li>
+        <li><a href="https://github.com/remotestorage">GitHub</a></li>
+        <li><a href="https://kiwiirc.com/client/irc.freenode.net/#remotestorage">Chat</a></li>
+        <li><a href="https://twitter.com/remotestorage_">Twitter</a></li>
+        <li><a href="https://kosmos.social/@remotestorage">Fediverse</a></li>
+      </ul>
+    </nav>
+  </div>
+  <script type="text/javascript">
+    document.querySelector('.mobile-nav-button').addEventListener('click', function() {
+      document.querySelector('#rs-common-nav nav').classList.toggle('open');
+    }, false);
+  </script>
+  <!-- END TOPNAV -->
+
+  <main>
+
+    <section id="hero">
+      <div class="head">
+        <img src="img/icon.svg" alt="remoteStorage">
+        <h2>remoteStorage</h2>
+        <p class="claim">An open protocol for per-user storage on the Web</p>
+      </div>
+    </section>
+
+    <section id="benefits">
+      <article class="freedom">
+        <h3>Own your data</h3>
+        <p>
+          Everything in one place – your place. Use a storage account with a
+          provider you trust, or set up your own storage server. Move house whenever you
+          want. It&#39;s your data.
+        </p>
+      </article>
+      <article class="sync">
+        <h3>Stay in sync</h3>
+        <p>
+          remoteStorage-enabled apps automatically sync your data across all of
+          your devices, from desktop to tablet to smartphone, and maybe even your TV.
+        </p>
+      </article>
+      <article class="choice">
+        <h3>Compatibility &amp; choice</h3>
+        <p>
+          Use the same data across different apps. Create a to-do list in one
+          app, and track the time on your tasks in another one. Say goodbye to
+          app-specific data silos.
+        </p>
+      </article>
+      <article class="offline">
+        <h3>Go offline</h3>
+        <p>
+          Most remoteStorage-enabled apps come with first-class offline support.
+          Use your apps offline on the go, and automatically sync when you&#39;re
+          back online.
+        </p>
+      </article>
+    </section>
+
+    <section id="explainer-unhosted">
+      <div class="head">
+        <div class="line-container">
+          <h3>Unhosted Architecture</h3>
+        </div>
+        <p>
+          remoteStorage is the first open protocol to enable truly
+          <a href="https://unhosted.org/">unhosted</a> web apps. That means
+          users are in full control of their precious data and where it is
+          stored, while app developers are freed of the burden of hosting,
+          maintaining and protecting a central database.
+        </p>
+      </div>
+      <div class="item traditional">
+        <h4>Traditional Web Apps</h4>
+        <figure>
+          <img src="img/explainer-1-traditional-webapp-scoured.svg" alt="Traditional web app">
+          <figcaption>Traditional hosted web stack, for example LAMP/.Net/RoR/Django/etc.</figcaption>
+        </figure>
+        <p>
+          <span class="developer">Developer</span> hosts app and data,<br>
+          <span class="user">user</span> controls device.
+        </p>
+      </div>
+      <div class="item no-backend">
+        <h4><a href="http://nobackend.org/">No-Backend</a> Web Apps</h4>
+        <figure>
+          <img src="img/explainer-2-no-backend-scoured.svg" alt="Traditional web app">
+          <figcaption>100% client-side app plus CouchDB, Hoodie, Firebase, Parse, Kinto, etc.</figcaption>
+        </figure>
+        <p>
+          <span class="developer">Developer</span> provides app and data,<br>
+          <span class="user">user</span> controls device.
+        </p>
+      </div>
+      <div class="item unhosted">
+        <h4><a href="https://unhosted.org/">Unhosted</a> Web Apps</h4>
+        <figure>
+          <img src="img/explainer-3-unhosted-scoured.svg" alt="Traditional web app">
+          <figcaption>100% client-side app plus remoteStorage, Google Drive, Dropbox, etc.</figcaption>
+        </figure>
+        <p>
+          <span class="developer">Developer</span> provides app only,<br>
+          <span class="user">user</span> controls device and data.
+        </p>
+      </div>
+    </section>
+
+    <section id="explainer-protocol">
+      <div class="head">
+        <div class="line-container">
+          <h3>remoteStorage Protocol</h3>
+        </div>
+        <p>
+          remoteStorage is a creative combination of existing protocols and
+          standards. It aims to re-use existing technologies as much as
+          possible, adding just a small layer of standardization on top to
+          facilitate its usage for per-user storage with simple permissions and
+          offline-capable data sync.
+        </p>
+      </div>
+      <div class="row">
+        <figure>
+          <img src="img/webfinger-connect.png" alt="" width="175">
+        </figure>
+        <div class="item webfinger">
+          <h4>Discovery: <a href="https://webfinger.net">WebFinger</a></h4>
+          <p>
+            In order for apps to know where to ask permission and later
+            actually sync user data, users give them a user address, basically
+            like with E-Mail or Jabber/XMPP. With that address, apps
+            retrieve storage information for the username on that domain/host.
+          </p>
+          <p>
+            <a href="https://client.webfinger.net/lookup?resource=tony%405apps.com">Check out a live example for a 5apps user</a>.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <figure>
+          <img src="img/oauth-dialog.png" alt="" width="175">
+        </figure>
+        <div class="item oauth">
+          <h4>Authorization: <a href="https://oauth.net/">OAuth 2.0</a></h4>
+          <p>
+            User data is scoped by so-called categories, which are essentially
+            base directories, for which you can give apps read-only or
+            read/write permission. Apps will use OAuth scopes to ask for access
+            to one or more categories.
+          </p>
+          <p>
+          In the example screenshot, <a href="https://litewrite.net">Litewrite</a>
+          is asking for read/write access to the "documents" category, using
+          the OAuth scope <code>documents:rw</code>. If you allow access, the
+          app will retrieve a bearer token, with which it can read and write to
+          your storage, until you revoke that access on your server.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <figure>
+          <img src="img/screenshot-folder-description.png" alt="" width="240">
+        </figure>
+        <div class="item unhosted">
+          <h4>Data Storage & Sync: <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">HTTP REST</a></h4>
+          <p>
+            remoteStorage defines a simple key/value store for apps to save and
+            retrieve data. The basic operations are GET/PUT/DELETE requests for
+            specific files/documents.
+          </p>
+          <p>
+            In addition to that &ndash; and the only special feature aside from
+            plain HTTP &ndash; there are directory listings, formatted as
+            JSON-LD. They contain both the content type and size, as well as
+            ETags, which can be used to implement sync mechanisms. The files
+            and listings themselves also carry ETag headers for sync/caching
+            and conditional requests.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-wrapper community">
+      <section id="community">
+        <div class="head">
+          <h3>Community</h3>
+          <br><span class="line"></span>
+          <p>
+            remoteStorage is a grass-roots standard, developed completely in
+            the open, by the community for the community. Countless individuals
+            have contributed in one way or another over time, and we'd love to
+            welcome you as one of them!
+          </p>
+        </div>
+
+        <div class="row">
+          <article class="github">
+            <i class="icon-code"></i>
+            <div class="description">
+              <h4><a href="https://github.com/remotestorage">GitHub</a></h4>
+              <p>
+                GitHub is where we collaborate on the protocol specification as
+                well as all common source code.
+              </p>
+            </div>
+          </article>
+          <article class="forums">
+            <i class="icon-text"></i>
+            <div class="description">
+              <h4><a href="https://community.remotestorage.io">Forums</a></h4>
+              <p>
+                Our community exchange and support site for everybody from
+                users to developers to providers.
+              </p>
+            </div>
+          </article>
+          <article class="irc">
+            <i class="icon-chat"></i>
+            <div class="description">
+              <h4><a href="https://kiwiirc.com/client/irc.freenode.net/#remotestorage">IRC</a></h4>
+              <p>
+                Many community members are hanging out in #remotestorage on
+                Freenode. Say hi!
+              </p>
+            </div>
+          </article>
+          <article class="twitter">
+            <i class="icon-twitter"></i>
+            <div class="description">
+              <h4>
+                <a href="https://twitter.com/remotestorage_">Twitter</a> /
+                <a href="https://kosmos.social/@remotestorage">Fediverse</a>
+              </h4>
+              <p>
+                Follow the project on Twitter or on the Fediverse, to receive
+                updates on releases, events, apps, and related news.
+              </p>
+            </div>
+          </article>
+          <article class="events">
+            <i class="icon-calendar"></i>
+            <div class="description">
+              <h4><a href="https://community.remotestorage.io/c/events">Events</a></h4>
+              <p>
+                Meet people in person at conferences, hackathons, camps, and
+                other gatherings.
+              </p>
+            </div>
+          </article>
+          <article class="get-involved">
+            <i class="icon-heart-outlined"></i>
+            <div class="description">
+              <h4><a href="https://wiki.remotestorage.io/What_can_I_do_for_remoteStorage%3F">Get involved!</a></h4>
+              <p>
+                Want to make the world better by supporting RS in
+                some way? Check out <a href="https://wiki.remotestorage.io/What_can_I_do_for_remoteStorage%3F">What can I do for remoteStorage?</a>
+                on our wiki.
+              </p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+
+    <div class="section-wrapper sponsors">
+      <section id="sponsors">
+        <div class="head">
+          <h3>Sponsors</h3>
+          <br><span class="line"></span>
+        </div>
+        <div class="item nlnet">
+          <a href="https://nlnet.nl" title="NLnet Foundation">
+            <img src="img/sponsors/nlnet.svg" alt="NLnet Foundation">
+          </a>
+        </div>
+        <div class="item whs">
+          <a href="https://www.wauland.de" title="Wau Holland Stiftung">
+            <img src="img/sponsors/whs.svg" alt="Wau Holland Stiftung">
+          </a>
+        </div>
+        <div class="item 5apps">
+          <a href="https://5apps.com" title="5apps">
+            <img src="img/sponsors/5apps.svg" alt="5apps">
+          </a>
+        </div>
+        <div class="item duckduckgo">
+          <a href="https://duckduckgo.com" title="DuckDuckGo">
+            <img src="img/sponsors/duckduckgo2.svg" alt="DuckDuckGo">
+          </a>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>
+      <span>
+        &copy; remoteStorage <a href="https://github.com/remotestorage?tab=members">contributors</a>
+      </span>
+      <span class="divider">&middot;</span>
+      <span>
+        Remix/redistribute under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>
+      </span>
+      <span class="divider">&middot;</span>
+      <span>
+        <a href="https://github.com/remotestorage/website">Fork this website</a> and help improve it!
+      </span>
+    </p>
+  </footer>
+
+  <script src="http://localhost:9091"></script>
+</body>
+</html>
