@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Remove livereload script element
-sed -i '/9091/s/.*//' out/index.html
+sed -i '/9091/s/.*//' dist/index.html
 
 # Remove empty lines
-sed -i '/^$/d' out/index.html
+sed -i '/^$/d' dist/index.html
