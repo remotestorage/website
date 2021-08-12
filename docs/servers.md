@@ -1,3 +1,9 @@
+---
+layout: default
+title: Servers
+nav_order: 3
+---
+
 ## Hosted
 
   - [5apps Storage](https://5apps.com/storage/beta) is a commercial

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Protocol
-nav_order: 2
 ---
 
 # Unhosted Architecture

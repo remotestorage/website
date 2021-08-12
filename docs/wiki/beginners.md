@@ -1,3 +1,9 @@
+---
+layout: default
+title: Beginners
+parent: Wiki
+---
+
 ## Basic information
 
 When in doubt, consult the [API
