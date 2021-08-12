@@ -38,7 +38,6 @@ The [remoteStorage.js](https://github.com/remotestorage/remotestorage.js) librar
 
 ```javascript
 const api = new RemoteStorage();
-
 const client = api.scope('/todos/');
 
 api.access.claim('todos', 'rw');
