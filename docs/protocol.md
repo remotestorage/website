@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Protocol
 nav_order: 4
 ---

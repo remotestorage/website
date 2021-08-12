@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Ideas
 parent: Wiki
 ---

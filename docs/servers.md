@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Servers
 nav_order: 3
 ---

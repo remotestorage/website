@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Developer portal
 parent: Wiki
 ---

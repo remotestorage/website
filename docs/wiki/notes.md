@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Notes
 parent: Wiki
 ---

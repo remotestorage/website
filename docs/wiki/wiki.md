@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Wiki
 has_children: true
 ---

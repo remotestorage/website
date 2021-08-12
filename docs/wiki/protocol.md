@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Protocol
 parent: Wiki
 ---
