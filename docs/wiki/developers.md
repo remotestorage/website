@@ -30,3 +30,28 @@ As the reference client, maintained by the RS core team, it always supports the 
 ## Data modules
 
 -   [Documentation](https://remotestoragejs.readthedocs.io/en/latest/data-modules.html)
+
+## Hosting
+
+### Domains
+
+Apps should always be hosted under their own domain or subdomain, as
+opposed to hosting several apps in subdirectory URLs of a common domain.
+This is due to the Web's per-origin security model, where things like
+Web storage, permissions, etc. are scoped by origin, i.e. by
+"domain/host:port".
+
+### HTTPS/TLS
+
+Apps should always be available via HTTPS. HTTP should redirect to the
+same URI on HTTPS.
+
+...
+
+## OAuth
+
+### Client ID
+
+Due to there being no client registration for OAuth apps on the Open
+Web, most remoteStorage servers currently require the `client_id`
+parameter to be the same base URL as the `redirect_uri`.
