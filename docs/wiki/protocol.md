@@ -1,3 +1,9 @@
+---
+layout: default
+title: Protocol
+parent: Wiki
+---
+
 The remoteStorage protocol is a creative combination of existing protocols and standards (mainly [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol), [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), [Webfinger](https://webfinger.net/), [OAuth 2](http://oauth.net/)). It aims to re-use existing technologies as much as possible, adding just a small layer of standardization on top to facilitate its usage for per-user storage with simple permissions and offline-capable data sync. See [this quick explainer](https://remotestorage.io/#explainer-protocol) for some more info, and the spec itself for details.
 
 ## Contents

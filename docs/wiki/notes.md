@@ -1,3 +1,9 @@
+---
+layout: default
+title: Notes
+parent: Wiki
+---
+
 This page contains random notes, so we can quickly drop things and move
 them to the appropriate place later.
 

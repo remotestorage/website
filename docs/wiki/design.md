@@ -1,3 +1,8 @@
+---
+title: Design
+parent: Wiki
+---
+
 ## Repo
 
   - There's a design repo with logo/icon files etc. on GitHub:
