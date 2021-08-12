@@ -55,3 +55,27 @@ same URI on HTTPS.
 Due to there being no client registration for OAuth apps on the Open
 Web, most remoteStorage servers currently require the `client_id`
 parameter to be the same base URL as the `redirect_uri`.
+
+# Private browsing
+
+remoteStorage.js supports Private/Incognito browsing mode in modern
+browsers. However, depending on browser support it cannot use all or any
+local [Web Storage](https://www.w3.org/TR/webstorage/) backends.
+
+## Safari
+
+IndexedDB and localStorage are stubbed but not functional in Private
+windows (in version 9.1). RS.js stores all data in memory, so it is lost
+when connecting a remote storage (except for the WebFinger discovery
+data, which is transported via the OAuth `state` parameter).
+
+**Caveat:** do not get fooled by Safari's Web Inspector. It displays the
+localStorage content for the origin, but not IndexedDB.
+
+## Chrome
+
+...
+
+## Firefox
+
+...
