@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Apps
-nav_order: 1
+nav_order: 2
 ---
 
 The following is a list of known apps that have integrated RS as a
