@@ -5,4 +5,5 @@ description: Open protocol for per-user storage on the Web
 
 remote_theme: pmarsceill/just-the-docs
 
+permalink: pretty
 search_enabled: false
