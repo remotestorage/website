@@ -1,3 +1,10 @@
+---
+layout: default
+title: Home
+nav_order: 1
+permalink: /
+---
+
 <div class="OLSKCommonCard">
   <img src="https://remotestorage.io/img/icon.svg" role="presentation" />
   <div>
