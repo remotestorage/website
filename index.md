@@ -95,6 +95,10 @@ We would love for you to get involved — check out [What can I do for remoteSto
 </div>
 
 <style>
+:root {
+  --OLSKSharedPadding: 4px;
+}
+
 .sponsors img {
  max-width: 128px !important;
 }
