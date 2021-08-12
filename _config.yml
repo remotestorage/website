@@ -1,3 +1,5 @@
+# https://github.com/pmarsceill/just-the-docs/blob/master/_config.yml
+
 title: remoteStorage
 description: Open protocol for per-user storage on the Web
 remote_theme: pmarsceill/just-the-docs
