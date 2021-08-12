@@ -16,6 +16,7 @@ permalink: /
 ---
 
 # Features
+{: .fs-9 }
 
 ## Own your data
 
