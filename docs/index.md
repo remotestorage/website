@@ -71,7 +71,7 @@ api.on('ready', function () {
 
 ```javascript
 // write `{"id":"alfa","done":false}` to /todos/alfa.json
-await client.storeObect('/alfa.json', {
+await client.storeObject('/alfa.json', {
   id: 'alfa',
   done: false,
 });
