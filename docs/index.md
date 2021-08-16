@@ -46,7 +46,7 @@ No matter if 5 hundred or 5 million users are using your app, your backend scale
 
 remoteStorage.js is a JavaScript library that does all the heavy-lifting of connecting to any remoteStorage backend, caching, synchronizing and storing user data.
 
-[Browse apps](/apps){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Protocol details](/protocol){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Browse apps](/apps){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Get storage](/servers){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -87,7 +87,7 @@ const widget = new Widget(api);
 widget.attach();
 ```
 
-[Read the documentation](https://remotestoragejs.readthedocs.io){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Read the documentation](https://remotestoragejs.readthedocs.io){: .btn .fs-5 .mb-4 .mb-md-0 } [Protocol details](/protocol){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
