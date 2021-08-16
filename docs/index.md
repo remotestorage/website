@@ -33,6 +33,19 @@ Use the same data across different apps. Create a to-do list in one app, and tra
 
 Most remoteStorage-enabled apps come with first-class offline support. Use your apps offline on the go, and automatically sync when you're back online.
 
+## Backend as a Service
+
+Develop your web app without worrying about hosting or even developing the backend for it: your users will connect their own backend at runtime.
+Infinite Scalability
+
+## Infinite Scalability
+
+No matter if 5 hundred or 5 million users are using your app, your backend scales automatically and never costs you a single cent.
+
+## Wheels Included
+
+remoteStorage.js is a JavaScript library that does all the heavy-lifting of connecting to any remoteStorage backend, caching, synchronizing and storing user data.
+
 [Browse apps](/apps){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Protocol details](/protocol){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
