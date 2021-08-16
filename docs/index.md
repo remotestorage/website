@@ -93,7 +93,7 @@ remoteStorage is a grass-roots standard, developed completely in the open, by th
 
 We would love for you to get involved — check out [What can I do for remoteStorage?](https://wiki.remotestorage.io/What_can_I_do_for_remoteStorage%3F) for some ideas.
 
-### Thank you to our contributors!
+## Thank you to our contributors!
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
