@@ -3,6 +3,9 @@ title: Data modules
 parent: Wiki
 ---
 
+This page was moved from the wiki and is in the process of being revised. Please consult the [remoteStorage.js documentation](https://remotestoragejs.readthedocs.io) for more up-to-date-information.
+{: .fs-5 .ls-10 .code-example }
+
 Data modules are **small add-on libraries** for remoteStorage.js, which
 extend it for storing certain types of data. App developers can create
 and use these modules to access and manage the same data in different

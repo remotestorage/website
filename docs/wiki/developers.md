@@ -3,6 +3,9 @@ title: Developer portal
 parent: Wiki
 ---
 
+This page was moved from the wiki and is in the process of being revised. Please consult the [remoteStorage.js documentation](https://remotestoragejs.readthedocs.io) for more up-to-date-information.
+{: .fs-5 .ls-10 .code-example }
+
 # Protocol
 
 -   [Overview](/Protocol "Protocol")
