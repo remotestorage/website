@@ -3,6 +3,12 @@ title: Protocol
 nav_order: 4
 ---
 
+<style>
+img {
+ max-width: 200px;
+}
+</style>
+
 # Unhosted Architecture
 
 remoteStorage is the first open protocol to enable truly [unhosted](https://unhosted.org) web apps. That means users are in full control of their precious data and where it is stored, while app developers are freed of the burden of hosting, maintaining and protecting a central database.
