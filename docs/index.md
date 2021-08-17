@@ -17,32 +17,36 @@ permalink: /
 # Features
 {: .fs-9 }
 
-## Own your data
+## For users
+
+### Own your data
 
 Everything in one place – your place. Use a storage account with a provider you trust, or set up your own storage server. Move house whenever you want. It's your data.
 
-## Stay in sync
+### Stay in sync
 
 remoteStorage-enabled apps automatically sync your data across all of your devices, from desktop to tablet to smartphone, and maybe even your TV.
 
-## Compatibility & choice
+### Compatibility & choice
 
 Use the same data across different apps. Create a to-do list in one app, and track the time on your tasks in another one. Say goodbye to app-specific data silos.
 
-## Go offline
+### Go offline
 
 Most remoteStorage-enabled apps come with first-class offline support. Use your apps offline on the go, and automatically sync when you're back online.
 
-## Backend as a Service
+## For developers
+
+### Backend as a Service
 
 Develop your web app without worrying about hosting or even developing the backend for it: your users will connect their own backend at runtime.
 Infinite Scalability
 
-## Infinite Scalability
+### Infinite Scalability
 
 No matter if 5 hundred or 5 million users are using your app, your backend scales automatically and never costs you a single cent.
 
-## Wheels Included
+### Wheels Included
 
 remoteStorage.js is a JavaScript library that does all the heavy-lifting of connecting to any remoteStorage backend, caching, synchronizing and storing user data.
 
