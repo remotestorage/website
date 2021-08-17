@@ -91,7 +91,7 @@ const widget = new Widget(api);
 widget.attach();
 ```
 
-[Read the documentation](https://remotestoragejs.readthedocs.io){: .btn .fs-5 .mb-4 .mb-md-0 } [Protocol details](/protocol){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Read the documentation](https://remotestoragejs.readthedocs.io){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Protocol details](/protocol){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
