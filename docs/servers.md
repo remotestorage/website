@@ -3,6 +3,8 @@ title: Servers
 nav_order: 4
 ---
 
+# Servers
+
 ## Hosted
 
   - [5apps Storage](https://5apps.com/storage/beta) is a commercial
@@ -43,9 +45,10 @@ breaks remoteStorage sync. (In short, 304 HTTP responses get their CORS
 headers stripped unintentionally, so the response can never be received
 at an Unhosted app.)
 
-It is close to being resolved, but as of yet, you need to use a server
-that does HTTP and CORS correctly. Most people use Nginx as a reverse
-proxy, but any other compliant web server works as well.
+It has finally been resolved and release with Apache 2.4.47, but any version
+before that will not work. You need to use a server that does HTTP and CORS
+correctly. Most people use Nginx as a reverse proxy, but any other compliant
+web server works as well.
 
 ## Outdated solutions
 
