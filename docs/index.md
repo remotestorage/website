@@ -114,7 +114,7 @@ remoteStorage is a grass-roots standard, developed completely in the open, by th
 | [Mailing List](https://buttondown.email/remotestorage)| A monthly digest about remoteStorage apps, tools, and decentralized news. |
 | [Events](https://community.remotestorage.io/c/events) | Meet people in person at conferences, hackathons, camps, and other gatherings. |
 
-We would love for you to get involved — check out [What can I do for remoteStorage?](https://wiki.remotestorage.io/What_can_I_do_for_remoteStorage%3F) for some ideas.
+We would love for you to get involved — check out [What can I do for remoteStorage?](./contribute) for some ideas.
 
 ## Thank you to our contributors!
 
