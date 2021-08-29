@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="OLSKCommonCard">
-  <img src="https://remotestorage.io/img/icon.svg" role="presentation" />
+  <img src="/img/icon.svg" role="presentation" />
   <div>
     <h1 style="margin: 0;">remoteStorage</h1>
     <span>Open protocol for per-user storage on the Web</span>
@@ -133,22 +133,22 @@ We would love for you to get involved — check out [What can I do for remoteSto
 <div class="sponsors">
   <p>
     <a href="https://nlnet.nl/" title="NLnet Foundation">
-      <img src="https://remotestorage.io/img/sponsors/nlnet.svg" alt="NLnet Foundation" />
+      <img src="/img/sponsors/nlnet.svg" alt="NLnet Foundation" />
     </a>
   </p>
   <p>
     <a href="https://5apps.com/" title="5apps">
-      <img src="https://remotestorage.io/img/sponsors/5apps.svg" alt="5apps" />
+      <img src="/img/sponsors/5apps.svg" alt="5apps" />
     </a>
   </p>
   <p>
     <a href="https://www.wauland.de/" title="Wau Holland Stiftung">
-      <img src="https://remotestorage.io/img/sponsors/whs.svg" alt="Wau Holland Stiftung" />
+      <img src="/img/sponsors/whs.svg" alt="Wau Holland Stiftung" />
     </a>
   </p>
   <p>
     <a href="https://duckduckgo.com/" title="DuckDuckGo">
-      <img src="https://remotestorage.io/img/sponsors/duckduckgo2.svg" alt="DuckDuckGo" />
+      <img src="/img/sponsors/duckduckgo2.svg" alt="DuckDuckGo" />
     </a>
   </p>
 </div>
