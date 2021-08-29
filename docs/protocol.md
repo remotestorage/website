@@ -17,20 +17,20 @@ remoteStorage is the first open protocol to enable truly [unhosted](https://unho
 
 In hosted web stacks such as LAMP, .Net, Ruby on Rails, Django, etc…, the developer hosts the app and data, while the user controls device.
 
-<img src="https://remotestorage.io/img/explainer-1-traditional-webapp-scoured.svg" role="presentation" />
+<img src="/img/explainer-1-traditional-webapp-scoured.svg" role="presentation" />
 
 
 ## [No-Backend](https://nobackend.org) Web Apps
 
 In 100% client-side apps that use CouchDB, Hoodie, Firebase, Parse, Kinto, etc…, the developer provides the app and data, while user controls the device.
 
-<img src="https://remotestorage.io/img/explainer-2-no-backend-scoured.svg" role="presentation" />
+<img src="/img/explainer-2-no-backend-scoured.svg" role="presentation" />
 
 ## [Unhosted](https://unhosted.org) Web Apps
 
 In 100% client-side apps that use remoteStorage, Google Drive, Dropbox, etc…, the developer provides only the app, while the user controls the device and data.
 
-<img src="https://remotestorage.io/img/explainer-3-unhosted-scoured.svg" role="presentation" />
+<img src="/img/explainer-3-unhosted-scoured.svg" role="presentation" />
 
 
 # Using existing standards
@@ -43,7 +43,7 @@ In order for apps to know where to ask permission and later actually sync user d
 
 [Check out a live example for a 5apps user](https://client.webfinger.net/lookup?resource=tony%405apps.com).
 
-<img src="https://remotestorage.io/img/webfinger-connect.png" role="presentation" />
+<img src="/img/webfinger-connect.png" role="presentation" />
 
 ## Authorization: [OAuth 2.0](https://oauth.net/)
 
@@ -51,7 +51,7 @@ User data is scoped by so-called categories, which are essentially base director
 
 In the example screenshot, [Litewrite](https://litewrite.net/) is asking for read/write access to the "documents" category, using the OAuth scope `documents:rw`. If you allow access, the app will retrieve a bearer token, with which it can read and write to your storage, until you revoke that access on your server.
 
-<img src="https://remotestorage.io/img/oauth-dialog.png" role="presentation" />
+<img src="/img/oauth-dialog.png" role="presentation" />
 
 ## Data Storage & Sync: [HTTP REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
@@ -59,4 +59,4 @@ remoteStorage defines a simple key/value store for apps to save and retrieve dat
 
 In addition to that – and the only special feature aside from plain HTTP – there are directory listings, formatted as JSON-LD. They contain both the content type and size, as well as ETags, which can be used to implement sync mechanisms. The files and listings themselves also carry ETag headers for sync/caching and conditional requests.
 
-<img src="https://remotestorage.io/img/screenshot-folder-description.png" role="presentation" />
+<img src="/img/screenshot-folder-description.png" role="presentation" />
