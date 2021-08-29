@@ -2,7 +2,15 @@
 title: Contribute
 ---
 
-Inspired by [http://www.whatcanidoformozilla.org](http://www.whatcanidoformozilla.org) and would be great to turn into a proper website eventually. ([Forums thread](https://community.remotestorage.io/t/what-can-i-do-for-remotestorage/246))
+What can I do for remoteStorage?
+
+* <a href="#i-can-code">I can code</a>
+* <a href="#i-can-design">I can design</a>
+* <a href="#i-can-write">I can write</a>
+* <a href="#i-can-run-servers">I can run servers</a>
+* <a href="#i-can-test-things">I can test things</a>
+
+---
 
 # I can code
 
