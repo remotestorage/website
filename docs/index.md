@@ -131,7 +131,26 @@ We would love for you to get involved — check out [What can I do for remoteSto
 # Sponsors
 
 <div class="sponsors">
-<a href="https://nlnet.nl/" title="NLnet Foundation"><img src="https://remotestorage.io/img/sponsors/nlnet.svg" alt="NLnet Foundation" /></a> <a href="https://www.wauland.de/" title="Wau Holland Stiftung"><img src="https://remotestorage.io/img/sponsors/whs.svg" alt="Wau Holland Stiftung" /></a> <a href="https://5apps.com/" title="5apps"><img src="https://remotestorage.io/img/sponsors/5apps.svg" alt="5apps" /></a> <a href="https://duckduckgo.com/" title="DuckDuckGo"><img src="https://remotestorage.io/img/sponsors/duckduckgo2.svg" alt="DuckDuckGo" /></a>
+  <p>
+    <a href="https://nlnet.nl/" title="NLnet Foundation">
+      <img src="https://remotestorage.io/img/sponsors/nlnet.svg" alt="NLnet Foundation" />
+    </a>
+  </p>
+  <p>
+    <a href="https://5apps.com/" title="5apps">
+      <img src="https://remotestorage.io/img/sponsors/5apps.svg" alt="5apps" />
+    </a>
+  </p>
+  <p>
+    <a href="https://www.wauland.de/" title="Wau Holland Stiftung">
+      <img src="https://remotestorage.io/img/sponsors/whs.svg" alt="Wau Holland Stiftung" />
+    </a>
+  </p>
+  <p>
+    <a href="https://duckduckgo.com/" title="DuckDuckGo">
+      <img src="https://remotestorage.io/img/sponsors/duckduckgo2.svg" alt="DuckDuckGo" />
+    </a>
+  </p>
 </div>
 
 <style>
@@ -139,10 +158,19 @@ We would love for you to get involved — check out [What can I do for remoteSto
   --OLSKSharedPadding: 10px;
 }
 
-.sponsors img {
- max-width: 128px !important;
+.sponsors {
+  display: inline-grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-auto-flow: row;
+  grid-column-gap: 3rem;
+  align-items: center;
+  margin-top: 1rem;
 }
-  
+.sponsors p a img {
+  max-width: 128px;
+}
+
 /* OLSKCommonCard */
 
 .OLSKCommonCard {
@@ -161,7 +189,7 @@ We would love for you to get involved — check out [What can I do for remoteSto
 
 .OLSKCommonCard > :last-child > :nth-child(1) {
   display: block;
-  
+
   font-weight: bold;
   font-family: var(--OLSKCommonHeadingFontFamily);
 }
