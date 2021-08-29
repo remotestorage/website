@@ -4,9 +4,9 @@ nav_order: 2
 ---
 
 <style>
-img {
- max-width: 200px;
-}
+  img {
+    max-width: 200px;
+  }
 </style>
 
 # Unhosted Architecture
