@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Static site running on remotestorage.io",
   "scripts": {
+    "install": "bundle install",
     "start": "bundle exec jekyll serve"
   }
 }
