@@ -3,6 +3,8 @@ title: Apps
 nav_order: 3
 ---
 
+# Apps
+
 The following is a list of known apps that have integrated RS as a
 storage/sync option. It does not claim to be complete, and some entries
 may be outdated.
@@ -384,3 +386,4 @@ may be outdated.
   - There's an old list in the modules repo:
     <https://github.com/remotestorage/modules/blob/master/doc/apps.md>
   - Here's another list: <https://unhosted.org/apps/>
+  - And another one (but not RS-only): <https://0data.app/>
