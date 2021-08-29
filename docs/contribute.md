@@ -19,7 +19,7 @@ What can I do for remoteStorage?
 * Integrate RS in any of your apps. More apps means more users, means more developers, means more apps.
 * Help out with the [reference client](https://github.com/remotestorage/remotestorage.js/). There are always [issues](https://github.com/remotestorage/remotestorage.js/issues) to work on
 * Help with completing and improving the remoteStorage.js [documentation](http://remotestoragejs.readthedocs.io/en/latest/) (even if it's just questions or feedback). There is more detailed information about how to [contribute to the documentation](http://remotestoragejs.readthedocs.io/en/latest/contributing/docs.html).
-* Contribute to any open-source remoteStorage app. Some of them are [listed here](/Apps "Apps").
+* Contribute to any open-source remoteStorage app. Some of them are [listed here](/apps "Apps").
 * Help improving and creating new remoteStorage.js [data modules](https://github.com/remotestorage/modules)
 * Help improving [Armadietto](https://github.com/remotestorage/armadietto/), a RS server based on node.js
 
@@ -50,22 +50,22 @@ What can I do for remoteStorage?
 
 * Improve the design of our website and/or wiki. Both could look much more beautiful with your help. The website repo is located at [https://github.com/remotestorage/website](https://github.com/remotestorage/website) and we have a [waffle.io board for website issues](https://waffle.io/remotestorage/website).
 * Design a new landing page for users coming from apps and the RS connect widget.
-* Help improve the design of any RS-enabled open source app (see [Apps](/Apps "Apps") e.g.). Many of them are in need of better app icons and/or UI/UX improvements. Giving feedback on design decisions and how to improve apps is a good start as well.
-* See [Design](/Design "Design") for more info.
+* Help improve the design of any RS-enabled open source app (see [Apps](/apps "Apps") e.g.). Many of them are in need of better app icons and/or UI/UX improvements. Giving feedback on design decisions and how to improve apps is a good start as well.
+* See [Design](/wiki/design "Design") for more info.
 
 # I can write
 
 * Add and/or improve content of the RS website, any page on this wiki, or any other project-related content on the Web.
-* Help us improve existing technical documentation (lots of room for your contributions/improvements). There are e.g. the [remoteStorage.js API docs](http://remotestoragejs.readthedocs.io/en/latest/), the [remoteStorage.js Beginner's Guide](/RemoteStorage.js:Beginners%27_Guide "RemoteStorage.js:Beginners' Guide"), or any page linked on and including the [Developer Portal](/Developer_Portal "Developer Portal").
-* Help improve documentation, description and marketing materials for RS-enabled open-source [apps](/Apps "Apps") and [servers](/Servers "Servers").
+* Help us improve existing technical documentation (lots of room for your contributions/improvements). There are e.g. the [remoteStorage.js API docs](http://remotestoragejs.readthedocs.io/en/latest/), the [remoteStorage.js Beginner's Guide](/wiki/beginners), or any page linked on and including the [Developer Portal](/wiki/developers).
+* Help improve documentation, description and marketing materials for RS-enabled open-source [apps](/apps "Apps") and [servers](/servers "Servers").
 * Write about remoteStorage on your website, blog, social media, etc.. Explain the concept to users, developers, providers, and anyone else you think should know about remoteStorage's existence and how it works.
 * Improve the language and clarity of the remoteStorage specification draft (see [Protocol](/Protocol "Protocol")).
 
 # I can run servers
 
 * Set up a server for yourself and maybe your family and friends! [php-remote-storage](https://github.com/fkooman/php-remote-storage) is easy to run anywhere with PHP support for example.
-* Become a commercial or non-profit storage provider. You can either implement your own or use an [existing server](/Servers "Servers") software as your basis.
+* Become a commercial or non-profit storage provider. You can either implement your own or use an [existing server](/servers "Servers") software as your basis.
 
 # I can test things
 
-* Use RS-enabled [apps](/Apps "Apps") and/or [servers](/Servers "Servers") and report issues and constructive feedback.
+* Use RS-enabled [apps](/apps "Apps") and/or [servers](/servers "Servers") and report issues and constructive feedback.
