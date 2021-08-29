@@ -1,5 +1,8 @@
 {
   "name": "remotestorage.io",
   "version": "0.1.0",
-  "description": "Static site running on remotestorage.io"
+  "description": "Static site running on remotestorage.io",
+  "scripts": {
+    "start": "bundle exec jekyll serve"
+  }
 }
