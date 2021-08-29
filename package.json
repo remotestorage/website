@@ -1,36 +1,5 @@
 {
   "name": "remotestorage.io",
   "version": "0.1.0",
-  "description": "Static site running on remotestorage.io",
-  "scripts": {
-    "start": "npm run serve",
-    "serve": "http-server -p 8001 dist/",
-    "prebuild": "mkdir -p dist && npm run clean -s",
-    "build": "npm run build:styles -s && npm run build:html -s && npm run build:assets -s",
-    "build:styles": "node-sass -i src/styles/style.scss -o dist/",
-    "build:html": "cp src/*.html dist/ && echo 'Built HTML files'",
-    "build:assets": "cp -r src/public/* dist/ && echo 'Built assets'",
-    "build:dist": "npm run build && bash scripts/clean-html.sh",
-    "prewatch": "npm run clean",
-    "watch": " npm run watch:build",
-    "watch:build": "concurrently 'npm run watch:styles -s' 'npm run watch:html -s' 'npm run watch:assets -s'",
-    "watch:styles": "nodemon -q -w src/styles/ --ext 'scss' --exec 'npm run build:styles'",
-    "watch:html": "nodemon -q -w src/ --ext 'html' --exec 'npm run build:html'",
-    "watch:assets": "nodemon -q -w src/public/ --ext 'svg,png,jpg,gif,webp' --exec 'npm run build:assets'",
-    "live-reload": "live-reload dist/ --port 9091",
-    "open:dev": "opener http://localhost:8001",
-    "predev": "npm run build",
-    "dev": "npm run open:dev -s | concurrently 'npm run live-reload -s' 'npm run serve -s' 'npm run watch -s'",
-    "clean": "npm run clean:dist -s",
-    "clean:dist": "rimraf dist/*"
-  },
-  "devDependencies": {
-    "concurrently": "^4.1.2",
-    "http-server": "^0.11.1",
-    "live-reload": "^1.1.0",
-    "node-sass": "^4.12.0",
-    "nodemon": "^1.19.3",
-    "parallelshell": "^3.0.2",
-    "rimraf": "^2.7.1"
-  }
+  "description": "Static site running on remotestorage.io"
 }
