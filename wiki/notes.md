@@ -3,7 +3,7 @@ title: Notes
 parent: Wiki
 ---
 
-This page was moved from the wiki and is in the process of being revised. Please consult the [remoteStorage.js documentation](https://remotestoragejs.readthedocs.io) for more up-to-date-information.
+This page was moved from the wiki and is in the process of being revised.
 {: .fs-5 .ls-10 .code-example }
 
 This page contains random notes, so we can quickly drop things and move
