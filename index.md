@@ -126,6 +126,8 @@ We would love for you to get involved — check out [What can I do for remoteSto
 {% endfor %}
 </ul>
 
+... and everyone not listed here!
+
 ---
 
 # Sponsors
