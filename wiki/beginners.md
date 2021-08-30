@@ -54,11 +54,15 @@ loaders such as [RequireJS](http://requirejs.org/).
 
 #### Bower
 
-`bower install -S remotestorage`
+```
+bower install -S remotestorage
+```
 
 #### npm
 
-`npm install --save remotestoragejs`
+```
+npm install --save remotestoragejs
+```
 
 For node.js apps, check out the [node.js
 howto](https://github.com/remotestorage/remotestorage.js/blob/master/doc/nodejs.md)
@@ -92,7 +96,9 @@ fixing it.
 
 #### Git
 
-` git clone `<https://github.com/remotestorage/remotestorage.js.git>
+```
+git clone https://github.com/remotestorage/remotestorage.js.git
+```
 
 You can find the release builds in the `release/` dir.
 
@@ -395,13 +401,17 @@ extra steps to make it work:
 The OAuth dialog for the user will be opened in an in-app-browser window
 in your app. Install the plugin like so:
 
-`cordova plugin add cordova-plugin-inappbrowser`
+```
+cordova plugin add cordova-plugin-inappbrowser
+```
 
 ### Configure a redirect URI for your Cordova app
 
 ...
 
-`remoteStorage.setCordovaRedirectUri('`<https://app.example.com>`')`
+```
+remoteStorage.setCordovaRedirectUri('`<https://app.example.com>`')
+```
 
 ## Tips and Tricks
 
