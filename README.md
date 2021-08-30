@@ -5,9 +5,14 @@ This is the remoteStorage website, running on
 
 ## Development
 
+The website is built using [Jekyll](https://jekyllrb.com/) and the
+[Just the Docs](https://pmarsceill.github.io/just-the-docs/) theme.
+
 ### Setup
 
-Install [Git](https://git-scm.com) and [Ruby](https://www.ruby-lang.org/en/documentation/installation), then run the following command to install dependencies:
+With [Git](https://git-scm.com) and
+[Ruby](https://www.ruby-lang.org/en/documentation/installation) installed,
+run the following command to install dependencies:
 
 ```
 bundle install
@@ -15,16 +20,15 @@ bundle install
 
 ### Running
 
+Run the following command to build the static site to `/_site` and make it
+accessible at
+<a href="http://localhost:4000" target="_blank">http://localhost:4000</a>.
+Changes to `.md` files should be visible automatically without refreshing.
+
 ```
 bundle exec jekyll serve
 ```
 
-Run the following command to build the static site to `/_site` and make it accessible at <a href="http://localhost:4000" target="_blank">http://localhost:4000</a>. Changes to `.md` files will be visible automatically without refreshing.
-
-Note: If you have npm, a shorter command can be `npm start`.
-
 ### Deployment
 
-Deploying to production can be done by pushing a 5apps Deploy Git remote.
-Please ask someone for access, in case you want to be able to run those
-deployments.
+The `master` branch is automatically built and deployed to GitHub Pages.
