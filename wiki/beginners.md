@@ -115,7 +115,7 @@ unpack it on your computer, and find the release builds in
 
 #### CDN
 
-` `<http://cdnjs.com/libraries/remoteStorage/>
+https://cdnjs.com/libraries/remoteStorage/
 
 Content Delivery Network (CDN) provided by cdnjs.com.
 
