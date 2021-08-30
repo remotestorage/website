@@ -40,7 +40,6 @@ Most remoteStorage-enabled apps come with first-class offline support. Use your 
 ### Backend as a Service
 
 Develop your web app without worrying about hosting or even developing the backend for it: your users will connect their own backend at runtime.
-Infinite Scalability
 
 ### Infinite Scalability
 
