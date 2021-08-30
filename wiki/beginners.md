@@ -369,8 +369,6 @@ remoteStorage.caching.enable('/bookmarks/archive/');
 
 ### Adding the connect widget
 
-![Connect widget](widget.png "Connect widget")
-
 The remoteStorage widget is the easiest way to allow your users to
 connect to their personal storage server. By default it is part of every
 app that uses remoteStorage.js. So every time a user sees the widget,
