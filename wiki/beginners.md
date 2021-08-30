@@ -73,7 +73,7 @@ for more information.
 If you downloaded the latest release using `npm install
 remotestoragejs`, you can use the following line in your code:
 
-``` javascript
+```javascript
 require('remotestoragejs/release/stable/remotestorage.amd.js');
 // window.RemoteStorage is now available
 ```
@@ -81,7 +81,7 @@ require('remotestoragejs/release/stable/remotestorage.amd.js');
 You also need to define a shim for `XMLHttpRequest` such that Webpack
 won't be looking for it. In your `webpack.config.js`:
 
-``` javascript
+```javascript
 var webpack = require("webpack");
   
 module.exports = {
@@ -161,7 +161,7 @@ docs](http://remotestorage.github.io/modules/files/bookmarks-js.html).
 First, we import `remotestorage.js` and our chosen module
 `remotestorage-bookmarks.js`.
 
-``` html5
+```html5
 <!-- Require remotestorage.js -->
 <script src="remotestorage.js"></script>
 
@@ -171,7 +171,7 @@ First, we import `remotestorage.js` and our chosen module
 
 Then, we can store a bookmark.
 
-``` javascript
+```javascript
 // Store archive-bookmark
 
 remoteStorage.bookmarks.archive.store({
@@ -190,7 +190,7 @@ remoteStorage.bookmarks.archive.store({
 
 Later on, we can request all archive-bookmarks:
 
-``` javascript
+```javascript
 // Get all archive-bookmarks
 
 remoteStorage.bookmarks.archive.getAll().then(
@@ -248,7 +248,7 @@ There are two helpers, which are instances of
 
 Defining a data module:
 
-``` javascript
+```javascript
 RemoteStorage.defineModule('bookmarks', // <-- Module name
   function(privateClient, publicClient) {
 
@@ -275,7 +275,7 @@ declare a new type with
 [declareType()](https://remotestorage.github.io/remotestorage.js/files/baseclient/types-js.html#RemoteStorage.BaseClient.declareType).
 Here is a simplified example:
 
-``` javascript
+```javascript
 privateClient.declareType('archive-bookmark', {
   "type": "object",
   "properties": {
@@ -307,7 +307,7 @@ functions to handle it, e.g.
 Assuming that `bookmarks` is publicly exported, you could define a
 public function as below:
 
-``` javascript
+```javascript
 var bookmarks = {
   archive: {
     store: function(bookmark) {
@@ -333,7 +333,7 @@ function, and then use BaseClient methods directly in your code. This is
 meant primarily for development, but might make sense to use in shipped
 code in small apps as well.
 
-``` javascript
+```javascript
 remoteStorage.access.claim('bookmarks', 'rw');
 var baseClient = remoteStorage.scope('/bookmarks/archive/');
 
@@ -369,7 +369,7 @@ For each subtree, you can set the caching strategy to ‘ALL’, ‘SEEN’
 manages caching configuration. Enabling caching for a given path with
 strategy 'ALL' is as simple as:
 
-``` javascript
+```javascript
 remoteStorage.caching.enable('/bookmarks/archive/');
 ```
 
@@ -382,7 +382,7 @@ they know that they can use their own storage with an app. You can
 customize the widget's appearance to better match your app's design, of
 course. It is as simples as:
 
-``` javascript
+```javascript
 remoteStorage.displayWidget();
 ```
 
@@ -446,13 +446,13 @@ in the Developer Tools window.
 
 This will clear all data out of your local cache (usually IndexedDB):
 
-``` javascript
+```javascript
  remoteStorage.local.reset()
 ```
 
 If you're connected to a remote storage, disconnecting will also clear
 all caches:
 
-``` javascript
+```javascript
  remoteStorage.disconnect()
 ```
