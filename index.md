@@ -126,7 +126,7 @@ We would love for you to get involved — check out [What can I do for remoteSto
 
 ... and everyone not listed here!
 
-[Join our forum](https://community.remotestorage.io){: .btn .btn-primary .fs-5 .my-4 .mb-md-0 .mr-2 } For everybody from users to developers to providers.
+[Join our forum](https://community.remotestorage.io){: .btn .btn-primary .fs-5 .my-4 .mb-md-0 .mr-2 }
 
 ---
 
