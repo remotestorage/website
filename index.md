@@ -106,6 +106,7 @@ remoteStorage is a grass-roots standard, developed completely in the open, by th
 
 | - | - |
 | [GitHub](https://github.com/remotestorage) | Where we collaborate on the protocol specification as well as all common source code. |
+| [Forums](https://community.remotestorage.io) | Our community exchange and support site for everybody from users to developers to providers. |
 | [IRC](https://web.libera.chat/#remotestorage) | Some community members are hanging out in #remotestorage on Libera.Chat — say hi! |
 | [Twitter](https://twitter.com/remotestorage_) / [Fediverse](https://kosmos.social/@remotestorage) | Follow the project on Twitter or on the Fediverse, to receive updates on releases, events, apps, and related news. |
 | [Mailing List](https://buttondown.email/remotestorage)| A monthly digest about remoteStorage apps, tools, and decentralized news. |
