@@ -104,7 +104,6 @@ widget.attach();
 
 remoteStorage is a grass-roots standard, developed completely in the open, by the community for the community. Countless individuals have contributed in one way or another over time, and we'd love to welcome you as one of them!
 
-|  |  |
 | - | - |
 | [GitHub](https://github.com/remotestorage) | Where we collaborate on the protocol specification as well as all common source code. |
 | [IRC](https://web.libera.chat/#remotestorage) | Some community members are hanging out in #remotestorage on Libera.Chat — say hi! |
