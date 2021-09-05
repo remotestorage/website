@@ -126,7 +126,7 @@ We would love for you to get involved — check out [What can I do for remoteSto
 
 ... and everyone not listed here!
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; padding-top: 1rem; padding-bottom: 1rem">
   <a href="https://community.remotestorage.io" class="btn btn-primary fs-5 mb-md-0 mr-3">Join our forum</a>
   <span>For everybody from users to developers to providers.</span>
 </div>
