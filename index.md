@@ -104,7 +104,6 @@ widget.attach();
 
 remoteStorage is a grass-roots standard, developed completely in the open, by the community for the community. Countless individuals have contributed in one way or another over time, and we'd love to welcome you as one of them!
 
-|  |  |
 | - | - |
 | [GitHub](https://github.com/remotestorage) | Where we collaborate on the protocol specification as well as all common source code. |
 | [Forums](https://community.remotestorage.io) | Our community exchange and support site for everybody from users to developers to providers. |
@@ -126,6 +125,11 @@ We would love for you to get involved — check out [What can I do for remoteSto
 </ul>
 
 ... and everyone not listed here!
+
+<div style="display: flex; align-items: center; padding-top: 1rem; padding-bottom: 1rem">
+  <a href="https://community.remotestorage.io" class="btn btn-primary fs-5 mb-md-0 mr-3">Join our forum</a>
+  <span>For everybody from users to developers to providers.</span>
+</div>
 
 ---
 
