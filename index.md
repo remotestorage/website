@@ -9,6 +9,8 @@ permalink: /
   <div>
     <h1 style="margin: 0;">remoteStorage</h1>
     <span>Open protocol for per-user storage on the Web</span>
+    <br />
+    <a title="Discover per-user services from a 'user@host' identifier">Webfinger</a> + <a title="Give an app access to certain parts of your storage account">OAuth</a> + <a title="Cross-origin AJAX requests">CORS</a> + <a title="GET, PUT and DELETE files in folders on your storage">REST</a>
   </div>
 </div>
 
