@@ -359,12 +359,14 @@ may be outdated.
 </ul></td>
 </tr>
 <tr class="even">
+<td><p><a href="https://hello.0data.app">Hello</a></p></td>
+<td><p>Simple Hello World with remoteStorage, Solid, and Fission</p></td>
 <td></td>
+<td><p><a href="https://github.com/0dataapp/hello">GitHub</a></p></td>
 <td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><ul>
+<li>Works well on mobile and desktop</li>
+</ul></td>
 </tr>
 </tbody>
 </table>
