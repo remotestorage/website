@@ -11,7 +11,7 @@ The website is built using [Jekyll](https://jekyllrb.com/) and the
 ### Setup
 
 With [Git](https://git-scm.com) and
-[Ruby](https://www.ruby-lang.org/en/documentation/installation) installed,
+[Ruby 2.5 - 2.7](https://www.ruby-lang.org/en/documentation/installation) installed,
 run the following command to install dependencies:
 
 ```
@@ -32,3 +32,8 @@ bundle exec jekyll serve
 ### Deployment
 
 The `master` branch is automatically built and deployed to GitHub Pages.
+
+## Widget landing page
+
+The RemoteStorage widget links to the page "Getting Started", so don't rename it. 
+Write the page for someone who is trying to get started with an app, and doesn't care about wider issues (yet).

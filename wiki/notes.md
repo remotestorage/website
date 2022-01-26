@@ -16,8 +16,8 @@ them to the appropriate place later.
       - <https://github.com/w3ctag/capability-urls>
   - Create a more approachable explainer page, similar to
     <https://linkeddata.github.io/SoLiD/> and
-    <http://www.w3.org/community/unhosted/wiki/RemoteStorage-2012.04>
-  - <http://slides.kip.pe/remotestorage-intro/#slide-42>
+    <https://www.w3.org/community/unhosted/wiki/RemoteStorage-2012.04>
+  - <https://slides.kip.pe/remotestorage-intro/#slide-42>
 
 ## IETF related work
 

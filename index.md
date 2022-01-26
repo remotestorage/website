@@ -27,7 +27,7 @@ Everything in one place – your place. Use a storage account with a provider yo
 
 ### Stay in sync
 
-remoteStorage-enabled apps automatically sync your data across all of your devices, from desktop to tablet to smartphone, and maybe even your TV.
+remoteStorage-enabled apps automatically sync your data across all of your devices, from desktop to tablet to smartphone, and maybe even your TV or VR headset.
 
 ### Compatibility & choice
 

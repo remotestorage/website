@@ -1,5 +1,6 @@
 ---
 title: Contribute
+nav_order: 6
 ---
 
 What can I do for remoteStorage?
