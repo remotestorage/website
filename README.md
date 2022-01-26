@@ -11,7 +11,7 @@ The website is built using [Jekyll](https://jekyllrb.com/) and the
 ### Setup
 
 With [Git](https://git-scm.com) and
-[Ruby](https://www.ruby-lang.org/en/documentation/installation) installed,
+[Ruby 2.5 - 2.7](https://www.ruby-lang.org/en/documentation/installation) installed,
 run the following command to install dependencies:
 
 ```
