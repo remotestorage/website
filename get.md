@@ -10,7 +10,7 @@ Here are the steps to using an app that allows you to connect your own storage a
 
 1. **Sign up for a remoteStorage account** 🔑
 
-   You might be used to signing up 'for an app', but here you sign up with a 'storage provider' so that you can use the *same account with multiple apps*.
+   You might be used to signing up 'with an app', but here you sign up with a 'storage provider' so that you can use the *same account with multiple apps*.
 
    - If a friend or administrator has set up an account for you, get the details from them.
    - [5apps](https://5apps.com/storage/beta) is a commercial remoteStorage provider that currently offers free storage accounts.
