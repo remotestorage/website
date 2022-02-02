@@ -32,8 +32,3 @@ bundle exec jekyll serve
 ### Deployment
 
 The `master` branch is automatically built and deployed to GitHub Pages.
-
-## Widget landing page
-
-The RemoteStorage widget links to the page "Getting Started", so don't rename it. 
-Write the page for someone who is trying to get started with an app, and doesn't care about wider issues (yet).
