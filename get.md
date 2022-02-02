@@ -1,4 +1,5 @@
 ---
+# The RemoteStorage widget <https://github.com/remotestorage/remotestorage-widget> links to /get, so consider that if renaming and create appropriate redirects.
 title: Getting Started
 nav_order: 2
 ---
