@@ -33,6 +33,22 @@ nav_order: 5
     S3-compatible object storages and OpenStack Swift as storage
     backends.
 
+## Create a new implementation
+
+With remoteStorage being a relatively simple specification, you can write your
+own fully compliant server implementation in a language you like in a matter of
+a few days to a couple of weeks usually.
+
+You can run the [RS API Test
+Suite](https://github.com/remotestorage/api-test-suite) against your server
+from the outside to integration-test for spec compliance of the HTTP API
+portion of the spec.
+
+Some core contributors will gladly help you with any questions you may
+have on the way. There is a dedicated category for [server
+development](https://community.remotestorage.io/c/server-development/11) on the
+RS Community Forums.
+
 ## Hints for self-hosting
 
 ### Apache bug
