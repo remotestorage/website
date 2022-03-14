@@ -24,7 +24,7 @@ may be outdated.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="http://petrolette.space/">Pétrolette</a></p></td>
+<td><p><a href="https://petrolette.space/">Pétrolette</a></p></td>
 <td><p>A news aggregator / Web page that syncs using Remote Storage</p></td>
 <td><p>Web</p></td>
 <td><p><a href="https://framagit.org/yphil/petrolette">GitLab</a></p></td>
