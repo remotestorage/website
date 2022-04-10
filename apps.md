@@ -368,6 +368,16 @@ may be outdated.
 <li>Works well on mobile and desktop</li>
 </ul></td>
 </tr>
+<tr class="odd">
+<td><p><a href="https://overhide.github.io/armadietto/lucchetto/onboard.html#" target="_blank">Lucchetto Onboard</a></p></td>
+<td><p>Enables in-app purchase SKU onboarding for <a href="https://www.npmjs.com/package/lucchetto/v/latest" target="_blank">luchetto.js</a> extended RS apps</p></td>
+<td></td>
+<td><p><a href="https://github.com/overhide/armadietto/blob/master/lucchetto/onboard.html" target="_blank">GitHub</a></p></td>
+<td></td>
+<td><ul>
+<li>Featured in the <a href="https://github.com/overhide/remotestorage-tutorial" target="_blank">remote-storage tutorial</a></li>
+</ul></td>
+</tr>
 </tbody>
 </table>
 
