@@ -13,7 +13,7 @@ nav_order: 5
     remoteStorage on both shared and custom domains.
   - [overhide.io](https://overhide.io#baas) offers (paid) managed hosting
     and supports [lucchetto.js](https://www.npmjs.com/package/lucchetto/v/latest) 
-    RS apps with in-app purchases.
+    extended RS apps with in-app purchases.
 
 ## Host your own
 
