@@ -11,6 +11,9 @@ nav_order: 5
     remoteStorage provider that currently offers free storage accounts.
   - [IndieHosters](https://indie.host/) offers (paid) managed hosting of
     remoteStorage on both shared and custom domains.
+  - [overhide.io](https://overhide.io#baas) offers (paid) managed hosting
+    and supports [lucchetto.js](https://www.npmjs.com/package/lucchetto/v/latest) 
+    extended RS apps with in-app purchases.
 
 ## Host your own
 
@@ -22,6 +25,10 @@ nav_order: 5
     image](https://hub.docker.com/r/bnjbvr/mysteryshack-docker/))
   - [armadietto](https://github.com/remotestorage/armadietto/) is a
     remoteStorage server based on node.js
+  - [armadietto+lucchetto](https://github.com/overhide/armadietto/blob/master/lucchetto/README.md) 
+    is an [armadietto](https://github.com/remotestorage/armadietto/) fork
+    with middleware extensions including in-app purchase support ([Docker
+    image](https://hub.docker.com/repository/docker/overhide/armadietto))
 
 ## Integrate into existing systems
 
