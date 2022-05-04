@@ -95,7 +95,5 @@ may be outdated.
 
 ## Notes
 
-  - There's an old list in the modules repo:
-    <https://github.com/remotestorage/modules/blob/master/doc/apps.md>
   - Here's another list: <https://unhosted.org/apps/>
   - And another one (but not RS-only): <https://0data.app/>
