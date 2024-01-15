@@ -11,9 +11,13 @@ may be outdated.
 
 ## Web Apps
 
+
+
 ### Productivity / Office
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| [Papiers](https://papiers.gitlab.io/) | A simple but powerful note-taking app that syncs with your own cloud. | Notes | [GitLab](https://gitlab.com/papiers) | Full [PWA](https://papiers.gitlab.io/) |
+| [Todonna](https://todonna.gitlab.io/) | A simple but powerful Todo app that syncs with your own cloud. | Todo | [GitLab](https://gitlab.com/todonna) | Full [PWA](https://todonna.gitlab.io/) |
 | [Litewrite](https://litewrite.net) | A distraction-free app for simple note taking and writing | documents / [Documents](https://github.com/litewrite/remotestorage-module-documents) | [GitHub](https://github.com/litewrite/litewrite) | [Chrome Web Store](https://chrome.google.com/webstore/detail/litewrite/cbdonnipllnmnkbmeopncohocjggmdkk) Works well on mobile and desktop |
 | [Notes Together](https://notestogether.hominidsoftware.com/) | Toss in text and pictures. Never spend time tidying up — unless you want to! | documents | [GitHub](https://github.com/DougReeder/notes-together) | Compatible with Litewrite; works well on mobile and desktop |
 | [Encryptic](https://app.encryptic.org) | Encrypted, cloud-synced note taking app | encryptic | [GitHub](https://github.com/encryptic-team/encryptic) | Works well on mobile and desktop |
