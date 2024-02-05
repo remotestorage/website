@@ -26,7 +26,7 @@ What can I do for remoteStorage?
 
 ## PHP
 
-* Help out with [php-remote-storage](https://github.com/fkooman/php-remote-storage), a modern, up-to-date RS server (written by spec co-author François Kooman)
+* Help out with [php-remote-storage](https://git.sr.ht/~fkooman/php-remote-storage), a remoteStorage server written in PHP
 
 ## Rust
 
@@ -64,8 +64,8 @@ What can I do for remoteStorage?
 
 # I can run servers
 
-* Set up a server for yourself and maybe your family and friends! [php-remote-storage](https://github.com/fkooman/php-remote-storage) is easy to run anywhere with PHP support for example.
-* Become a commercial or non-profit storage provider. You can either implement your own or use an [existing server](/servers "Servers") software as your basis.
+* Set up a [server](/servers "Server") for yourself and maybe your family and friends!
+* Become a commercial or non-profit storage provider. You can either implement your own or use [existing server](/servers "Servers") software as your basis.
 
 # I can test things
 
