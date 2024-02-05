@@ -17,7 +17,7 @@ nav_order: 5
 
 ## Host your own
 
-  - [php-remote-storage](https://github.com/fkooman/php-remote-storage)
+  - [php-remote-storage](https://git.sr.ht/~fkooman/php-remote-storage)
     is a remoteStorage server written in PHP. ([Docker
     image](https://github.com/libresh/compose-remotestorage))
   - [mysteryshack](https://github.com/untitaker/mysteryshack) is a
@@ -32,13 +32,13 @@ nav_order: 5
 
 ## Integrate into existing systems
 
-  - [remotestorage-server](https://www.npmjs.org/package/remotestorage-server)
-    is a node.js module, which can be used as basis for your own
-    remoteStorage server, implementing the core HTTP behavior.
   - [Liquor Cabinet](https://github.com/5apps/liquor-cabinet/) is a
     remoteStorage HTTP API server based on Sinatra (Ruby). It supports
     S3-compatible object storages and OpenStack Swift as storage
     backends.
+  - [remotestorage-server](https://www.npmjs.org/package/remotestorage-server)
+    is a node.js module, which can be used as basis for your own
+    remoteStorage server, implementing the core HTTP behavior.
 
 ## Create a new implementation
 
