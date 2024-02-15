@@ -47,7 +47,7 @@ may be outdated.
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
 | [Pétrolette](https://petrolette.space/) | A news aggregator / Web page that syncs using Remote Storage | petrolette  | [GitLab](https://framagit.org/yphil/petrolett) | Works well on mobile and desktop |
-| [Àlir](https://alir.5apps.com) | Read-later app | alir | | Designed for mobiles, works offline |
+| [Àlir](https://alir.5apps.com) | Read-later app | alir | forked on [GitHub](https://github.com/rosano/alir) | Designed for mobiles, works offline |
 | [Joybox](https://joybox.rosano.ca) | A pinboard for audiovisual media. | joybox | [GitHub](https://github.com/joyboxapp/joybox) | Works well on mobile and desktop |
 | [Diffuse](https://diffuse.sh) | A music player that connects to your cloud/distributed storage | diffuse | [GitHub](https://github.com/icidasset/diffuse) | Offers RS option for storing settings, playlists, favorites etc.; works well on mobile and desktop |
 | [gHost](https://ghost.5apps.com/) | Unhosted photo album: store webcam photos in your remote storage | pictures | [GitHub](https://github.com/vcuculo/ghost) | 
