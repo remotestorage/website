@@ -17,9 +17,6 @@ nav_order: 5
   - [php-remote-storage](https://git.sr.ht/~fkooman/php-remote-storage)
     is a remoteStorage server written in PHP. ([Docker
     image](https://github.com/libresh/compose-remotestorage))
-  - [mysteryshack](https://github.com/untitaker/mysteryshack) is a
-    remoteStorage server written in Rust. ([Docker
-    image](https://hub.docker.com/r/bnjbvr/mysteryshack-docker/))
   - [armadietto](https://github.com/remotestorage/armadietto/) is a
     remoteStorage server based on node.js
   - [armadietto+lucchetto](https://github.com/overhide/armadietto/blob/master/lucchetto/README.md) 
@@ -85,3 +82,6 @@ language instead of starting from scratch:
     draft-dejong-remotestorage-00)
   - [remotestorage-ruby](https://github.com/remotestorage/remotestorage-ruby)
     RS server based on Ruby on Rails (spec: 2012.04)
+ - [mysteryshack](https://github.com/untitaker/mysteryshack) is a
+    remoteStorage server written in Rust. ([Docker
+    image](https://hub.docker.com/r/bnjbvr/mysteryshack-docker/))
