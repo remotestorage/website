@@ -60,7 +60,7 @@ What can I do for remoteStorage?
 * Help us improve existing technical documentation (lots of room for your contributions/improvements). There are e.g. the [remoteStorage.js API docs](http://remotestoragejs.readthedocs.io/en/latest/), the [remoteStorage.js Beginner's Guide](/wiki/beginners), or any page linked on and including the [Developer Portal](/wiki/developers).
 * Help improve documentation, description and marketing materials for RS-enabled open-source [apps](/apps "Apps") and [servers](/servers "Servers").
 * Write about remoteStorage on your website, blog, social media, etc.. Explain the concept to users, developers, providers, and anyone else you think should know about remoteStorage's existence and how it works.
-* Improve the language and clarity of the remoteStorage specification draft (see [Protocol](/Protocol "Protocol")).
+* Improve the language and clarity of the remoteStorage specification draft (see [Protocol](/protocol)).
 
 # I can run servers
 
