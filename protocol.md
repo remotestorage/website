@@ -60,3 +60,8 @@ remoteStorage defines a simple key/value store for apps to save and retrieve dat
 In addition to that – and the only special feature aside from plain HTTP – there are directory listings, formatted as JSON-LD. They contain both the content type and size, as well as ETags, which can be used to implement sync mechanisms. The files and listings themselves also carry ETag headers for sync/caching and conditional requests.
 
 <img src="/img/screenshot-folder-description.png" role="presentation" />
+
+---
+
+See [Datatracker](https://datatracker.ietf.org/doc/html/draft-dejong-remotestorage) or [GitHub](https://github.com/remotestorage/spec) for the full protocol specification.
+
