@@ -2,9 +2,8 @@
 
 title: remoteStorage
 description: Open protocol for per-user storage on the Web
-
+repository: remotestorage/website
 theme: just-the-docs
-
 permalink: pretty
 search_enabled: false
 
