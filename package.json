@@ -7,6 +7,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch-contributors": "node scripts/fetch-contributors.mjs",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
@@ -14,6 +15,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "node-fetch": "^3.3.2",
     "vitepress": "^1.2.3",
     "vue": "^3.4.29"
   }

@@ -101,12 +101,9 @@ We would love for you to get involved — check out [What can I do for remoteSto
 
 ## Thank you to our contributors!
 
-... and everyone not listed here!
+<Contributors />
 
-<div style="display: flex; align-items: center; padding-top: 1rem; padding-bottom: 1rem">
-  <a href="https://community.remotestorage.io" class="btn btn-primary fs-5 mb-md-0 mr-3">Join our forum</a>
-  <span>For everybody from users to developers to providers.</span>
-</div>
+... and everyone not listed here!
 
 ## Sponsors
 
