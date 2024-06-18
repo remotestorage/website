@@ -1,41 +1,30 @@
 ---
-title: Home
-nav_order: 1
-permalink: /
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "remoteStorage"
+  text: "An open protocol for per-user storage on the Web"
+  tagline: "Webfinger + OAuth + CORS + REST"
+  actions:
+    - theme: brand
+      text: 'Get Storage'
+      link: '/get'
+
+    - theme: alt
+      text: How it works
+      link: /unhosted
+
+features:
+  - title: Own your data
+    details: "Everything in one place – your place. Use a storage account with a provider you trust, or set up your own storage server. Move house whenever you want. It's your data."
+  - title: Stay in sync
+    details: "remoteStorage-enabled apps automatically sync your data across all of your devices, from desktop to tablet to smartphone, and maybe even your TV or VR headset."
+  - title: "Compatibility & choice"
+    details: "Use the same data across different apps. Create a to-do list in one app, and track the time on your tasks in another one. Say goodbye to app-specific data silos."
+  - title: Go offline
+    details: "Most remoteStorage-enabled apps come with first-class offline support. Use your apps offline on the go, and automatically sync when you're back online."
 ---
-
-<div class="OLSKCommonCard">
-  <img src="/img/icon.svg" role="presentation" />
-  <div>
-    <h1 style="margin: 0;">remoteStorage</h1>
-    <span>Open protocol for per-user storage on the Web</span>
-    <br />
-    <a title="Discover per-user services from a 'user@host' identifier">Webfinger</a> + <a title="Give an app access to certain parts of your storage account">OAuth</a> + <a title="Cross-origin AJAX requests">CORS</a> + <a title="GET, PUT and DELETE files in folders on your storage">REST</a>
-  </div>
-</div>
-
----
-
-# Features
-{: .fs-9 }
-
-## For users
-
-### Own your data
-
-Everything in one place – your place. Use a storage account with a provider you trust, or set up your own storage server. Move house whenever you want. It's your data.
-
-### Stay in sync
-
-remoteStorage-enabled apps automatically sync your data across all of your devices, from desktop to tablet to smartphone, and maybe even your TV or VR headset.
-
-### Compatibility & choice
-
-Use the same data across different apps. Create a to-do list in one app, and track the time on your tasks in another one. Say goodbye to app-specific data silos.
-
-### Go offline
-
-Most remoteStorage-enabled apps come with first-class offline support. Use your apps offline on the go, and automatically sync when you're back online.
 
 ## For developers
 
@@ -47,19 +36,15 @@ Develop your web app without worrying about hosting or even developing the backe
 
 No matter if 5 hundred or 5 million users are using your app, your backend scales automatically and never costs you a single cent.
 
-### Wheels Included
+[Browse apps](./apps.html) [Get storage](./get.html)
 
-remoteStorage.js is a JavaScript library that does all the heavy-lifting of connecting to any remoteStorage backend, caching, synchronizing and storing user data.
+### JS library
 
-[Browse apps](/apps){: .btn .btn-primary .fs-5 .my-4 .mb-md-0 .mr-4 } [Get storage](/servers){: .btn .fs-5 .my-4 .mb-md-0 }
+remoteStorage.js is a JavaScript (and TypeScript) library that does most of the
+heavy lifting to add offline storage and cross-device synchronization to your
+apps. No more worrying about accounts, databases, passwords, etc..
 
----
-
-# Developer library
-
-The [remoteStorage.js](https://github.com/remotestorage/remotestorage.js) library does most of the heavy lifting to add offline storage and cross-device synchronization to your apps. No more worrying about accounts, databases, passwords…
-
-## Setup
+#### Setup
 
 ```javascript
 const rs = new RemoteStorage();
@@ -69,7 +54,7 @@ rs.caching.enable();
 const client = rs.scope('/todos/');
 ```
 
-## Write an object
+#### Write an object
 
 ```javascript
 // Declare an object type to validate if you want (JSON Schema)
@@ -82,14 +67,14 @@ await client.storeObject('todo-item', 'alfa.json', {
 });
 ```
 
-## Get objects
+#### Get objects
 
 ```javascript
 const specificItem = await client.getObject('alpha.json');
 const allTodoItems = await client.getAll();
 ```
 
-## Add the Connect Widget UI component
+#### Add the Connect Widget UI component
 
 Use our [drop-in UI widget](https://github.com/remotestorage/remotestorage-widget) for connecting remote storage accounts.
 
@@ -98,18 +83,16 @@ const widget = new Widget(rs);
 widget.attach();
 ```
 
-[Read the documentation](https://remotestoragejs.readthedocs.io){: .btn .btn-primary .fs-5 .my-4 .mb-md-0 .mr-2 } [Protocol details](/protocol){: .btn .fs-5 .my-4 .mb-md-0 }
+[Read the documentation](https://remotestoragejs.readthedocs.io) [Protocol details](/)
 
----
-
-# Community
+## Community
 
 remoteStorage is a grass-roots standard, developed completely in the open, by the community for the community. Countless individuals have contributed in one way or another over time, and we'd love to welcome you as one of them!
 
+| Foo | Bar |
 | - | - |
 | [GitHub](https://github.com/remotestorage) | Where we collaborate on the protocol specification as well as all common source code. |
 | [Forums](https://community.remotestorage.io) | Our community exchange and support site for everybody from users to developers to providers. |
-| [IRC](https://web.libera.chat/#remotestorage) | Some community members are hanging out in #remotestorage on Libera.Chat — say hi! |
 | [Twitter](https://twitter.com/remotestorage_) / [Fediverse](https://kosmos.social/@remotestorage) | Follow the project on Twitter or on the Fediverse, to receive updates on releases, events, apps, and related news. |
 | [Mailing List](https://buttondown.email/remotestorage)| A monthly digest about remoteStorage apps, tools, and decentralized news. |
 | [Events](https://community.remotestorage.io/c/events) | Meet people in person at conferences, hackathons, camps, and other gatherings. |
@@ -118,14 +101,6 @@ We would love for you to get involved — check out [What can I do for remoteSto
 
 ## Thank you to our contributors!
 
-<ul class="list-style-none mt-4">
-{% for contributor in site.github.organization_members %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
-
 ... and everyone not listed here!
 
 <div style="display: flex; align-items: center; padding-top: 1rem; padding-bottom: 1rem">
@@ -133,9 +108,7 @@ We would love for you to get involved — check out [What can I do for remoteSto
   <span>For everybody from users to developers to providers.</span>
 </div>
 
----
-
-# Sponsors
+## Sponsors
 
 <div class="sponsors">
   <p>

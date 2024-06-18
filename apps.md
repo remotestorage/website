@@ -1,8 +1,3 @@
----
-title: Apps
-nav_order: 4
----
-
 # Apps
 
 The following is a list of known apps that have integrated RS as a
