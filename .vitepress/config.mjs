@@ -6,7 +6,7 @@ export default defineConfig({
   description: "An open protocol for per-user storage on the Web",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "img/icon.svg",
+    logo: "/img/icon.svg",
 
     nav: [
       { text: 'Home', link: '/' },
