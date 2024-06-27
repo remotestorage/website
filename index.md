@@ -24,29 +24,18 @@ features:
     details: "Use the same data across different apps. Create a to-do list in one app, and track the time on your tasks in another one. Say goodbye to app-specific data silos."
   - title: Go offline
     details: "Most remoteStorage-enabled apps come with first-class offline support. Use your apps offline on the go, and automatically sync when you're back online."
+
+devFeaturesTitle: For App Developers 🚧
+devFeatures:
+  - title: Backend as a Service
+    details: "Develop your web app without worrying about hosting or even developing the backend for it: your users will connect their own backend at runtime."
+  - title: Infinite scalability
+    details: "No matter if 5 hundred or 5 million users are using your app, your backend scales automatically and never costs you a single cent."
+  - title: JS client library
+    details: "remoteStorage.js is a JavaScript (and TypeScript) library that does most of the heavy lifting to add offline storage and cross-device synchronization to your apps. No more worrying about accounts, databases, passwords, etc.."
+    link: https://remotestoragejs.readthedocs.io
+    linkText: Read the documentation
 ---
-
-## For developers
-
-### Backend as a Service
-
-Develop your web app without worrying about hosting or even developing the backend for it: your users will connect their own backend at runtime.
-
-### Infinite Scalability
-
-No matter if 5 hundred or 5 million users are using your app, your backend scales automatically and never costs you a single cent.
-
-[Browse apps](./apps.html) [Get storage](./get.html)
-
-### JS library
-
-remoteStorage.js is a JavaScript (and TypeScript) library that does most of the
-heavy lifting to add offline storage and cross-device synchronization to your
-apps. No more worrying about accounts, databases, passwords, etc..
-
-
-
-[Read the documentation](https://remotestoragejs.readthedocs.io) [Protocol details](/)
 
 ## Community
 

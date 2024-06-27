@@ -1,13 +1,3 @@
-<template>
-  <ul class="contributors">
-    <li v-for="contributor in contributors" :key="contributor.github" class="contributor">
-      <a :href="contributor.github" target="_blank" rel="noopener noreferrer">
-        <img :src="contributor.avatar" :alt="contributor.name" class="avatar" />
-      </a>
-    </li>
-  </ul>
-</template>
-
 <script setup>
 import { ref, onMounted } from 'vue'
 
@@ -23,6 +13,17 @@ onMounted(async () => {
   }
 })
 </script>
+
+<template>
+  <ul class="contributors">
+    <li v-for="contributor in contributors" :key="contributor.github" class="contributor">
+      <a :href="contributor.github" target="_blank" rel="noopener noreferrer">
+        <img :src="contributor.avatar" :alt="contributor.name" class="avatar" />
+      </a>
+    </li>
+  </ul>
+</template>
+
 
 <style scoped>
 .contributors {
