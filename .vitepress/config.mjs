@@ -11,6 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting started', link: '/get' },
+      { text: 'remoteStorage.js', link: '/rs.js' },
     ],
 
     sidebar: {
