@@ -91,11 +91,12 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+  /* --vp-home-hero-name-color: #ff4b03; */
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
+    270deg,
+    #ff6d32 30%,
+    #ff4b03
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
