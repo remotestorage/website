@@ -15,7 +15,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // app.component('DeveloperFeatures', DeveloperFeatures)
     app.component('Contributors', Contributors)
   }
 }
