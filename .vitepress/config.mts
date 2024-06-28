@@ -1,4 +1,25 @@
 import { defineConfig } from 'vitepress'
+import rsjsConfig from '../rs.js/docs/.vitepress/config.mts'
+
+type Item = {
+  text: string;
+  link: string;
+  items?: Item[];
+};
+
+const prefixLinks = (array: Item[], prefix: string) => {
+  array.forEach(item => {
+    if (item.link) {
+      item.link = prefix + item.link;
+    }
+    if (item.items) {
+      prefixLinks(item.items, prefix);
+    }
+  });
+};
+
+const rsjsSidebarConfig = rsjsConfig.themeConfig.sidebar
+prefixLinks(rsjsSidebarConfig, '/rs.js/docs')
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,7 +32,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting started', link: '/get' },
-      { text: 'remoteStorage.js', link: '/rs.js' },
+      { text: 'remoteStorage.js', link: '/rs.js/docs' },
     ],
 
     sidebar: {
@@ -32,15 +53,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/rs.js/': [
-        {
-          text: 'Examples',
-          items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
-          ]
-        }
-      ],
+      '/rs.js/': rsjsSidebarConfig
     },
 
     socialLinks: [
