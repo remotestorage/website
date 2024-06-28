@@ -28,7 +28,7 @@ export default defineConfig({
             { text: 'Apps', link: '/apps' },
             { text: 'Servers', link: '/servers' },
             { text: 'Contribute', link: '/contribute' },
-            { text: 'Design', link: '/contribute' },
+            { text: 'Design', link: '/design' },
           ]
         }
       ],
