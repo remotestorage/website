@@ -51,7 +51,7 @@ export default defineConfig({
     editLink: {
       pattern: ({ filePath }) => {
         if (filePath.startsWith('rs.js/')) {
-          return ``
+          return `https://github.com/remotestorage/remotestorage.js/edit/master/${filePath}`
         } else {
           return `https://github.com/remotestorage/website/edit/master/${filePath}`
         }
