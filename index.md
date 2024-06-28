@@ -27,21 +27,21 @@ features:
 
 devFeaturesTitle: For App Developers 🚧
 devFeatures:
-  - title: Backend as a Service
-    details: "Develop your web app without worrying about hosting or even developing the backend for it: your users will connect their own backend at runtime."
-  - title: Infinite scalability
-    details: "No matter if 5 hundred or 5 million users are using your app, your backend scales automatically and never costs you a single cent."
+  - title: Backend as a service
+    details: "Develop your web app without worrying about hosting or developing a backend for it. Your users will connect their own backend at runtime. No more worrying about accounts, databases, passwords, etc."
+  - title: Infinite scalability, zero cost
+    details: "No matter if 5 hundred or 5 million people are using your app, your backend scales automatically and never costs you a single cent."
   - title: JS client library
-    details: "remoteStorage.js is a JavaScript (and TypeScript) library that does most of the heavy lifting to add offline storage and cross-device synchronization to your apps. No more worrying about accounts, databases, passwords, etc.."
-    link: https://remotestoragejs.readthedocs.io
-    linkText: Read the documentation
+    details: "remoteStorage.js is a JavaScript/TypeScript library that does the heavy lifting to add offline storage and cross-device synchronization to your apps."
+    link: /rs.js/
+    linkText: Learn more
 ---
 
 ## Community
 
 remoteStorage is a grass-roots standard, developed completely in the open, by the community for the community. Countless individuals have contributed in one way or another over time, and we'd love to welcome you as one of them!
 
-| Foo | Bar |
+| | |
 | - | - |
 | [GitHub](https://github.com/remotestorage) | Where we collaborate on the protocol specification as well as all common source code. |
 | [Forums](https://community.remotestorage.io) | Our community exchange and support site for everybody from users to developers to providers. |
