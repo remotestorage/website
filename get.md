@@ -1,4 +1,4 @@
-# Getting Started
+# Getting started
 
 Here's how to use an app that allows you to connect your own storage account.
 
