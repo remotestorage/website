@@ -28,11 +28,14 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/img/icon.svg",
+    externalLinkIcon: true,
+    outline: { level: [2, 3] },
 
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting started', link: '/get' },
       { text: 'remoteStorage.js', link: '/rs.js/docs' },
+      { text: 'Forums', link: 'https://community.remotestorage.io' },
     ],
 
     sidebar: {
