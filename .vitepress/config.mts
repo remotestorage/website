@@ -25,6 +25,8 @@ prefixLinks(rsjsSidebarConfig, '/rs.js/docs')
 export default defineConfig({
   title: "remoteStorage",
   description: "An open protocol for per-user storage on the Web",
+  outDir: "dist",
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/img/icon.svg",
