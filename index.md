@@ -83,10 +83,6 @@ We would love for you to get involved — check out [What can I do for remoteSto
 </div>
 
 <style>
-:root {
-  --OLSKSharedPadding: 10px;
-}
-
 .sponsors {
   display: inline-grid;
   grid-template-columns: repeat(2, auto);
@@ -98,28 +94,5 @@ We would love for you to get involved — check out [What can I do for remoteSto
 }
 .sponsors p a img {
   max-width: 128px;
-}
-
-/* OLSKCommonCard */
-
-.OLSKCommonCard {
-  display: flex;
-  align-items: center;
-}
-
-.OLSKCommonCard > img, .OLSKCommonCard > a img {
-  --OLSKCommonCardImageSize: 70px;
-
-  width: var(--OLSKCommonCardImageSize);
-  min-width: var(--OLSKCommonCardImageSize);
-
-  margin-right: calc(var(--OLSKSharedPadding) * 2);
-}
-
-.OLSKCommonCard > :last-child > :nth-child(1) {
-  display: block;
-
-  font-weight: bold;
-  font-family: var(--OLSKCommonHeadingFontFamily);
 }
 </style>
