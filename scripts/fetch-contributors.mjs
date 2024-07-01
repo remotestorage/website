@@ -20,7 +20,7 @@ const repositories = [
   'remotestorage/ember-cli-remotestorage',
 ];
 
-const filename = './data/contributors.json';
+const filename = './public/data/contributors.json';
 
 const ignoredUsernames = [
   'dependabot',
