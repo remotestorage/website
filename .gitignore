@@ -1,3 +1,5 @@
+.vitepress/dist
+.vitepress/cache
 _site
 node_modules
 tmp

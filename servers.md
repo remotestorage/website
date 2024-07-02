@@ -1,8 +1,3 @@
----
-title: Servers
-nav_order: 5
----
-
 # Servers
 
 ## Hosted

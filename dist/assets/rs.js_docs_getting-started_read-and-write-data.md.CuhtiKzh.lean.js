@@ -1,0 +1,11 @@
+import{_ as a,c as n,o,j as e,a as t,a4 as i}from"./chunks/framework.Bi9zwDUp.js";const T=JSON.parse('{"title":"Reading and writing data","description":"","frontmatter":{},"headers":[],"relativePath":"rs.js/docs/getting-started/read-and-write-data.md","filePath":"rs.js/docs/getting-started/read-and-write-data.md"}'),s={name:"rs.js/docs/getting-started/read-and-write-data.md"},d=e("h1",{id:"reading-and-writing-data",tabindex:"-1"},[t("Reading and writing data "),e("a",{class:"header-anchor",href:"#reading-and-writing-data","aria-label":'Permalink to "Reading and writing data"'},"​")],-1),r=e("p",null,[t("As soon as your "),e("code",{class:"interpreted-text",role:"doc"},"RemoteStorage </js-api/remotestorage>"),t(" instance is ready for action (signaled by the "),e("code",null,"ready"),t(" event), we can start reading and writing data.")],-1),c=i("",7),l=e("p",null,[t("This should mainly be used for manually exploring client functions and in development. Using "),e("code",{class:"interpreted-text",role:"func"},"scope"),t(", you can create a new BaseClient scoped to a given path:")],-1),h=e("pre",null,[e("code",null,`const client = remoteStorage.scope('/foo/');
+
+// List all items in the "foo/" category/folder
+client.getListing('')
+  .then(listing => console.log(listing));
+
+// Write some text to "foo/bar.txt"
+const content = 'The most simple things can bring the most happiness.'
+client.storeFile('text/plain', 'bar.txt', content)
+  .then(() => console.log("data has been saved"));
+`)],-1),u=e("h3",{id:"the-recommended-way-using-clients-in-data-modules",tabindex:"-1"},[t("The recommended way: using clients in data modules "),e("a",{class:"header-anchor",href:"#the-recommended-way-using-clients-in-data-modules","aria-label":'Permalink to "The recommended way: using clients in data modules"'},"​")],-1),g=e("p",null,[t("The recommended way is to use the private and public "),e("code",null,"BaseClient"),t(" instances, which are available in so-called "),e("code",{class:"interpreted-text",role:"doc"},"data modules </data-modules>"),t(". Continue to the next section in order to learn about them.")],-1),m=e("p",null,[e("strong",null,"Footnotes")],-1),p=[d,r,c,l,h,u,g,m];function _(f,y,b,w,x,v){return o(),n("div",null,p)}const k=a(s,[["render",_]]);export{T as __pageData,k as default};
