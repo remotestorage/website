@@ -33,7 +33,7 @@ devFeatures:
     details: "No matter if 5 hundred or 5 million people are using your app, your backend scales automatically and never costs you a single cent."
   - title: JS client library
     details: "remoteStorage.js is a JavaScript/TypeScript library that does the heavy lifting to add offline storage and cross-device synchronization to your apps."
-    link: /rs.js/
+    link: /rs.js/docs/
     linkText: Learn more
 ---
 
