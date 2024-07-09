@@ -82,5 +82,12 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
+  },
+
+  async transformPageData(pageData, { siteConfig }) {
+    if (pageData.relativePath.startsWith('rs.js')) {
+      pageData.titleTemplate = 'remoteStorage.js'
+    }
+    return pageData;
   }
 })
