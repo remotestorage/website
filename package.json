@@ -12,7 +12,7 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "author": "",
+  "author": "remoteStorage Contributors",
   "license": "MIT",
   "devDependencies": {
     "node-fetch": "^3.3.2",
