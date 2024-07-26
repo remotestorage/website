@@ -10,12 +10,13 @@ remoteStorage.js documentation via a Git submodule.
 
 ### Setup
 
-With [Git](https://git-scm.com) and [node.js](https://nodejs.org) installed...
+With [Git](https://git-scm.com) and [node.js](https://nodejs.org) installed,
+and an SSH key associated with your GitHub account...
 
 Clone this repo:
 
 ```sh
-git clone https://github.com/remotestorage/website.git
+git clone git@github.com:remotestorage/website.git
 cd website
 ```
 
