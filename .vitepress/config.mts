@@ -27,8 +27,9 @@ export default defineConfig({
   description: "An open protocol for per-user storage on the Web",
   outDir: "dist",
   srcExclude: ['./wiki', './rs.js/*.md'],
-  // TODO ignoreDeadLinks: 'localhostLinks',
-  ignoreDeadLinks: true,
+  ignoreDeadLinks: [
+    /^http:\/\/localhost/,
+  ],
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
