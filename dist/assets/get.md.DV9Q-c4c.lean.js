@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a5 as o}from"./chunks/framework.CTkMpXT2.js";const d=JSON.parse('{"title":"Getting started","description":"","frontmatter":{},"headers":[],"relativePath":"get.md","filePath":"get.md"}'),r={name:"get.md"},s=o("",7),n=[s];function c(i,p,u,h,l,g){return a(),t("div",null,n)}const _=e(r,[["render",c]]);export{d as __pageData,_ as default};

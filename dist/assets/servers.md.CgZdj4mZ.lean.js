@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as t,a5 as a}from"./chunks/framework.CTkMpXT2.js";const p=JSON.parse('{"title":"Servers","description":"","frontmatter":{},"headers":[],"relativePath":"servers.md","filePath":"servers.md"}'),o={name:"servers.md"},s=a("",18),n=[s];function i(l,h,c,m,u,d){return t(),r("div",null,n)}const f=e(o,[["render",i]]);export{p as __pageData,f as default};

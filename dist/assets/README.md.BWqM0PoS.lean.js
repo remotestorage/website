@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,a5 as s}from"./chunks/framework.CTkMpXT2.js";const k=JSON.parse('{"title":"remotestorage.io","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),i={name:"README.md"},n=s("",17),o=[n];function l(r,h,p,d,c,u){return t(),a("div",null,o)}const m=e(i,[["render",l]]);export{k as __pageData,m as default};

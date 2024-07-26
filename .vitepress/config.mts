@@ -25,7 +25,6 @@ prefixLinks(rsjsSidebarConfig, '/rs.js/docs')
 export default defineConfig({
   title: "remoteStorage",
   description: "An open protocol for per-user storage on the Web",
-  outDir: "dist",
   srcExclude: ['./wiki', './rs.js/*.md'],
   ignoreDeadLinks: [
     /^http:\/\/localhost/,
