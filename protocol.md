@@ -12,9 +12,11 @@ give them a user address, which looks the same as an email or XMPP address
 (and could be one, too). With that address, apps retrieve storage information
 for the username on that domain/host.
 
-[Check out a live example for a 5apps user](https://client.webfinger.net/lookup?resource=tony%405apps.com).
+<img src="/img/webfinger-connect.png"
+     role="presentation" style="height: 200px; padding: 20px;" />
 
-<img src="/img/webfinger-connect.png" role="presentation" />
+[Check out a live example for a 5apps
+user](https://client.webfinger.net/lookup?resource=tony%405apps.com).
 
 ## Authorization: [OAuth 2.0](https://oauth.net/)
 
@@ -28,7 +30,8 @@ read/write access to the "documents" category, using the OAuth scope
 which it can read and write to your storage, until you revoke that access on
 your server.
 
-<img src="/img/oauth-dialog.png" role="presentation" />
+<img src="/img/oauth-dialog.png"
+     role="presentation" style="height: 340px; padding: 20px;" />
 
 ## Data Storage & Sync: [HTTP REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
@@ -42,7 +45,8 @@ content type and size, as well as ETags, which can be used to implement sync
 mechanisms. The files and listings themselves also carry ETag headers for
 sync/caching and conditional requests.
 
-<img src="/img/screenshot-folder-description.png" role="presentation" />
+<img src="/img/screenshot-folder-description.png"
+     role="presentation" style="height: 340px; padding: 20px;" />
 
 ## Specification
 
