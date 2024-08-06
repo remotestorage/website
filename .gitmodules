@@ -1,4 +1,4 @@
 [submodule "rs.js"]
 	path = rs.js
 	url = git@github.com:remotestorage/remotestorage.js.git
-	branch = feature/docs_migration
+	branch = master
