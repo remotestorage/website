@@ -1,32 +1,44 @@
 # remotestorage.io
 
 This is the remoteStorage website, running on
-[https://remotestorage.io](https://remotestorage.io).
+[remotestorage.io](https://remotestorage.io).
 
 ## Development
 
-The website is built using [Jekyll](https://jekyllrb.com/) and the
-[Just the Docs](https://pmarsceill.github.io/just-the-docs/) theme.
+The website is built using [VitePress](https://vitepress.dev/).It includes the
+remoteStorage.js documentation via a Git submodule.
 
 ### Setup
 
-With [Git](https://git-scm.com) and
-[Ruby 2.5 - 2.7](https://www.ruby-lang.org/en/documentation/installation) installed,
-run the following command to install dependencies:
+With [Git](https://git-scm.com) and [node.js](https://nodejs.org) installed,
+and an SSH key associated with your GitHub account...
 
+Clone this repo:
+
+```sh
+git clone git@github.com:remotestorage/website.git
+cd website
 ```
-bundle install
+
+Initialize and fetch the rs.js submodule:
+
+```sh
+git submodule update --init
+```
+
+Install the dependencies:
+
+```sh
+npm install
 ```
 
 ### Running
 
-Run the following command to build the static site to `/_site` and make it
-accessible at
-<a href="http://localhost:4000" target="_blank">http://localhost:4000</a>.
-Changes to `.md` files should be visible automatically without refreshing.
+Run the local dev server, which automatically updates the local preview site
+whenever documents are saved:
 
 ```
-bundle exec jekyll serve
+npm run docs:dev
 ```
 
 ### Deployment

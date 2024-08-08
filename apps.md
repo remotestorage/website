@@ -1,8 +1,3 @@
----
-title: Apps
-nav_order: 4
----
-
 # Apps
 
 The following is a list of known apps that have integrated RS as a
@@ -16,6 +11,7 @@ may be outdated.
 ### Productivity / Office
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
 | [Papiers](https://papiers.gitlab.io/) | A simple but powerful note-taking app that syncs with your own cloud. | Notes | [GitLab](https://gitlab.com/papiers) | Full [PWA](https://papiers.gitlab.io/) |
 | [Todonna](https://todonna.gitlab.io/) | A simple but powerful Todo app that syncs with your own cloud. | Todo | [GitLab](https://gitlab.com/todonna) | Full [PWA](https://todonna.gitlab.io/) |
 | [Litewrite](https://litewrite.net) | A distraction-free app for simple note taking and writing | documents / [Documents](https://github.com/litewrite/remotestorage-module-documents) | [GitHub](https://github.com/litewrite/litewrite) | [Chrome Web Store](https://chrome.google.com/webstore/detail/litewrite/cbdonnipllnmnkbmeopncohocjggmdkk) Works well on mobile and desktop |
@@ -33,6 +29,7 @@ may be outdated.
 ### Site Builder / Wiki
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
 | [Hyperdraft](https://hyperdraft.rosano.ca) | Turn your text notes into a website. | wikiavec | [GitHub](https://github.com/wikiavec/hyperdraft) | Works well on mobile and desktop |
 | [TiddlyWiki remoteStorage](https://tiddly.alhur.es/#%24%3A%2Fplugins%2Ffiatjaf%2FremoteStorage) | A [TiddlyWiki](https://tiddlywiki.com/) plugin that enables saving of individual tiddlers to remoteStorage. | tiddlers | [GitHub](https://github.com/fiatjaf/tiddlywiki-remotestorage) | A hosted version you can edit and share without installing anything is available on [https://tiddly.alhur.es/](https://tiddly.alhur.es/) |
 | [QuikWik](https://quik-wik.5apps.com/) | A small and simple Wiki which uses Markdown syntax and stores data in localStorage and remoteStorage. | wiki | [GitHub](https://github.com/maheee/QuikWik) | 
@@ -40,12 +37,14 @@ may be outdated.
 ### Learning / Self-Improvement
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
 | [Kommit](https://kommit.rosano.ca) | Flashcards with spaced-repetition | kommit | [GitHub](https://github.com/kommitapp/kommit) | Works well on mobile and desktop |
 | [Emoji Log](https://emojilog.rosano.ca) | Personal tracker organized with emoji | emojilog | [GitHub](https://github.com/emojilog/emojilog) | Works well on mobile and desktop |
 
 ### Media Consumption
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
 | [Pétrolette](https://petrolette.space/) | A news aggregator / Web page that syncs using Remote Storage | petrolette  | [GitLab](https://framagit.org/yphil/petrolett) | Works well on mobile and desktop |
 | [Àlir](https://alir.5apps.com) | Read-later app | alir | forked on [GitHub](https://github.com/rosano/alir) | Designed for mobiles, works offline |
 | [Joybox](https://joybox.rosano.ca) | A pinboard for audiovisual media. | joybox | [GitHub](https://github.com/joyboxapp/joybox) | Works well on mobile and desktop |
@@ -55,6 +54,7 @@ may be outdated.
 ### Finance
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
 | [hledger interactive](https://hledger.alhur.es/) | Parser and playground for [hledger](https://hledger.org) journals. | finance | [GitHub](https://github.com/fiatjaf/d) | Can save and load multiple journals to/from remoteStorage |
 | [Grouptabs](https://grouptabs.5apps.com) | Track expenses in a group of people | gruppenkasse | [GitHub](https://github.com/xMartin/grouptabs) | Best on mobile; needs shared storage account if you want to use it with a group |
 | [Road To FIRE](https://roadtofire.iliviu.me/) | A portfolio manager app for your stocks, ETFs, mutual funds, bonds, cryptocurrencies, commodities, P2P loans and real estate | asset-portfolio | [GitHub](https://github.com/iLiviu/road-to-fire) | Works well on mobile and desktop |
@@ -62,12 +62,14 @@ may be outdated.
 ### Password
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
 | [LessPass remoteStorage](https://lesspass.alhur.es/) | A new, faster [LessPass](https://lesspass.com/) widget that does autofill and saves options on remoteStorage. | lesspass | [GitHub](https://github.com/fiatjaf/lesspass-remotestorage) | [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/lesspass-remotestorage/) Save password profiles based on the domain you are; supports multiple profiles for each domain |
 | [PfP: Pain-free Passwords](https://pfp.works/) | A secure and convenient password manager that keeps you in control of your data. | pfp | [GitHub](https://github.com/palant/pfp/) | [Firefox Add-on](https://addons.mozilla.org/addon/easy-passwords/) [Chrome Extension](https://chrome.google.com/webstore/detail/pfp-pain-free-passwords/hplhaekjfmjfnfdllkpjpeenlbclffgh) [Opera Add-on](https://addons.opera.com/en/extensions/details/easy-passwords/) Syncs any number of devices via remoteStorage as long as they share the same master password; remoteStorage server doesn't have to be trusted, data is fully encrypted |
 
 ### Miscellaneous
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
 | [Launchlet](https://launchlet.dev) | Run custom JavaScript or CSS on any website via bookmarklet or extension. | launchlet | [GitHub](https://github.com/launchlet/launchlet) | [Chrome Extension](https://chrome.google.com/webstore/detail/launchlet/gmgfdkajnjplpjmodjmmmkfkpjdjgnlf) [Safari Extension](https://github.com/launchlet/launchlet-extension) Works via bookmarklet or browser extension; mostly works on mobile, but best on desktop |
 | [Sharesome](https://sharesome.5apps.com/) | Share files quickly from your remote storage | shares | [GitHub](https://github.com/skddc/sharesome) | Best on desktop |
 | [Webmarks](https://webmarks.5apps.com) | Archive your bookmarks in remoteStorage | bookmarks / [bookmarks](https://www.npmjs.com/package/@remotestorage/module-bookmarks) | [GitHub](https://github.com/skddc/webmarks) | Best on desktop |
@@ -80,6 +82,7 @@ may be outdated.
 ### Sample / Tutorial
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
 | [My Favorite Drinks](https://myfavoritedrinks.remotestorage.io) | Keep a list of your favorite drinks | myfavoritedrinks | [GitHub](https://github.com/RemoteStorage/myfavoritedrinks) | Simple demo app, maintained by rs.js devs |
 | [Hello](https://hello.0data.app) | Simple Hello World with remoteStorage, Solid, and Fission | todos  | [GitHub](https://github.com/0dataapp/hello) | Works well on mobile and desktop |
 | [Lucchetto Onboard](https://overhide.github.io/armadietto/lucchetto/onboard.html) | Enables in-app purchase SKU onboarding for [luchetto.js](https://www.npmjs.com/package/lucchetto/v/latest) extended RS apps | pay2my.app | [GitHub](https://github.com/overhide/armadietto/blob/master/lucchetto/onboard.html) | wide screens only; featured in the [remote-storage tutorial](https://github.com/overhide/remotestorage-tutorial) |
@@ -89,14 +92,14 @@ may be outdated.
 
 ## CLI applications, daemons, libraries
 
-| Name                                                                            | Description                                                                             | Scope / Module              | Source Code                                                  | Store/Catalog Links                             | Comments/Notes   |
-| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------ | ----------------------------------------------- | ---------------- |
-| [remote-storage-uploader](http://github.com/fkooman/remote-storage-uploader)    | Send files to public upload folder                                                      | upload                          | [GitHub](https://github.com/fkooman/remote-storage-uploader) |                                                 | Written in PHP   |
-| [rs-backup](https://www.npmjs.com/package/rs-backup)                            | Backup and restore data from/to RS accounts                                             | \*                              | [GitHub](https://github.com/skddc/rs-backup)                 | [NPM](https://www.npmjs.com/package/rs-backup)  | Based on node.js |
-| [remotestorage-fuse](https://github.com/remotestorage/fuse)                     | Allows you to access data on any RS-compatible server via the regular filesystem        | \*                              | [GitHub](https://github.com/remotestorage/fuse)              |                                                 |                  |
-| [hubot-remotestorage-logger](https://github.com/67P/hubot-remotestorage-logger) | Logs chat messages from Hubot daemons to remoteStorage accounts                         | chat-messages / [remotestorage-module-chat-messages](https://www.npmjs.com/package/remotestorage-module-chat-messages)                  | [GitHub](https://github.com/67P/hubot-remotestorage-logger)  |                                                 |                  |
-| [rs-messages-importer](https://github.com/67P/rs-messages-importer)             | CLI for importing log archives (currently only ZNC) to remoteStorage                    | chat-messages                   | [GitHub](https://github.com/67P/rs-messages-importer)        |                                                 |                  |
-| [Unifile](https://github.com/silexlabs/unifile)                                 | Node.js library to access cloud storage services with a common API                      |                                 | [GitHub](https://github.com/silexlabs/unifile)               |                                                 |                  |
+| Name | Description | Scope / Module | Source Code | Store/Catalog Links | Comments/Notes |
+| - | - | - | - | - | - |
+| [remote-storage-uploader](http://github.com/fkooman/remote-storage-uploader) | Send files to public upload folder | upload | [GitHub](https://github.com/fkooman/remote-storage-uploader) | | Written in PHP |
+| [rs-backup](https://www.npmjs.com/package/rs-backup) | Backup and restore data from/to RS accounts | \* | [GitHub](https://github.com/skddc/rs-backup) | [NPM](https://www.npmjs.com/package/rs-backup) | Based on node.js |
+| [remotestorage-fuse](https://github.com/remotestorage/fuse) | Allows you to access data on any RS-compatible server via the regular filesystem | \* | [GitHub](https://github.com/remotestorage/fuse) | |
+| [hubot-remotestorage-logger](https://github.com/67P/hubot-remotestorage-logger) | Logs chat messages from Hubot daemons to remoteStorage accounts | chat-messages / [remotestorage-module-chat-messages](https://www.npmjs.com/package/remotestorage-module-chat-messages)                  | [GitHub](https://github.com/67P/hubot-remotestorage-logger)  |                                                 |                  |
+| [rs-messages-importer](https://github.com/67P/rs-messages-importer) | CLI for importing log archives (currently only ZNC) to remoteStorage | chat-messages | [GitHub](https://github.com/67P/rs-messages-importer)        |                                                 |                  |
+| [Unifile](https://github.com/silexlabs/unifile) | | | | | |
 
 ## Notes
 
