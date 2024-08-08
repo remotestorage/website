@@ -5,8 +5,9 @@ This is the remoteStorage website, running on
 
 ## Development
 
-The website is built using [VitePress](https://vitepress.dev/).It includes the
-remoteStorage.js documentation via a Git submodule.
+The website is built using [VitePress](https://vitepress.dev/). It includes the
+[remoteStorage.js](https://github.com/remotestorage/remotestorage.js)
+documentation via a Git submodule.
 
 ### Setup
 
