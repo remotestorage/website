@@ -86,6 +86,7 @@ may be outdated.
 | [My Favorite Drinks](https://myfavoritedrinks.remotestorage.io) | Keep a list of your favorite drinks | myfavoritedrinks | [GitHub](https://github.com/RemoteStorage/myfavoritedrinks) | Simple demo app, maintained by rs.js devs |
 | [Hello](https://hello.0data.app) | Simple Hello World with remoteStorage, Solid, and Fission | todos  | [GitHub](https://github.com/0dataapp/hello) | Works well on mobile and desktop |
 | [Lucchetto Onboard](https://overhide.github.io/armadietto/lucchetto/onboard.html) | Enables in-app purchase SKU onboarding for [luchetto.js](https://www.npmjs.com/package/lucchetto/v/latest) extended RS apps | pay2my.app | [GitHub](https://github.com/overhide/armadietto/blob/master/lucchetto/onboard.html) | wide screens only; featured in the [remote-storage tutorial](https://github.com/overhide/remotestorage-tutorial) |
+| [AFRAME XR component](https://aframe-remotestorage.5apps.com) | Startingpoint to load/store (Web)XR scenes from/to remoteStorage | VR/AR | [Codeberg](https://codeberg.org/coderofsalvation/aframe-remotestorage) | works on mobile, desktop & VR/AR headsets |
 
 <!-- | [0data Proof](https://proof.0data.app) | Sample app that integrates with multiple protocols | | [GitHub](https://github.com/0dataapp/proof) | Works well on mobile and desktop | -->
 
