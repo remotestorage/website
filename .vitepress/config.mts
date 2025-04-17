@@ -93,5 +93,19 @@ export default defineConfig({
       pageData.titleTemplate = 'remoteStorage.js'
     }
     return pageData;
+  },
+
+  async transformHtml(code, id, ctx) {
+    if (id.endsWith('404.html')) {
+      const redirectScript = `
+        <script>
+          if (window.location.pathname.endsWith('/') && window.location.pathname !== '/') {
+            window.location.replace(window.location.pathname.slice(0, -1));
+          }
+        </script>
+      `;
+      return code.replace('</head>', `${redirectScript}</head>`);
+    }
+    return code;
   }
 })
