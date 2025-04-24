@@ -78,7 +78,7 @@ may be outdated.
 | [RS Location](https://rs-locate.5apps.com) | Proof-of-concept app for updating one's location profile |  profile, api-keys | [Gitea](https://gitea.kosmos.org/raucao/rs-location) | [More details](https://community.remotestorage.io/t/public-protocols/627/3?u=raucao) |
 | [RS Inspektor](https://inspektor.5apps.com/) | A simple file browser for remoteStorage accounts | * | [GitLab](https://gitlab.com/skddc/inspektor) | Best on desktop |
 | [Waves](https://waves.kosmos.org/) | Log viewer for chat logs stored in RS via the chat-messages module (e.g. logged by hubot-remotestorage-logger or imported via rs-messages-importer) | chat-messages | [GitHub](https://github.com/67P/waves) | Works well on mobile and desktop |
-| [SearXR](https://searxr.me) | WebXR metasearch engine allows storing favorites to RS | WebXR | [GitHub]([https://github.com/67P/waves](https://gitlab.com/searxr/aframe-searxr)) | Works well on mobile, desktop and XR headset |
+| [SearXR](https://searxr.me) | WebXR metasearch engine allows storing favorites to RS | WebXR | [GitLab](https://gitlab.com/searxr/aframe-searxr) | Works well on mobile, desktop and XR headset |
 
 
 ### Sample / Tutorial
