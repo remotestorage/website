@@ -4,20 +4,21 @@
 
   - [5apps Storage](https://5apps.com/storage/beta) is a commercial
     remoteStorage provider that currently offers free storage accounts.
-  - [IndieHosters](https://indie.host/) offers (paid) managed hosting of
-    remoteStorage on both shared and custom domains.
+  - [Kosmos](https://kosmos.org) is an open-source cooperative that runs
+    hosted Internet services, including remoteStorage. Signups currently by
+    invitation only.
 
 ## Host your own
 
+  - [armadietto](https://github.com/remotestorage/armadietto/) is a
+    remoteStorage server based on node.js
   - [php-remote-storage](https://git.sr.ht/~fkooman/php-remote-storage)
     is a remoteStorage server written in PHP. ([Docker
     image](https://github.com/libresh/compose-remotestorage))
   - [mysteryshack](https://github.com/untitaker/mysteryshack) is a
     remoteStorage server written in Rust. ([Docker
     image](https://hub.docker.com/r/bnjbvr/mysteryshack-docker/))
-  - [armadietto](https://github.com/remotestorage/armadietto/) is a
-    remoteStorage server based on node.js
-  - [armadietto+lucchetto](https://github.com/overhide/armadietto/blob/master/lucchetto/README.md) 
+  - [armadietto+lucchetto](https://github.com/overhide/armadietto/blob/master/lucchetto/README.md)
     is an [armadietto](https://github.com/remotestorage/armadietto/) fork
     with middleware extensions including in-app purchase support ([Docker
     image](https://hub.docker.com/repository/docker/overhide/armadietto))
