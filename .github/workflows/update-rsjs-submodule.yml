@@ -20,5 +20,5 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git add .
-          git commit -m "Update rs.js to latest commit" || echo "No changes to commit"
+          git commit -m "Update rs.js" || echo "No changes to commit"
           git push
