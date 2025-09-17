@@ -22,7 +22,7 @@ may be outdated.
 | [chainbook.bit](https://chainbook.5apps.com/) | Unhosted address book/friend list, based on Namecoin and remoteStorage | chainbook | [GitHub](https://github.com/bumi/chainbook.bit) |
 | [Taskrs](https://taskrs.5apps.com/) | Tasks application that aims to be compatible with CalDAV | vdir_calendars | [GitHub](https://github.com/untitaker/taskrs) |
 | [Do Again](https://static.karl.berlin/doagain/) | A todo list for irregularly recurring todos. | doagain | |
-| [templates.alhur.es](https://templates.alhur.es/) | Mixes Markdown/HTML templates with YAML data and outputs the results. | templates | [GitHub](https://github.com/fiatjaf/templates) | Saves templates and data independently on remoteStorage; useful for printing stuff. |
+| [templates](https://templates.fiatjaf.com) | Mixes Markdown/HTML templates with YAML data and outputs the results. | templates | [GitHub](https://github.com/fiatjaf/templates) | Saves templates and data independently on remoteStorage; useful for printing stuff. |
 | [Recipe Boss](https://recipes.bhdouglass.com) | A simple recipe manager that makes your recipes work for you. | recipes, groceries, grocery_categories | [GitLab](https://gitlab.com/bhdouglass/recipe-boss) | |
 | [Team Tool Box](https://lduboeuf.github.io/team-tool-box/) | Build teams and assign members randomly. Useful for trainers, teachers, managers or anyone else who works with or within groups | teams | [GitHub](https://github.com/lduboeuf/team-tool-box) | 
 
@@ -31,7 +31,7 @@ may be outdated.
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
 | - | - | - | - | - |
 | [Hyperdraft](https://hyperdraft.rosano.ca) | Turn your text notes into a website. | wikiavec | [GitHub](https://github.com/wikiavec/hyperdraft) | Works well on mobile and desktop |
-| [TiddlyWiki remoteStorage](https://tiddly.alhur.es/#%24%3A%2Fplugins%2Ffiatjaf%2FremoteStorage) | A [TiddlyWiki](https://tiddlywiki.com/) plugin that enables saving of individual tiddlers to remoteStorage. | tiddlers | [GitHub](https://github.com/fiatjaf/tiddlywiki-remotestorage) | A hosted version you can edit and share without installing anything is available on [https://tiddly.alhur.es/](https://tiddly.alhur.es/) |
+| [TiddlyWiki remoteStorage](https://tiddly.fiatjaf.com/#%24%3A%2Fplugins%2Ffiatjaf%2FremoteStorage) | A [TiddlyWiki](https://tiddlywiki.com/) plugin that enables saving of individual tiddlers to remoteStorage. | tiddlers | [GitHub](https://github.com/fiatjaf/tiddlywiki-remotestorage) | A hosted version you can edit and share without installing anything is available on [https://tiddly.fiatjaf.com](https://tiddly.fiatjaf.com) |
 | [QuikWik](https://quik-wik.5apps.com/) | A small and simple Wiki which uses Markdown syntax and stores data in localStorage and remoteStorage. | wiki | [GitHub](https://github.com/maheee/QuikWik) | 
 
 ### Learning / Self-Improvement
@@ -55,7 +55,7 @@ may be outdated.
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
 | - | - | - | - | - |
-| [hledger interactive](https://hledger.alhur.es/) | Parser and playground for [hledger](https://hledger.org) journals. | finance | [GitHub](https://github.com/fiatjaf/d) | Can save and load multiple journals to/from remoteStorage |
+| [hledger interactive](https://hledger.fiatjaf.com) | Parser and playground for [hledger](https://hledger.org) journals. | finance | [GitHub](https://github.com/fiatjaf/hledger-web) | Can save and load multiple journals to/from remoteStorage |
 | [Grouptabs](https://grouptabs.5apps.com) | Track expenses in a group of people | gruppenkasse | [GitHub](https://github.com/xMartin/grouptabs) | Best on mobile; needs shared storage account if you want to use it with a group |
 | [Road To FIRE](https://roadtofire.iliviu.me/) | A portfolio manager app for your stocks, ETFs, mutual funds, bonds, cryptocurrencies, commodities, P2P loans and real estate | asset-portfolio | [GitHub](https://github.com/iLiviu/road-to-fire) | Works well on mobile and desktop |
 
@@ -63,7 +63,7 @@ may be outdated.
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
 | - | - | - | - | - |
-| [LessPass remoteStorage](https://lesspass.alhur.es/) | A new, faster [LessPass](https://lesspass.com/) widget that does autofill and saves options on remoteStorage. | lesspass | [GitHub](https://github.com/fiatjaf/lesspass-remotestorage) | [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/lesspass-remotestorage/) Save password profiles based on the domain you are; supports multiple profiles for each domain |
+| LessPass remoteStorage | A new, faster [LessPass](https://lesspass.com/) widget that does autofill and saves options on remoteStorage. | lesspass | [GitHub](https://github.com/fiatjaf/lesspass-remotestorage) | [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/lesspass-remotestorage/) Save password profiles based on the domain you are; supports multiple profiles for each domain |
 | [PfP: Pain-free Passwords](https://pfp.works/) | A secure and convenient password manager that keeps you in control of your data. | pfp | [GitHub](https://github.com/palant/pfp/) | [Firefox Add-on](https://addons.mozilla.org/addon/easy-passwords/) [Chrome Extension](https://chrome.google.com/webstore/detail/pfp-pain-free-passwords/hplhaekjfmjfnfdllkpjpeenlbclffgh) [Opera Add-on](https://addons.opera.com/en/extensions/details/easy-passwords/) Syncs any number of devices via remoteStorage as long as they share the same master password; remoteStorage server doesn't have to be trusted, data is fully encrypted |
 
 ### Miscellaneous
