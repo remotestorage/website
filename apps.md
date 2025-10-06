@@ -76,7 +76,7 @@ may be outdated.
 | memm | Browser extension to store and tag your bookmarks with remoteStorage support | bookmarks / [bookmarks](https://www.npmjs.com/package/@remotestorage/module-bookmarks) | [GitHub](https://github.com/lesion/memm) | Compatible with Webmarks |
 | BookmarkVault | Web extension for securely storing and syncing bookmarks (with backup to remoteStorage) | bookmarkvault | [GitLab](https://gitlab.com/zookatron/bookmarkvault) | [Chrome extension](https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma), data encrypted |
 | [RS Location](https://rs-locate.5apps.com) | Proof-of-concept app for updating one's location profile |  profile, api-keys | [Gitea](https://gitea.kosmos.org/raucao/rs-location) | [More details](https://community.remotestorage.io/t/public-protocols/627/3?u=raucao) |
-| [RS Inspektor](https://inspektor.5apps.com/) | A simple file browser for remoteStorage accounts | * | [GitLab](https://gitlab.com/skddc/inspektor) | Best on desktop |
+| [RS Inspektor](https://inspektor.5apps.com/) | A simple file browser for remoteStorage accounts | * | [Gitea](https://gitea.kosmos.org/raucao/inspektor) | Best on desktop |
 | [Waves](https://waves.kosmos.org/) | Log viewer for chat logs stored in RS via the chat-messages module (e.g. logged by hubot-remotestorage-logger or imported via rs-messages-importer) | chat-messages | [GitHub](https://github.com/67P/waves) | Works well on mobile and desktop |
 
 ### Sample / Tutorial
