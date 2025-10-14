@@ -12,6 +12,7 @@
 
   - [armadietto](https://github.com/remotestorage/armadietto/) is a
     remoteStorage server based on node.js
+  - [armadietto-cloudron](https://github.com/0dataapp/armadietto-cloudron): armadietto packaged for easy install on Cloudron
   - [php-remote-storage](https://git.sr.ht/~fkooman/php-remote-storage)
     is a remoteStorage server written in PHP. ([Docker
     image](https://github.com/libresh/compose-remotestorage))
