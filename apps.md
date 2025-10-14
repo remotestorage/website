@@ -22,6 +22,7 @@ may be outdated.
 | [chainbook.bit](https://chainbook.5apps.com/) | Unhosted address book/friend list, based on Namecoin and remoteStorage | chainbook | [GitHub](https://github.com/bumi/chainbook.bit) |
 | [Taskrs](https://taskrs.5apps.com/) | Tasks application that aims to be compatible with CalDAV | vdir_calendars | [GitHub](https://github.com/untitaker/taskrs) |
 | [Do Again](https://static.karl.berlin/doagain/) | A todo list for irregularly recurring todos. | doagain | |
+| [TodoMVC](https://todomvc.0data.app) | [TodoMVC](https://todomvc.com/examples/javascript-es5/dist/) integrated with remoteStorage.js | todos | [GitHub](https://github.com/0dataapp/todomvc) |
 | [templates](https://templates.fiatjaf.com) | Mixes Markdown/HTML templates with YAML data and outputs the results. | templates | [GitHub](https://github.com/fiatjaf/templates) | Saves templates and data independently on remoteStorage; useful for printing stuff. |
 | [Recipe Boss](https://recipes.bhdouglass.com) | A simple recipe manager that makes your recipes work for you. | recipes, groceries, grocery_categories | [GitLab](https://gitlab.com/bhdouglass/recipe-boss) | |
 | [Team Tool Box](https://lduboeuf.github.io/team-tool-box/) | Build teams and assign members randomly. Useful for trainers, teachers, managers or anyone else who works with or within groups | teams | [GitHub](https://github.com/lduboeuf/team-tool-box) | 
@@ -84,12 +85,12 @@ may be outdated.
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
 | - | - | - | - | - |
 | [My Favorite Drinks](https://myfavoritedrinks.remotestorage.io) | Keep a list of your favorite drinks | myfavoritedrinks | [GitHub](https://github.com/RemoteStorage/myfavoritedrinks) | Simple demo app, maintained by rs.js devs |
-| [Hello](https://hello.0data.app) | Simple Hello World with remoteStorage, Solid, and Fission | todos  | [GitHub](https://github.com/0dataapp/hello) | Works well on mobile and desktop |
+| [Checklist](https://checklist.0data.app) | Based on "My Favorite Drinks" but using todos | todos | [GitHub](https://github.com/0dataapp/checklist) | Simple demo app. |
+| [todos interop](https://todos-interop.0data.app) | multiple web apps synchronizing same module on the same page | todos | [GitHub](https://github.com/0dataapp/todos-interop) | Connect once to sync with multiple apps |
+| [Hello](https://hello.0data.app) | Simple Hello World with remoteStorage, Solid, and Fission | todos  | [GitHub](https://github.com/0dataapp/hello) | Simple demo app |
 | [Lucchetto Onboard](https://overhide.github.io/armadietto/lucchetto/onboard.html) | Enables in-app purchase SKU onboarding for [luchetto.js](https://www.npmjs.com/package/lucchetto/v/latest) extended RS apps | pay2my.app | [GitHub](https://github.com/overhide/armadietto/blob/master/lucchetto/onboard.html) | wide screens only; featured in the [remote-storage tutorial](https://github.com/overhide/remotestorage-tutorial) |
 | [AFRAME XR component](https://aframe-remotestorage.5apps.com) | Startingpoint to load/store (Web)XR scenes from/to remoteStorage | VR/AR | [Codeberg](https://codeberg.org/coderofsalvation/aframe-remotestorage) | works on mobile, desktop & VR/AR headsets |
-
-<!-- | [0data Proof](https://proof.0data.app) | Sample app that integrates with multiple protocols | | [GitHub](https://github.com/0dataapp/proof) | Works well on mobile and desktop | -->
-
+| [0data Proof](https://proof.0data.app) | Sample app that integrates with multiple protocols | todos | [GitHub](https://github.com/0dataapp/proof) | Simple demo app |
 
 ## CLI applications, daemons, libraries
 
