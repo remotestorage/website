@@ -11,7 +11,7 @@
 ## Host your own
 
   - [armadietto](https://github.com/remotestorage/armadietto/) is a
-    remoteStorage server based on node.js
+    remoteStorage server based on node.js ([Dockerfile](https://github.com/remotestorage/armadietto/blob/master/docker/Dockerfile-modular))
   - [php-remote-storage](https://git.sr.ht/~fkooman/php-remote-storage)
     is a remoteStorage server written in PHP. ([Docker
     image](https://github.com/libresh/compose-remotestorage))
