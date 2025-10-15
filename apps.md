@@ -13,13 +13,13 @@ may be outdated.
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
 | - | - | - | - | - |
 | [Papiers](https://papiers.gitlab.io/) | A simple but powerful note-taking app that syncs with your own cloud. | Notes | [GitLab](https://gitlab.com/papiers) | Full [PWA](https://papiers.gitlab.io/) |
-| [Todonna](https://todonna.gitlab.io/) | A simple but powerful Todo app that syncs with your own cloud. | Todo | [GitLab](https://gitlab.com/todonna) | Full [PWA](https://todonna.gitlab.io/) |
 | [Litewrite](https://litewrite.net) | A distraction-free app for simple note taking and writing | documents / [Documents](https://github.com/litewrite/remotestorage-module-documents) | [GitHub](https://github.com/litewrite/litewrite) Needs maintainer | [Chrome Web Store](https://chrome.google.com/webstore/detail/litewrite/cbdonnipllnmnkbmeopncohocjggmdkk) Works well on mobile and desktop |
 | [Notes Together](https://notestogether.hominidsoftware.com/) | Toss in text and pictures. Never spend time tidying up — unless you want to! | documents | [GitHub](https://github.com/DougReeder/notes-together) | Compatible with Litewrite; installable PWA; works well on mobile and desktop |
 | [Encryptic](https://app.encryptic.org) | Encrypted, cloud-synced note taking app | encryptic | [GitHub](https://github.com/encryptic-team/encryptic) needs maintainer | Works well on mobile and desktop |
 | [Snowfall](https://snowfall.now.sh) | Workflowy / Vimflowy inspired note-taking web-app | snowfall | [GitHub](https://github.com/71/snowfall) Needs maintainer | |
 | [Litespread](https://www.litespread.com) | Viewer and editor for SQLite and CSV files with basic spreadsheet functionality. | litespread | [GitHub](https://github.com/karlb/litespread)  | 
 | [chainbook.bit](https://chainbook.5apps.com/) | Unhosted address book/friend list, based on Namecoin and remoteStorage | chainbook | [GitHub](https://github.com/bumi/chainbook.bit) |
+| [Todonna](https://todonna.gitlab.io/) | A simple but powerful Todo app that syncs with your own cloud. | Todo | [GitLab](https://gitlab.com/todonna) | Full [PWA](https://todonna.gitlab.io/) |
 | [Taskrs](https://taskrs.5apps.com/) | Tasks application that aims to be compatible with CalDAV | vdir_calendars | [GitHub](https://github.com/untitaker/taskrs) |
 | [Do Again](https://static.karl.berlin/doagain/) | A todo list for irregularly recurring todos. | doagain | |
 | [TodoMVC](https://todomvc.0data.app) | [TodoMVC](https://todomvc.com/examples/javascript-es5/dist/) integrated with remoteStorage.js | todos | [GitHub](https://github.com/0dataapp/todomvc) |
