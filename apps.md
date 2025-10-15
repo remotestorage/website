@@ -23,6 +23,7 @@ may be outdated.
 | [Taskrs](https://taskrs.5apps.com/) | Tasks application that aims to be compatible with CalDAV | vdir_calendars | [GitHub](https://github.com/untitaker/taskrs) |
 | [Do Again](https://static.karl.berlin/doagain/) | A todo list for irregularly recurring todos. | doagain | |
 | [TodoMVC](https://todomvc.0data.app) | [TodoMVC](https://todomvc.com/examples/javascript-es5/dist/) integrated with remoteStorage.js | todos | [GitHub](https://github.com/0dataapp/todomvc) |
+| [memo](https://memo.rosano.ca) | a notepad you can't edit | todos | [GitHub](https://github.com/rosano/memo) |
 | [templates](https://templates.fiatjaf.com) | Mixes Markdown/HTML templates with YAML data and outputs the results. | templates | [GitHub](https://github.com/fiatjaf/templates) | Saves templates and data independently on remoteStorage; useful for printing stuff. |
 | [Recipe Boss](https://recipes.bhdouglass.com) | A simple recipe manager that makes your recipes work for you. | recipes, groceries, grocery_categories | [GitLab](https://gitlab.com/bhdouglass/recipe-boss) | |
 | [Team Tool Box](https://lduboeuf.github.io/team-tool-box/) | Build teams and assign members randomly. Useful for trainers, teachers, managers or anyone else who works with or within groups | teams | [GitHub](https://github.com/lduboeuf/team-tool-box) | 
