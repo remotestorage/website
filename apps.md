@@ -85,7 +85,7 @@ may be outdated.
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
 | - | - | - | - | - |
 | [My Favorite Drinks](https://myfavoritedrinks.remotestorage.io) | Keep a list of your favorite drinks | myfavoritedrinks | [GitHub](https://github.com/RemoteStorage/myfavoritedrinks) | Simple demo app, maintained by rs.js devs |
-| [Checklist](https://checklist.0data.app) | Based on "My Favorite Drinks" but using todos | todos | [GitHub](https://github.com/0dataapp/checklist) | Simple demo app. |
+| [Listable](https://listable.0data.app) | Based on "My Favorite Drinks" but using todos | todos | [GitHub](https://github.com/0dataapp/listable) | Simple demo app. |
 | [todos interop](https://todos-interop.0data.app) | multiple web apps synchronizing same module on the same page | todos | [GitHub](https://github.com/0dataapp/todos-interop) | Connect once to sync with multiple apps |
 | [Hello](https://hello.0data.app) | Simple Hello World with remoteStorage, Solid, and Fission | todos  | [GitHub](https://github.com/0dataapp/hello) | Simple demo app |
 | [Lucchetto Onboard](https://overhide.github.io/armadietto/lucchetto/onboard.html) | Enables in-app purchase SKU onboarding for [luchetto.js](https://www.npmjs.com/package/lucchetto/v/latest) extended RS apps | pay2my.app | [GitHub](https://github.com/overhide/armadietto/blob/master/lucchetto/onboard.html) | wide screens only; featured in the [remote-storage tutorial](https://github.com/overhide/remotestorage-tutorial) |
