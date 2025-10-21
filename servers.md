@@ -16,7 +16,7 @@
   - [php-remote-storage](https://git.sr.ht/~fkooman/php-remote-storage)
     is a remoteStorage server written in PHP. ([Docker
     image](https://github.com/libresh/compose-remotestorage))
-  - [mysteryshack](https://github.com/untitaker/mysteryshack) is a
+  - [mysteryshack](https://github.com/emembrives/mysteryshack/) is a
     remoteStorage server written in Rust. ([Docker
     image](https://hub.docker.com/r/bnjbvr/mysteryshack-docker/))
   - [armadietto+lucchetto](https://github.com/overhide/armadietto/blob/master/lucchetto/README.md)
