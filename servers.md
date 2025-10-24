@@ -11,8 +11,7 @@
 ## Host your own
 
   - [armadietto](https://github.com/remotestorage/armadietto/) is a
-    remoteStorage server based on node.js
-  - [armadietto-cloudron](https://github.com/0dataapp/armadietto-cloudron): armadietto packaged for easy install on Cloudron
+    remoteStorage server based on node.js. Self-host easily via [YunoHost](https://install-app.yunohost.org/?app=armadietto), [Cloudron](https://github.com/0dataapp/armadietto-oneclick?tab=readme-ov-file#cloudron), [Caprover](https://github.com/0dataapp/armadietto-oneclick?tab=readme-ov-file#caprover), or [Coolify](https://github.com/0dataapp/armadietto-oneclick?tab=readme-ov-file#coolify).
   - [php-remote-storage](https://git.sr.ht/~fkooman/php-remote-storage)
     is a remoteStorage server written in PHP. ([Docker
     image](https://github.com/libresh/compose-remotestorage))
