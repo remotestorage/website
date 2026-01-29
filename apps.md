@@ -53,6 +53,12 @@ may be outdated.
 | [Diffuse](https://diffuse.sh) | A music player that connects to your cloud/distributed storage | diffuse | [GitHub](https://github.com/icidasset/diffuse) | Offers RS option for storing settings, playlists, favorites etc.; works well on mobile and desktop |
 | [gHost](https://ghost.5apps.com/) | Unhosted photo album: store webcam photos in your remote storage | pictures | [GitHub](https://github.com/vcuculo/ghost) | 
 
+### Maps
+
+| **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
+| [Marco](https://marco.kosmos.org/) | Unhosted maps app, syncs place bookmarks via RS | places | [Gitea](https://gitea.kosmos.org/raucao/marco) | |
+
 ### Finance
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
