@@ -53,6 +53,12 @@ may be outdated.
 | [Diffuse](https://diffuse.sh) | A music player that connects to your cloud/distributed storage | diffuse | [GitHub](https://github.com/icidasset/diffuse) | Offers RS option for storing settings, playlists, favorites etc.; works well on mobile and desktop |
 | [gHost](https://ghost.5apps.com/) | Unhosted photo album: store webcam photos in your remote storage | pictures | [GitHub](https://github.com/vcuculo/ghost) | 
 
+### Maps
+
+| **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
+| - | - | - | - | - |
+| [Marco](https://marco.kosmos.org/) | Unhosted maps app, syncs place bookmarks via RS | places | [Gitea](https://gitea.kosmos.org/raucao/marco) | |
+
 ### Finance
 
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
@@ -73,8 +79,8 @@ may be outdated.
 | **Name** | **Description** | **Scope/Module** | **Source Code** | **Store/Catalog & Notes** |
 | - | - | - | - | - |
 | [Launchlet](https://launchlet.dev) | Run custom JavaScript or CSS on any website via bookmarklet or extension. | launchlet | [GitHub](https://github.com/launchlet/launchlet) | [Chrome Extension](https://chrome.google.com/webstore/detail/launchlet/gmgfdkajnjplpjmodjmmmkfkpjdjgnlf) [Safari Extension](https://github.com/launchlet/launchlet-extension) Works via bookmarklet or browser extension; mostly works on mobile, but best on desktop |
-| [Sharesome](https://sharesome.5apps.com/) | Share files quickly from your remote storage | shares | [GitHub](https://github.com/skddc/sharesome) | Best on desktop |
-| [Webmarks](https://webmarks.5apps.com) | Archive your bookmarks in remoteStorage | bookmarks / [bookmarks](https://www.npmjs.com/package/@remotestorage/module-bookmarks) | [GitHub](https://github.com/skddc/webmarks) | Best on desktop |
+| [Sharesome](https://sharesome.5apps.com/) | Share files quickly from your remote storage | shares | [GitHub](https://github.com/skddc/sharesome) | |
+| [Webmarks](https://webmarks.5apps.com) | Archive your bookmarks in remoteStorage | bookmarks / [bookmarks](https://www.npmjs.com/package/@remotestorage/module-bookmarks) | [GitHub](https://github.com/skddc/webmarks) | |
 | memm | Browser extension to store and tag your bookmarks with remoteStorage support | bookmarks / [bookmarks](https://www.npmjs.com/package/@remotestorage/module-bookmarks) | [GitHub](https://github.com/lesion/memm) | Compatible with Webmarks |
 | BookmarkVault | Web extension for securely storing and syncing bookmarks (with backup to remoteStorage) | bookmarkvault | [GitLab](https://gitlab.com/zookatron/bookmarkvault) | [Chrome extension](https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma), data encrypted |
 | [RS Location](https://rs-locate.5apps.com) | Proof-of-concept app for updating one's location profile |  profile, api-keys | [Gitea](https://gitea.kosmos.org/raucao/rs-location) | [More details](https://community.remotestorage.io/t/public-protocols/627/3?u=raucao) |
