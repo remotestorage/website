@@ -33,6 +33,8 @@ your server.
 <img src="/img/oauth-dialog.png"
      role="presentation" style="height: 340px; padding: 20px;" />
 
+Protocol versions 1.0 and under use the [Implicit Grant Flow](https://oauth.net/2/grant-types/implicit/), whereas [Proof Key for Code Exchange](https://oauth.net/2/pkce/) will be required in version 2.0.
+
 ## Data Storage & Sync: [HTTP REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
 remoteStorage defines a simple key/value store for apps to save and retrieve
