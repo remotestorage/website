@@ -39,7 +39,7 @@ Run the local dev server, which automatically updates the local preview site
 whenever documents are saved:
 
 ```
-npm run docs:dev
+npm start
 ```
 
 ### Deployment
