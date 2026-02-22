@@ -7,7 +7,7 @@
   },
   "scripts": {
     "fetch-contributors": "node scripts/fetch-contributors.mjs",
-    "docs:dev": "vitepress dev",
+    "start": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
