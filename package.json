@@ -6,7 +6,6 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "fetch-contributors": "node scripts/fetch-contributors.mjs",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
