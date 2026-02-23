@@ -176,7 +176,8 @@ categories:
   - name: Marco
     url: https://marco.kosmos.org/
     description: Unhosted maps app, syncs place bookmarks via RS
-    scope: places
+    scope: places / <a
+      href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
     source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
 - name: Finance
   anchor: finance
