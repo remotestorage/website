@@ -49,11 +49,11 @@ categories:
     scope: chainbook
     source: <a href="https://github.com/bumi/chainbook.bit">GitHub</a>
   - name: Todonna
-    url: https://todonna.gitlab.io/
-    description: A simple but powerful Todo app that syncs with your own cloud.
+    url: https://todonna.gitlab.io
+    description: Simple but powerful todo app.
     scope: todonna
     source: <a href="https://gitlab.com/todonna">GitLab</a>
-    notes: Full <a href="https://todonna.gitlab.io/">PWA</a>
+    notes: Full <a href="https://todonna.gitlab.io">PWA</a>
   - name: Taskrs
     url: https://taskrs.5apps.com/
     description: Tasks application that aims to be compatible with CalDAV
