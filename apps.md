@@ -11,9 +11,9 @@ categories:
     notes: Full <a href="https://papiers.gitlab.io">PWA</a>
   - name: Litewrite
     url: https://litewrite.net
-    description: A distraction-free app for simple note taking and writing
-    scope: documents / <a
-      href="https://github.com/litewrite/remotestorage-module-documents">Documents</a>
+    description: distraction-free note-taking and writing
+    scope: <a
+      href="https://github.com/litewrite/remotestorage-module-documents">documents</a>
     source: <a href="https://github.com/litewrite/litewrite">GitHub</a> Needs maintainer
     notes: <a
       href="https://chrome.google.com/webstore/detail/litewrite/cbdonnipllnmnkbmeopncohocjggmdkk">Chrome Web Store</a> Works well on mobile
