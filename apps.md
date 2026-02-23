@@ -11,7 +11,7 @@ categories:
     notes: Full <a href="https://papiers.gitlab.io">PWA</a>
   - name: Litewrite
     url: https://litewrite.net
-    description: distraction-free note-taking and writing
+    description: Distraction-free note-taking and writing
     scope: <a
       href="https://github.com/litewrite/remotestorage-module-documents">documents</a>
     source: <a href="https://github.com/litewrite/litewrite">GitHub</a> Needs maintainer
