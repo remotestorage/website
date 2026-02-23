@@ -74,13 +74,6 @@ categories:
     description: a notepad you can't edit
     scope: todos
     source: <a href="https://github.com/rosano/memo">GitHub</a>
-  - name: templates
-    url: https://templates.fiatjaf.com
-    description: Mixes Markdown/HTML templates with YAML data and outputs the results.
-    scope: templates
-    source: <a href="https://github.com/fiatjaf/templates">GitHub</a>
-    notes: Saves templates and data independently on remoteStorage; useful for
-      printing stuff.
   - name: Recipe Boss
     url: https://recipes.bhdouglass.com
     description: A simple recipe manager that makes your recipes work for you.
@@ -274,6 +267,13 @@ categories:
     scope: "*"
     source: <a href="https://gitea.kosmos.org/raucao/inspektor">Gitea</a>
     notes: Best on desktop
+  - name: templates
+    url: https://templates.fiatjaf.com
+    description: Mixes Markdown/HTML templates with YAML data and outputs the results.
+    scope: templates
+    source: <a href="https://github.com/fiatjaf/templates">GitHub</a>
+    notes: Saves templates and data independently on remoteStorage; useful for
+      printing stuff.
   - name: Waves
     url: https://waves.kosmos.org/
     description: >-
