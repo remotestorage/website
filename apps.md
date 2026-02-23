@@ -26,12 +26,6 @@ categories:
     source: <a href="https://github.com/DougReeder/notes-together">GitHub</a>
     notes: Compatible with Litewrite; installable PWA; works well on mobile and
       desktop
-  - name: Encryptic
-    url: https://app.encryptic.org
-    description: Encrypted, cloud-synced note taking app
-    scope: encryptic
-    source: <a href="https://github.com/encryptic-team/encryptic">GitHub</a> needs maintainer
-    notes: Works well on mobile and desktop
   - name: Snowfall
     url: https://snowfall.now.sh
     description: Workflowy / Vimflowy inspired note-taking web-app
@@ -367,6 +361,11 @@ categories:
   - name: Unifile
     url: https://github.com/silexlabs/unifile
     description: ""
+archived:
+  - name: Encryptic
+    url: https://github.com/encryptic-team/encryptic
+    description: encrypted note-taking
+    scope: encryptic
 ---
 
 # Apps
@@ -407,6 +406,17 @@ may be outdated.
 </table>
 
 </div>
+
+## Archived
+
+Projects that are no longer online.
+<ul>
+  <li v-for="app of $frontmatter.archived">
+    <a :href="app.url">{{ app.name }}</a> (<span v-html="app.scope"></span>):
+    <span v-html="app.description"></span>
+  </li>
+</ul>
+
 
 ## Notes
 
