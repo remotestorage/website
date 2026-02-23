@@ -46,37 +46,32 @@ categories:
       functionality.
     scope: litespread
     source: <a href="https://github.com/karlb/litespread">GitHub</a>
-  - name: chainbook.bit
-    url: https://chainbook.5apps.com/
-    description: Unhosted address book/friend list, based on Namecoin and remoteStorage
-    scope: chainbook
-    source: <a href="https://github.com/bumi/chainbook.bit">GitHub</a>
+  - name: Do Again
+    url: https://static.karl.berlin/doagain/
+    description: A todo list for irregularly recurring todos.
+    scope: doagain
+  - name: memo
+    url: https://memo.rosano.ca
+    description: a notepad you can't edit
+    scope: todos
+    source: <a href="https://github.com/rosano/memo">GitHub</a>
   - name: Todonna
     url: https://todonna.gitlab.io
     description: Simple but powerful todo app.
     scope: todonna
     source: <a href="https://gitlab.com/todonna">GitLab</a>
     notes: Full <a href="https://todonna.gitlab.io">PWA</a>
-  - name: Taskrs
-    url: https://taskrs.5apps.com/
-    description: Tasks application that aims to be compatible with CalDAV
-    scope: vdir_calendars
-    source: <a href="https://github.com/untitaker/taskrs">GitHub</a>
-  - name: Do Again
-    url: https://static.karl.berlin/doagain/
-    description: A todo list for irregularly recurring todos.
-    scope: doagain
   - name: TodoMVC
     url: https://todomvc.0data.app
     description: >-
       <a href="https://todomvc.com/examples/javascript-es5/dist/">TodoMVC</a> integrated with remoteStorage.js
     scope: todos
     source: <a href="https://github.com/0dataapp/todomvc">GitHub</a>
-  - name: memo
-    url: https://memo.rosano.ca
-    description: a notepad you can't edit
-    scope: todos
-    source: <a href="https://github.com/rosano/memo">GitHub</a>
+  - name: Taskrs
+    url: https://taskrs.5apps.com/
+    description: Tasks application that aims to be compatible with CalDAV
+    scope: vdir_calendars
+    source: <a href="https://github.com/untitaker/taskrs">GitHub</a>
   - name: Recipe Boss
     url: https://recipes.bhdouglass.com
     description: A simple recipe manager that makes your recipes work for you.
@@ -91,6 +86,11 @@ categories:
       or anyone else who works with or within groups
     scope: teams
     source: <a href="https://github.com/lduboeuf/team-tool-box">GitHub</a>
+  - name: chainbook.bit
+    url: https://chainbook.5apps.com/
+    description: Unhosted address book/friend list, based on Namecoin and remoteStorage
+    scope: chainbook
+    source: <a href="https://github.com/bumi/chainbook.bit">GitHub</a>
 - name: Site Builder / Wiki
   anchor: site-builder-wiki
   apps:
