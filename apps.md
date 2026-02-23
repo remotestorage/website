@@ -51,7 +51,7 @@ categories:
   - name: Todonna
     url: https://todonna.gitlab.io/
     description: A simple but powerful Todo app that syncs with your own cloud.
-    scope: Todo
+    scope: todonna
     source: <a href="https://gitlab.com/todonna">GitLab</a>
     notes: Full <a href="https://todonna.gitlab.io/">PWA</a>
   - name: Taskrs
