@@ -1,14 +1,8 @@
 ---
 categories:
-- name: Productivity / Office
-  anchor: productivity-office
+- name: Writing
+  anchor: writing
   apps:
-  - name: Papiers
-    url: https://papiers.gitlab.io
-    description: Simple but powerful note-taking app.
-    scope: papiers
-    source: <a href="https://gitlab.com/papiers">GitLab</a>
-    notes: Full <a href="https://papiers.gitlab.io">PWA</a>
   - name: Litewrite
     url: https://litewrite.net
     description: Distraction-free note-taking and writing
@@ -26,11 +20,26 @@ categories:
     source: <a href="https://github.com/DougReeder/notes-together">GitHub</a>
     notes: Compatible with Litewrite; installable PWA; works well on mobile and
       desktop
+  - name: Hyperdraft
+    url: https://hyperdraft.rosano.ca
+    description: Turn your text notes into a website.
+    scope: wikiavec
+    source: <a href="https://github.com/wikiavec/hyperdraft">GitHub</a>
+    notes: Works well on mobile and desktop
+  - name: Papiers
+    url: https://papiers.gitlab.io
+    description: Simple but powerful note-taking app.
+    scope: papiers
+    source: <a href="https://gitlab.com/papiers">GitLab</a>
+    notes: Full <a href="https://papiers.gitlab.io">PWA</a>
   - name: Snowfall
     url: https://snowfall.now.sh
     description: Workflowy / Vimflowy inspired note-taking web-app
     scope: snowfall
     source: <a href="https://github.com/71/snowfall">GitHub</a> Needs maintainer
+- name: Productivity / Office
+  anchor: productivity-office
+  apps:
   - name: Litespread
     url: https://www.litespread.com
     description: Viewer and editor for SQLite and CSV files with basic spreadsheet
