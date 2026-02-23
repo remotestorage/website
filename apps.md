@@ -4,11 +4,11 @@ categories:
   anchor: productivity-office
   apps:
   - name: Papiers
-    url: https://papiers.gitlab.io/
-    description: A simple but powerful note-taking app that syncs with your own cloud.
-    scope: Notes
+    url: https://papiers.gitlab.io
+    description: Simple but powerful note-taking app.
+    scope: papiers
     source: <a href="https://gitlab.com/papiers">GitLab</a>
-    notes: Full <a href="https://papiers.gitlab.io/">PWA</a>
+    notes: Full <a href="https://papiers.gitlab.io">PWA</a>
   - name: Litewrite
     url: https://litewrite.net
     description: A distraction-free app for simple note taking and writing
