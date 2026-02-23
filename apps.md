@@ -142,12 +142,6 @@ categories:
     scope: petrolette
     source: <a href="https://framagit.org/yphil/petrolett">GitLab</a>
     notes: Works well on mobile and desktop
-  - name: Àlir
-    url: https://alir.5apps.com
-    description: Read-later app
-    scope: alir
-    source: forked on <a href="https://github.com/rosano/alir">GitHub</a>
-    notes: Designed for mobiles, works offline
   - name: Joybox
     url: https://joybox.rosano.ca
     description: A pinboard for audiovisual media.
@@ -375,6 +369,10 @@ archived:
     url: https://github.com/encryptic-team/encryptic
     description: encrypted note-taking
     scope: encryptic
+  - name: Àlir
+    url: https://alir.5apps.com
+    description: Read-later app and RSS reader. <a href="https://github.com/rosano/alir">unofficial source</a>
+    scope: alir
 ---
 
 # Apps
