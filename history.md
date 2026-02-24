@@ -7,6 +7,10 @@ The remoteStorage project has been a grass-roots effort since 2010. This page do
 - [Unhosted](https://unhosted.org) launched by a group of volunteers led by spec co-author Michiel de Jong.
 - The [first commit](https://github.com/remotestorage/remotestorage.js/commit/cfbd34ba332a17193014755ca19e7df5be3ff8e3) is made to what would later become the remoteStorage.js client library.
 
+## 2011
+
+- NLnet foundation funds development of a standard for submission to W3C.
+
 ## 2012
 
 - [Version 0](https://datatracker.ietf.org/doc/html/draft-dejong-remotestorage-00) of the IETF spec is published by authors Michiel de Jong and François Kooman.
