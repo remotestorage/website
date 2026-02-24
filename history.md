@@ -23,4 +23,4 @@ The remoteStorage project has been a grass-roots effort since 2010. This page do
 ## 2019
 - *Related project* — [Local-first](https://www.inkandswitch.com/local-first/): software principles for collaboration and ownership while working offline and across multiple devices.
 
-[Source and discussion](https://community.remotestorage.io/t/personal-data-store-timelines/844);
+[Source and discussion](https://community.remotestorage.io/t/personal-data-store-timelines/844).
