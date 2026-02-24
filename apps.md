@@ -34,7 +34,7 @@ categories:
     notes: Full <a href="https://papiers.gitlab.io">PWA</a>
   - name: Snowfall
     url: https://snowfall.now.sh
-    description: Workflowy / Vimflowy inspired note-taking web-app
+    description: Workflowy / Vimflowy-inspired note-taking web-app
     scope: snowfall
     source: <a href="https://github.com/71/snowfall">GitHub</a> Needs maintainer
 - name: Productivity / Office
@@ -88,7 +88,7 @@ categories:
     source: <a href="https://github.com/lduboeuf/team-tool-box">GitHub</a>
   - name: chainbook.bit
     url: https://chainbook.5apps.com/
-    description: Unhosted address book/friend list, based on Namecoin and remoteStorage
+    description: Unhosted address book based on Namecoin and remoteStorage
     scope: chainbook
     source: <a href="https://github.com/bumi/chainbook.bit">GitHub</a>
 - name: Site Builder / Wiki
