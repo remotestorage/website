@@ -9,7 +9,8 @@ The remoteStorage project has been a grass-roots effort since 2010. This page do
 
 ## 2011
 
-- NLnet foundation funds development of a standard for submission to W3C.
+- [Crowdfunding campaign](https://unhosted.org/thankyou.html) raises 5000 euros to research possibilities for Unhosted web apps.
+- NLnet foundation grant further funds development of a standard for submission to W3C.
 
 ## 2012
 
