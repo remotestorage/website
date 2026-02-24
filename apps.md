@@ -166,7 +166,7 @@ categories:
   - name: Marco
     url: https://marco.kosmos.org/
     description: Unhosted maps app, syncs place bookmarks via RS
-    scope: places / <a
+    scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
     source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
 - name: Finance
@@ -231,14 +231,14 @@ categories:
   - name: Webmarks
     url: https://webmarks.5apps.com
     description: Archive your bookmarks in remoteStorage
-    scope: bookmarks / <a
+    scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
     source: <a href="https://github.com/skddc/webmarks">GitHub</a>
   - name: memm
     url: https://github.com/lesion/memm
     description: Browser extension to store and tag your bookmarks with
       remoteStorage support
-    scope: bookmarks / <a
+    scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
     source: <a href="https://github.com/lesion/memm">GitHub</a>
     notes: Compatible with Webmarks
@@ -353,8 +353,8 @@ categories:
   - name: hubot-remotestorage-logger
     url: https://github.com/67P/hubot-remotestorage-logger
     description: Logs chat messages from Hubot daemons to remoteStorage accounts
-    scope: chat-messages / <a
-      href="https://www.npmjs.com/package/remotestorage-module-chat-messages">remotestorage-module-chat-messages</a>
+    scope: <a
+      href="https://www.npmjs.com/package/remotestorage-module-chat-messages">chat-messages</a>
     source: <a href="https://github.com/67P/hubot-remotestorage-logger">GitHub</a>
   - name: rs-messages-importer
     url: https://github.com/67P/rs-messages-importer
