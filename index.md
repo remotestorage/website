@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "remoteStorage"
-  text: "An open protocol for per-user storage on the Web"
+  text: "Open web protocol for per-user storage"
   tagline: "Webfinger + OAuth + CORS + REST"
   actions:
     - theme: brand
