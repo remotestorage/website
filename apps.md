@@ -1,19 +1,13 @@
 ---
 categories:
-- name: Productivity / Office
-  anchor: productivity-office
+- name: Writing
+  anchor: writing
   apps:
-  - name: Papiers
-    url: https://papiers.gitlab.io/
-    description: A simple but powerful note-taking app that syncs with your own cloud.
-    scope: Notes
-    source: <a href="https://gitlab.com/papiers">GitLab</a>
-    notes: Full <a href="https://papiers.gitlab.io/">PWA</a>
   - name: Litewrite
     url: https://litewrite.net
-    description: A distraction-free app for simple note taking and writing
-    scope: documents / <a
-      href="https://github.com/litewrite/remotestorage-module-documents">Documents</a>
+    description: Distraction-free note-taking and writing
+    scope: <a
+      href="https://github.com/litewrite/remotestorage-module-documents">documents</a>
     source: <a href="https://github.com/litewrite/litewrite">GitHub</a> Needs maintainer
     notes: <a
       href="https://chrome.google.com/webstore/detail/litewrite/cbdonnipllnmnkbmeopncohocjggmdkk">Chrome Web Store</a> Works well on mobile
@@ -26,61 +20,58 @@ categories:
     source: <a href="https://github.com/DougReeder/notes-together">GitHub</a>
     notes: Compatible with Litewrite; installable PWA; works well on mobile and
       desktop
-  - name: Encryptic
-    url: https://app.encryptic.org
-    description: Encrypted, cloud-synced note taking app
-    scope: encryptic
-    source: <a href="https://github.com/encryptic-team/encryptic">GitHub</a> needs maintainer
+  - name: Hyperdraft
+    url: https://hyperdraft.rosano.ca
+    description: Turn your text notes into a website.
+    scope: wikiavec
+    source: <a href="https://github.com/wikiavec/hyperdraft">GitHub</a>
     notes: Works well on mobile and desktop
+  - name: Papiers
+    url: https://papiers.gitlab.io
+    description: Simple but powerful note-taking app.
+    scope: papiers
+    source: <a href="https://gitlab.com/papiers">GitLab</a>
+    notes: Full <a href="https://papiers.gitlab.io">PWA</a>
   - name: Snowfall
     url: https://snowfall.now.sh
-    description: Workflowy / Vimflowy inspired note-taking web-app
+    description: Workflowy / Vimflowy-inspired note-taking web-app
     scope: snowfall
     source: <a href="https://github.com/71/snowfall">GitHub</a> Needs maintainer
+- name: Productivity / Office
+  anchor: productivity-office
+  apps:
   - name: Litespread
     url: https://www.litespread.com
     description: Viewer and editor for SQLite and CSV files with basic spreadsheet
       functionality.
     scope: litespread
     source: <a href="https://github.com/karlb/litespread">GitHub</a>
-  - name: chainbook.bit
-    url: https://chainbook.5apps.com/
-    description: Unhosted address book/friend list, based on Namecoin and remoteStorage
-    scope: chainbook
-    source: <a href="https://github.com/bumi/chainbook.bit">GitHub</a>
-  - name: Todonna
-    url: https://todonna.gitlab.io/
-    description: A simple but powerful Todo app that syncs with your own cloud.
-    scope: Todo
-    source: <a href="https://gitlab.com/todonna">GitLab</a>
-    notes: Full <a href="https://todonna.gitlab.io/">PWA</a>
-  - name: Taskrs
-    url: https://taskrs.5apps.com/
-    description: Tasks application that aims to be compatible with CalDAV
-    scope: vdir_calendars
-    source: <a href="https://github.com/untitaker/taskrs">GitHub</a>
   - name: Do Again
     url: https://static.karl.berlin/doagain/
     description: A todo list for irregularly recurring todos.
     scope: doagain
+  - name: memo
+    url: https://memo.rosano.ca
+    description: a notepad you can't edit
+    scope: todos
+    source: <a href="https://github.com/rosano/memo">GitHub</a>
+  - name: Todonna
+    url: https://todonna.gitlab.io
+    description: Simple but powerful todo app.
+    scope: todonna
+    source: <a href="https://gitlab.com/todonna">GitLab</a>
+    notes: Full <a href="https://todonna.gitlab.io">PWA</a>
   - name: TodoMVC
     url: https://todomvc.0data.app
     description: >-
       <a href="https://todomvc.com/examples/javascript-es5/dist/">TodoMVC</a> integrated with remoteStorage.js
     scope: todos
     source: <a href="https://github.com/0dataapp/todomvc">GitHub</a>
-  - name: memo
-    url: https://memo.rosano.ca
-    description: a notepad you can't edit
-    scope: todos
-    source: <a href="https://github.com/rosano/memo">GitHub</a>
-  - name: templates
-    url: https://templates.fiatjaf.com
-    description: Mixes Markdown/HTML templates with YAML data and outputs the results.
-    scope: templates
-    source: <a href="https://github.com/fiatjaf/templates">GitHub</a>
-    notes: Saves templates and data independently on remoteStorage; useful for
-      printing stuff.
+  - name: Taskrs
+    url: https://taskrs.5apps.com/
+    description: Tasks application that aims to be compatible with CalDAV
+    scope: vdir_calendars
+    source: <a href="https://github.com/untitaker/taskrs">GitHub</a>
   - name: Recipe Boss
     url: https://recipes.bhdouglass.com
     description: A simple recipe manager that makes your recipes work for you.
@@ -95,6 +86,11 @@ categories:
       or anyone else who works with or within groups
     scope: teams
     source: <a href="https://github.com/lduboeuf/team-tool-box">GitHub</a>
+  - name: chainbook.bit
+    url: https://chainbook.5apps.com/
+    description: Unhosted address book based on Namecoin and remoteStorage
+    scope: chainbook
+    source: <a href="https://github.com/bumi/chainbook.bit">GitHub</a>
 - name: Site Builder / Wiki
   anchor: site-builder-wiki
   apps:
@@ -146,12 +142,6 @@ categories:
     scope: petrolette
     source: <a href="https://framagit.org/yphil/petrolett">GitLab</a>
     notes: Works well on mobile and desktop
-  - name: Àlir
-    url: https://alir.5apps.com
-    description: Read-later app
-    scope: alir
-    source: forked on <a href="https://github.com/rosano/alir">GitHub</a>
-    notes: Designed for mobiles, works offline
   - name: Joybox
     url: https://joybox.rosano.ca
     description: A pinboard for audiovisual media.
@@ -176,7 +166,7 @@ categories:
   - name: Marco
     url: https://marco.kosmos.org/
     description: Unhosted maps app, syncs place bookmarks via RS
-    scope: places / <a
+    scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
     source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
 - name: Finance
@@ -241,14 +231,14 @@ categories:
   - name: Webmarks
     url: https://webmarks.5apps.com
     description: Archive your bookmarks in remoteStorage
-    scope: bookmarks / <a
+    scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
     source: <a href="https://github.com/skddc/webmarks">GitHub</a>
   - name: memm
     url: https://github.com/lesion/memm
     description: Browser extension to store and tag your bookmarks with
       remoteStorage support
-    scope: bookmarks / <a
+    scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
     source: <a href="https://github.com/lesion/memm">GitHub</a>
     notes: Compatible with Webmarks
@@ -274,6 +264,13 @@ categories:
     scope: "*"
     source: <a href="https://gitea.kosmos.org/raucao/inspektor">Gitea</a>
     notes: Best on desktop
+  - name: templates
+    url: https://templates.fiatjaf.com
+    description: Mixes Markdown/HTML templates with YAML data and outputs the results.
+    scope: templates
+    source: <a href="https://github.com/fiatjaf/templates">GitHub</a>
+    notes: Saves templates and data independently on remoteStorage; useful for
+      printing stuff.
   - name: Waves
     url: https://waves.kosmos.org/
     description: >-
@@ -356,8 +353,8 @@ categories:
   - name: hubot-remotestorage-logger
     url: https://github.com/67P/hubot-remotestorage-logger
     description: Logs chat messages from Hubot daemons to remoteStorage accounts
-    scope: chat-messages / <a
-      href="https://www.npmjs.com/package/remotestorage-module-chat-messages">remotestorage-module-chat-messages</a>
+    scope: <a
+      href="https://www.npmjs.com/package/remotestorage-module-chat-messages">chat-messages</a>
     source: <a href="https://github.com/67P/hubot-remotestorage-logger">GitHub</a>
   - name: rs-messages-importer
     url: https://github.com/67P/rs-messages-importer
@@ -367,6 +364,15 @@ categories:
   - name: Unifile
     url: https://github.com/silexlabs/unifile
     description: ""
+archived:
+  - name: Encryptic
+    url: https://github.com/encryptic-team/encryptic
+    description: encrypted note-taking
+    scope: encryptic
+  - name: Àlir
+    url: https://alir.5apps.com
+    description: Read-later app and RSS reader. <a href="https://github.com/rosano/alir">unofficial source</a>
+    scope: alir
 ---
 
 # Apps
@@ -407,6 +413,17 @@ may be outdated.
 </table>
 
 </div>
+
+## Archived
+
+Projects that are no longer online.
+<ul>
+  <li v-for="app of $frontmatter.archived">
+    <a :href="app.url">{{ app.name }}</a> (<span v-html="app.scope"></span>):
+    <span v-html="app.description"></span>
+  </li>
+</ul>
+
 
 ## Notes
 
