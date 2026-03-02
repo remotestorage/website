@@ -18,7 +18,7 @@
 * Help improving and creating new remoteStorage.js [data
   modules](https://github.com/remotestorage/modules)
 * Help improving [Armadietto](https://github.com/remotestorage/armadietto/), a
-  maintained RS server based on node.js
+  maintained RS server based on Node.js
 
 ### PHP
 
@@ -50,7 +50,7 @@
   for mounting storages as filesystems, which needs upgrading to newer protocol
   versions and finishing in general.
 * There's a [remoteStorage server](https://github.com/remotestorage/rs-serve)
-  written in C (with a little node.js helper app), which needs upgrading and
+  written in C (with a little Node.js helper app), which needs upgrading and
   has some installation issues.
 
 ## I can design

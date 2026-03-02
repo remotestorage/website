@@ -11,7 +11,7 @@ documentation via a Git submodule.
 
 ### Setup
 
-With [Git](https://git-scm.com) and [node.js](https://nodejs.org) installed,
+With [Git](https://git-scm.com) and [Node.js](https://nodejs.org) installed,
 and an SSH key associated with your GitHub account...
 
 Clone this repo:
