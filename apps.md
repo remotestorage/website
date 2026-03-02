@@ -343,7 +343,7 @@ categories:
     description: Backup and restore data from/to RS accounts
     scope: "*"
     source: <a href="https://github.com/skddc/rs-backup">GitHub</a>
-    notes: <a href="https://www.npmjs.com/package/rs-backup">NPM</a>, based on node.js
+    notes: <a href="https://www.npmjs.com/package/rs-backup">NPM</a>, based on Node.js
   - name: remotestorage-fuse
     url: https://github.com/remotestorage/fuse
     description: Allows you to access data on any RS-compatible server via the
