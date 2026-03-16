@@ -6,7 +6,9 @@ The remoteStorage project has been a grass-roots effort since 2010. This page do
 
 - [Unhosted](https://unhosted.org) launched by a group of volunteers led by spec co-author Michiel de Jong.
 - The [first commit](https://github.com/remotestorage/remotestorage.js/commit/cfbd34ba332a17193014755ca19e7df5be3ff8e3) is made to what would later become the remoteStorage.js client library.
-- Inspiration from Tim Berners-Lee's 2009 post [Socially aware cloud storage](https://www.w3.org/DesignIssues/CloudStorage.html) describing read-write storage that can be used across applications.
+- *Related* — Tim Berners-Lee's 2009 post [Socially aware cloud storage](https://www.w3.org/DesignIssues/CloudStorage.html) describing read-write storage that can be used across applications.
+- *Related Project* — [Camlistore (now Perkeep)](https://perkeep.org): permanently keep your stuff.
+- *Related Project* — [Locker](https://github.com/LockerProject/Locker): collect your personal data in one place.
 
 ## 2011
 
@@ -18,10 +20,12 @@ The remoteStorage project has been a grass-roots effort since 2010. This page do
 - [Version 0](https://datatracker.ietf.org/doc/html/draft-dejong-remotestorage-00) of the IETF spec is published by authors Michiel de Jong and François Kooman.
 - [Sockethub](https://sockethub.org) enables web apps to use protocols traditionally inaccessible in a browser.
 - *Related project* — [Hoodie](https://github.com/hoodiehq/hoodie): generic backend for offline-first apps.
+- *Related Project* — [freedom.js](https://github.com/freedomjs/freedom): framework for building peer-to-peer web apps.
 
 ## 2013
 - *Related project* — Hoodie team publishes [Offline First](https://offlinefirst.org) to advocate for UX in limited network connectivity.
 - *Related project* — [noBackend](https://nobackend.org) advocates client-side apps.
+- *Related project* — [byoFS.js](https://diafygi.github.io/byoFS/): JavaScript library enabling users to connect their own cloud storage.
 
 ## 2016
 - *Related project* — [Solid](https://solidproject.org): personal data stores combined with linked data.
