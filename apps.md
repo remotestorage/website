@@ -1,14 +1,5 @@
 ---
 categories:
-- name: Maps
-  anchor: maps
-  apps:
-  - name: Marco
-    url: https://marco.kosmos.org/
-    description: Unhosted maps app, syncs place bookmarks via RS
-    scope: <a
-      href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
-    source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
 - name: Learning / Self-Improvement
   anchor: learning-self-improvement
   apps:
@@ -116,6 +107,15 @@ categories:
     description: Workflowy / Vimflowy-inspired note-taking web-app
     scope: snowfall
     source: <a href="https://github.com/71/snowfall">GitHub</a> Needs maintainer
+- name: Maps
+  anchor: maps
+  apps:
+  - name: Marco
+    url: https://marco.kosmos.org/
+    description: Unhosted maps app, syncs place bookmarks via RS
+    scope: <a
+      href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
+    source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
 - name: Productivity / Office
   anchor: productivity-office
   apps:
