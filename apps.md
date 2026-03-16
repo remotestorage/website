@@ -418,7 +418,7 @@ may be outdated.
 
 ## Archived
 
-Projects that are no longer online.
+Projects that are no longer online or functional.
 <ul>
   <li v-for="app of $frontmatter.archived">
     <a :href="app.url">{{ app.name }}</a> (<span v-html="app.scope"></span>):
@@ -427,7 +427,7 @@ Projects that are no longer online.
 </ul>
 
 
-## Notes
+## Other lists
 
-  - Here's another list: <https://unhosted.org/apps/>
-  - And another one (but not RS-only): <https://0data.app/>
+- [unhosted web apps](https://unhosted.org/apps/)
+- [Zero Data App](https://0data.app)
