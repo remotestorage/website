@@ -52,6 +52,11 @@ categories:
     scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
     source: <a href="https://github.com/skddc/webmarks">GitHub</a>
+  - name: Recipe Boss
+    url: https://recipes.bhdouglass.com
+    description: A simple recipe manager that makes your recipes work for you.
+    scope: recipes, groceries, grocery_categories
+    source: <a href="https://gitlab.com/bhdouglass/recipe-boss">GitLab</a>
   - name: memm
     url: https://github.com/lesion/memm
     description: Browser extension to store and tag your bookmarks with
@@ -146,11 +151,6 @@ categories:
     description: Tasks application that aims to be compatible with CalDAV
     scope: vdir_calendars
     source: <a href="https://github.com/untitaker/taskrs">GitHub</a>
-  - name: Recipe Boss
-    url: https://recipes.bhdouglass.com
-    description: A simple recipe manager that makes your recipes work for you.
-    scope: recipes, groceries, grocery_categories
-    source: <a href="https://gitlab.com/bhdouglass/recipe-boss">GitLab</a>
   - name: Team Tool Box
     url: https://lduboeuf.github.io/team-tool-box/
     description: >-
