@@ -197,6 +197,7 @@ categories:
   anchor: password
   apps:
   - name: LessPass remoteStorage
+    url: https://github.com/fiatjaf/lesspass-remotestorage
     description: >-
       A new, faster <a href="https://lesspass.com">LessPass</a> widget that does autofill and saves options on remoteStorage.
     scope: lesspass
