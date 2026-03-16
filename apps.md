@@ -133,8 +133,8 @@ categories:
     scope: emojilog
     source: <a href="https://github.com/emojilog/emojilog">GitHub</a>
     notes: Works well on mobile and desktop
-- name: Media Consumption
-  anchor: media-consumption
+- name: Bookmarks / Media
+  anchor: bookmarks-media
   apps:
   - name: Pétrolette
     url: https://petrolette.space/
@@ -155,6 +155,29 @@ categories:
     source: <a href="https://github.com/icidasset/diffuse">GitHub</a>
     notes: Offers RS option for storing settings, playlists, favorites etc.; works
       well on mobile and desktop
+  - name: Webmarks
+    url: https://webmarks.5apps.com
+    description: Archive your bookmarks in remoteStorage
+    scope: <a
+      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
+    source: <a href="https://github.com/skddc/webmarks">GitHub</a>
+  - name: memm
+    url: https://github.com/lesion/memm
+    description: Browser extension to store and tag your bookmarks with
+      remoteStorage support
+    scope: <a
+      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
+    source: <a href="https://github.com/lesion/memm">GitHub</a>
+    notes: Compatible with Webmarks
+  - name: BookmarkVault
+    url: https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma
+    description: |-
+      Web extension for securely storing and syncing bookmarks (with backup to
+      remoteStorage)
+    scope: bookmarkvault
+    source: <a href="https://gitlab.com/zookatron/bookmarkvault">GitLab</a>
+    notes: <a
+      href="https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma">Chrome extension</a>, data encrypted
   - name: gHost
     url: https://ghost.5apps.com/
     description: "Unhosted photo album: store webcam photos in your remote storage"
@@ -229,29 +252,6 @@ categories:
     description: Share files quickly from your remote storage
     scope: shares
     source: <a href="https://github.com/skddc/sharesome">GitHub</a>
-  - name: Webmarks
-    url: https://webmarks.5apps.com
-    description: Archive your bookmarks in remoteStorage
-    scope: <a
-      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
-    source: <a href="https://github.com/skddc/webmarks">GitHub</a>
-  - name: memm
-    url: https://github.com/lesion/memm
-    description: Browser extension to store and tag your bookmarks with
-      remoteStorage support
-    scope: <a
-      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
-    source: <a href="https://github.com/lesion/memm">GitHub</a>
-    notes: Compatible with Webmarks
-  - name: BookmarkVault
-    url: https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma
-    description: |-
-      Web extension for securely storing and syncing bookmarks (with backup to
-      remoteStorage)
-    scope: bookmarkvault
-    source: <a href="https://gitlab.com/zookatron/bookmarkvault">GitLab</a>
-    notes: <a
-      href="https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma">Chrome extension</a>, data encrypted
   - name: RS Location
     url: https://rs-locate.5apps.com
     description: Proof-of-concept app for updating one's location profile
