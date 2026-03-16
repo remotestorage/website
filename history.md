@@ -6,6 +6,7 @@ The remoteStorage project has been a grass-roots effort since 2010. This page do
 
 - [Unhosted](https://unhosted.org) launched by a group of volunteers led by spec co-author Michiel de Jong.
 - The [first commit](https://github.com/remotestorage/remotestorage.js/commit/cfbd34ba332a17193014755ca19e7df5be3ff8e3) is made to what would later become the remoteStorage.js client library.
+- Inspiration from Tim Berners-Lee's 2009 post [Socially aware cloud storage](https://www.w3.org/DesignIssues/CloudStorage.html) describing read-write storage that can be used across applications.
 
 ## 2011
 
