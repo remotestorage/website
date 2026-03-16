@@ -332,12 +332,6 @@ categories:
 - name: CLI applications, daemons, libraries
   anchor: cli-applications-daemons-libraries
   apps:
-  - name: remote-storage-uploader
-    url: http://github.com/fkooman/remote-storage-uploader
-    description: Send files to public upload folder
-    scope: upload
-    source: <a href="https://github.com/fkooman/remote-storage-uploader">GitHub</a>
-    notes: Written in PHP
   - name: rs-backup
     url: https://www.npmjs.com/package/rs-backup
     description: Backup and restore data from/to RS accounts
@@ -373,6 +367,10 @@ archived:
     url: https://alir.5apps.com
     description: Read-later app and RSS reader. <a href="https://github.com/rosano/alir">unofficial source</a>
     scope: alir
+  - name: remote-storage-uploader
+    url: http://github.com/fkooman/remote-storage-uploader
+    description: Send files to public upload folder
+    scope: upload
 ---
 
 # Apps
