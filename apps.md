@@ -9,6 +9,71 @@ categories:
     scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
     source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
+- name: Learning / Self-Improvement
+  anchor: learning-self-improvement
+  apps:
+  - name: Kommit
+    url: https://kommit.rosano.ca
+    description: Flashcards with spaced-repetition
+    scope: kommit
+    source: <a href="https://github.com/kommitapp/kommit">GitHub</a>
+    notes: Works well on mobile and desktop
+  - name: Emoji Log
+    url: https://emojilog.rosano.ca
+    description: Personal tracker organized with emoji
+    scope: emojilog
+    source: <a href="https://github.com/emojilog/emojilog">GitHub</a>
+    notes: Works well on mobile and desktop
+- name: Bookmarks / Media
+  anchor: bookmarks-media
+  apps:
+  - name: Pétrolette
+    url: https://petrolette.space/
+    description: A news aggregator / Web page that syncs using Remote Storage
+    scope: petrolette
+    source: <a href="https://framagit.org/yphil/petrolett">GitLab</a>
+    notes: Works well on mobile and desktop
+  - name: Joybox
+    url: https://joybox.rosano.ca
+    description: A pinboard for audiovisual media.
+    scope: joybox
+    source: <a href="https://github.com/joyboxapp/joybox">GitHub</a>
+    notes: Works well on mobile and desktop
+  - name: Diffuse
+    url: https://diffuse.sh
+    description: A music player that connects to your cloud/distributed storage
+    scope: diffuse
+    source: <a href="https://github.com/icidasset/diffuse">GitHub</a>
+    notes: Offers RS option for storing settings, playlists, favorites etc.; works
+      well on mobile and desktop
+  - name: Webmarks
+    url: https://webmarks.5apps.com
+    description: Archive your bookmarks in remoteStorage
+    scope: <a
+      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
+    source: <a href="https://github.com/skddc/webmarks">GitHub</a>
+  - name: memm
+    url: https://github.com/lesion/memm
+    description: Browser extension to store and tag your bookmarks with
+      remoteStorage support
+    scope: <a
+      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
+    source: <a href="https://github.com/lesion/memm">GitHub</a>
+    notes: Compatible with Webmarks
+  - name: BookmarkVault
+    url: https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma
+    description: |-
+      Web extension for securely storing and syncing bookmarks (with backup to
+      remoteStorage)
+    scope: bookmarkvault
+    source: <a href="https://gitlab.com/zookatron/bookmarkvault">GitLab</a>
+    notes: <a
+      href="https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma">Chrome extension</a>, data encrypted
+  - name: gHost
+    url: https://ghost.5apps.com/
+    description: "Unhosted photo album: store webcam photos in your remote storage"
+    scope: pictures
+    source: <a href="https://github.com/vcuculo/ghost">GitHub</a>
 - name: Writing
   anchor: writing
   apps:
@@ -127,71 +192,6 @@ categories:
       localStorage and remoteStorage.
     scope: wiki
     source: <a href="https://github.com/maheee/QuikWik">GitHub</a>
-- name: Learning / Self-Improvement
-  anchor: learning-self-improvement
-  apps:
-  - name: Kommit
-    url: https://kommit.rosano.ca
-    description: Flashcards with spaced-repetition
-    scope: kommit
-    source: <a href="https://github.com/kommitapp/kommit">GitHub</a>
-    notes: Works well on mobile and desktop
-  - name: Emoji Log
-    url: https://emojilog.rosano.ca
-    description: Personal tracker organized with emoji
-    scope: emojilog
-    source: <a href="https://github.com/emojilog/emojilog">GitHub</a>
-    notes: Works well on mobile and desktop
-- name: Bookmarks / Media
-  anchor: bookmarks-media
-  apps:
-  - name: Pétrolette
-    url: https://petrolette.space/
-    description: A news aggregator / Web page that syncs using Remote Storage
-    scope: petrolette
-    source: <a href="https://framagit.org/yphil/petrolett">GitLab</a>
-    notes: Works well on mobile and desktop
-  - name: Joybox
-    url: https://joybox.rosano.ca
-    description: A pinboard for audiovisual media.
-    scope: joybox
-    source: <a href="https://github.com/joyboxapp/joybox">GitHub</a>
-    notes: Works well on mobile and desktop
-  - name: Diffuse
-    url: https://diffuse.sh
-    description: A music player that connects to your cloud/distributed storage
-    scope: diffuse
-    source: <a href="https://github.com/icidasset/diffuse">GitHub</a>
-    notes: Offers RS option for storing settings, playlists, favorites etc.; works
-      well on mobile and desktop
-  - name: Webmarks
-    url: https://webmarks.5apps.com
-    description: Archive your bookmarks in remoteStorage
-    scope: <a
-      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
-    source: <a href="https://github.com/skddc/webmarks">GitHub</a>
-  - name: memm
-    url: https://github.com/lesion/memm
-    description: Browser extension to store and tag your bookmarks with
-      remoteStorage support
-    scope: <a
-      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
-    source: <a href="https://github.com/lesion/memm">GitHub</a>
-    notes: Compatible with Webmarks
-  - name: BookmarkVault
-    url: https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma
-    description: |-
-      Web extension for securely storing and syncing bookmarks (with backup to
-      remoteStorage)
-    scope: bookmarkvault
-    source: <a href="https://gitlab.com/zookatron/bookmarkvault">GitLab</a>
-    notes: <a
-      href="https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma">Chrome extension</a>, data encrypted
-  - name: gHost
-    url: https://ghost.5apps.com/
-    description: "Unhosted photo album: store webcam photos in your remote storage"
-    scope: pictures
-    source: <a href="https://github.com/vcuculo/ghost">GitHub</a>
 - name: Developer
   anchor: Developer
   apps:
