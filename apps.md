@@ -252,13 +252,6 @@ categories:
     description: Share files quickly from your remote storage
     scope: shares
     source: <a href="https://github.com/skddc/sharesome">GitHub</a>
-  - name: RS Location
-    url: https://rs-locate.5apps.com
-    description: Proof-of-concept app for updating one's location profile
-    scope: profile, api-keys
-    source: <a href="https://gitea.kosmos.org/raucao/rs-location">Gitea</a>
-    notes: <a
-      href="https://community.remotestorage.io/t/public-protocols/627/3?u=raucao">More details</a>
   - name: RS Inspektor
     url: https://inspektor.5apps.com/
     description: A simple file browser for remoteStorage accounts
@@ -315,6 +308,13 @@ categories:
     scope: todos
     source: <a href="https://github.com/0dataapp/hello">GitHub</a>
     notes: Simple demo app
+  - name: RS Location
+    url: https://rs-locate.5apps.com
+    description: Proof-of-concept app for updating one's location profile
+    scope: profile, api-keys
+    source: <a href="https://gitea.kosmos.org/raucao/rs-location">Gitea</a>
+    notes: <a
+      href="https://community.remotestorage.io/t/public-protocols/627/3?u=raucao">More details</a>
   - name: Lucchetto Onboard
     url: https://overhide.github.io/armadietto/lucchetto/onboard.html
     description: |-
