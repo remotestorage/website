@@ -192,6 +192,25 @@ categories:
     scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
     source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
+- name: Developer
+  anchor: Developer
+  apps:
+  - name: Launchlet
+    url: https://launchlet.dev
+    description: Run custom JavaScript or CSS on any website via bookmarklet or extension.
+    scope: launchlet
+    source: <a href="https://github.com/launchlet/launchlet">GitHub</a>
+    notes: <a
+      href="https://chrome.google.com/webstore/detail/launchlet/gmgfdkajnjplpjmodjmmmkfkpjdjgnlf">Chrome Extension</a> <a
+      href="https://github.com/launchlet/launchlet-extension">Safari Extension</a> Works via bookmarklet or browser
+      extension; mostly works on mobile, but best on desktop
+  - name: templates
+    url: https://templates.fiatjaf.com
+    description: Mixes Markdown/HTML templates with YAML data and outputs the results.
+    scope: templates
+    source: <a href="https://github.com/fiatjaf/templates">GitHub</a>
+    notes: Saves templates and data independently on remoteStorage; useful for
+      printing stuff.
 - name: Finance
   anchor: finance
   apps:
@@ -238,15 +257,6 @@ categories:
 - name: Miscellaneous
   anchor: miscellaneous
   apps:
-  - name: Launchlet
-    url: https://launchlet.dev
-    description: Run custom JavaScript or CSS on any website via bookmarklet or extension.
-    scope: launchlet
-    source: <a href="https://github.com/launchlet/launchlet">GitHub</a>
-    notes: <a
-      href="https://chrome.google.com/webstore/detail/launchlet/gmgfdkajnjplpjmodjmmmkfkpjdjgnlf">Chrome Extension</a> <a
-      href="https://github.com/launchlet/launchlet-extension">Safari Extension</a> Works via bookmarklet or browser
-      extension; mostly works on mobile, but best on desktop
   - name: Sharesome
     url: https://sharesome.5apps.com/
     description: Share files quickly from your remote storage
@@ -258,13 +268,6 @@ categories:
     scope: "*"
     source: <a href="https://gitea.kosmos.org/raucao/inspektor">Gitea</a>
     notes: Best on desktop
-  - name: templates
-    url: https://templates.fiatjaf.com
-    description: Mixes Markdown/HTML templates with YAML data and outputs the results.
-    scope: templates
-    source: <a href="https://github.com/fiatjaf/templates">GitHub</a>
-    notes: Saves templates and data independently on remoteStorage; useful for
-      printing stuff.
   - name: Waves
     url: https://waves.kosmos.org/
     description: >-
