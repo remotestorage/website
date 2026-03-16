@@ -214,12 +214,6 @@ categories:
 - name: Finance
   anchor: finance
   apps:
-  - name: hledger interactive
-    url: https://hledger.fiatjaf.com
-    description: Parser and playground for <a href="https://hledger.org">hledger</a> journals.
-    scope: finance
-    source: <a href="https://github.com/fiatjaf/hledger-web">GitHub</a>
-    notes: Can save and load multiple journals to/from remoteStorage
   - name: Grouptabs
     url: https://grouptabs.5apps.com
     description: Track expenses in a group of people
@@ -227,6 +221,12 @@ categories:
     source: <a href="https://github.com/xMartin/grouptabs">GitHub</a>
     notes: Best on mobile; needs shared storage account if you want to use it with a
       group
+  - name: hledger interactive
+    url: https://hledger.fiatjaf.com
+    description: Parser and playground for <a href="https://hledger.org">hledger</a> journals.
+    scope: finance
+    source: <a href="https://github.com/fiatjaf/hledger-web">GitHub</a>
+    notes: Can save and load multiple journals to/from remoteStorage
   - name: Road To FIRE
     url: https://roadtofire.iliviu.me/
     description: |-
