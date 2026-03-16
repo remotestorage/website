@@ -1,5 +1,14 @@
 ---
 categories:
+- name: Maps
+  anchor: maps
+  apps:
+  - name: Marco
+    url: https://marco.kosmos.org/
+    description: Unhosted maps app, syncs place bookmarks via RS
+    scope: <a
+      href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
+    source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
 - name: Writing
   anchor: writing
   apps:
@@ -183,15 +192,6 @@ categories:
     description: "Unhosted photo album: store webcam photos in your remote storage"
     scope: pictures
     source: <a href="https://github.com/vcuculo/ghost">GitHub</a>
-- name: Maps
-  anchor: maps
-  apps:
-  - name: Marco
-    url: https://marco.kosmos.org/
-    description: Unhosted maps app, syncs place bookmarks via RS
-    scope: <a
-      href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
-    source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
 - name: Developer
   anchor: Developer
   apps:
