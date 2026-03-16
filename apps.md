@@ -112,7 +112,7 @@ categories:
   apps:
   - name: Marco
     url: https://marco.kosmos.org/
-    description: Unhosted maps app, syncs place bookmarks via RS
+    description: Unhosted maps app, syncs saved places via RS
     scope: <a
       href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
     source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
