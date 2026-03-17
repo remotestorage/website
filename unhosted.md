@@ -13,22 +13,22 @@ of the burden of hosting, maintaining and protecting a central database.
 
 ## Traditional Web Apps
 
-In hosted web stacks such as LAMP, .Net, Ruby on Rails, Django, etc…, the
-developer hosts the app and data, while the user controls device.
+In hosted web stacks such as LAMP, .Net, Ruby on Rails, Django, etc., the
+developer hosts the app and data, while the user controls their device.
 
 <div aria-hidden="true" v-html="svg1" />
 
 ## [No-Backend](https://nobackend.org) Web Apps
 
 In 100% client-side apps that use CouchDB, Hoodie, Firebase, Parse, Kinto,
-etc…, the developer provides the app and data, while user controls the device.
+etc., the developer provides the app and data, while the user controls their device.
 
 <div aria-hidden="true" v-html="svg2" />
 
 ## [Unhosted](https://unhosted.org) Web Apps
 
-In 100% client-side apps that use remoteStorage, Google Drive, Dropbox, etc…,
-the developer provides only the app, while the user controls the device and
+In 100% client-side apps that use remoteStorage, Google Drive, Dropbox, etc.,
+the developer provides only the app, while the user controls their device and
 data.
 
 <div aria-hidden="true" v-html="svg3" />
