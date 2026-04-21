@@ -435,7 +435,7 @@ categories:
     scope: crud
     source: <a href="https://github.com/remotestorage/sync-cache-watch">GitHub</a>
   - name: crud-base
-    url: https://0dataapp.github.io/crud-base-2/
+    url: https://remoteStorage.github.io/crud-base/
     description: basic test app with CRUD operations, sync, and caching.
     scope: crud
     source: <a href="https://github.com/remotestorage/crud-base">GitHub</a>
