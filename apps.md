@@ -40,13 +40,11 @@ categories:
     description: A music player that connects to your cloud/distributed storage
     scope: diffuse
     source: <a href="https://github.com/icidasset/diffuse">GitHub</a>
-    notes: Offers RS option for storing settings, playlists, favorites etc.; works
-      well on mobile and desktop
+    notes: Offers RS option for storing settings, playlists, favorites etc.; works well on mobile and desktop
   - name: Webmarks
     url: https://webmarks.5apps.com
     description: Archive your bookmarks in remoteStorage
-    scope: <a
-      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
+    scope: <a href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
     source: <a href="https://github.com/skddc/webmarks">GitHub</a>
   - name: JSS Bookmarks
     url: https://jss.live/remotestorage/bookmarks/
@@ -60,21 +58,16 @@ categories:
     source: <a href="https://gitlab.com/bhdouglass/recipe-boss">GitLab</a>
   - name: memm
     url: https://github.com/lesion/memm
-    description: Browser extension to store and tag your bookmarks with
-      remoteStorage support
-    scope: <a
-      href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
+    description: Browser extension to store and tag your bookmarks with remoteStorage support
+    scope: <a href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
     source: <a href="https://github.com/lesion/memm">GitHub</a>
     notes: Compatible with Webmarks
   - name: BookmarkVault
     url: https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma
-    description: |-
-      Web extension for securely storing and syncing bookmarks (with backup to
-      remoteStorage)
+    description: Web extension for securely storing and syncing bookmarks (with backup to remoteStorage)
     scope: bookmarkvault
     source: <a href="https://gitlab.com/zookatron/bookmarkvault">GitLab</a>
-    notes: <a
-      href="https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma">Chrome extension</a>, data encrypted
+    notes: <a href="https://chromewebstore.google.com/detail/bookmarkvault/fhgbcoincldpdmelkhhanmdlfgafmnma">Chrome extension</a>, data encrypted
   - name: gHost
     url: https://ghost.5apps.com/
     description: "Unhosted photo album: store webcam photos in your remote storage"
@@ -86,20 +79,15 @@ categories:
   - name: Litewrite
     url: https://litewrite.net
     description: Distraction-free note-taking and writing
-    scope: <a
-      href="https://github.com/litewrite/remotestorage-module-documents">documents</a>
+    scope: <a href="https://github.com/litewrite/remotestorage-module-documents">documents</a>
     source: <a href="https://github.com/litewrite/litewrite">GitHub</a> Needs maintainer
-    notes: <a
-      href="https://chrome.google.com/webstore/detail/litewrite/cbdonnipllnmnkbmeopncohocjggmdkk">Chrome Web Store</a> Works well on mobile
-      and desktop
+    notes: <a href="https://chrome.google.com/webstore/detail/litewrite/cbdonnipllnmnkbmeopncohocjggmdkk">Chrome Web Store</a> Works well on mobile and desktop
   - name: Notes Together
     url: https://notestogether.hominidsoftware.com/
-    description: Toss in text and pictures. Never spend time tidying up — unless you
-      want to!
+    description: Toss in text and pictures. Never spend time tidying up — unless you want to!
     scope: documents
     source: <a href="https://github.com/DougReeder/notes-together">GitHub</a>
-    notes: Compatible with Litewrite; installable PWA; works well on mobile and
-      desktop
+    notes: Compatible with Litewrite; installable PWA; works well on mobile and desktop
   - name: Hyperdraft
     url: https://hyperdraft.rosano.ca
     description: Turn your text notes into a website.
@@ -133,16 +121,14 @@ categories:
   - name: Marco
     url: https://marco.kosmos.org/
     description: Unhosted maps app, syncs saved places via RS
-    scope: <a
-      href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
+    scope: <a href="https://www.npmjs.com/package/@remotestorage/module-places">places</a>
     source: <a href="https://gitea.kosmos.org/raucao/marco">Gitea</a>
 - name: Productivity / Office
   anchor: productivity-office
   apps:
   - name: Litespread
     url: https://www.litespread.com
-    description: Viewer and editor for SQLite and CSV files with basic spreadsheet
-      functionality.
+    description: Viewer and editor for SQLite and CSV files with basic spreadsheet functionality.
     scope: litespread
     source: <a href="https://github.com/karlb/litespread">GitHub</a>
   - name: Do Again
@@ -167,8 +153,7 @@ categories:
     source: <a href="https://github.com/m5x5/vif">GitHub</a>
   - name: TodoMVC
     url: https://todomvc.0data.app
-    description: >-
-      <a href="https://todomvc.com/examples/javascript-es5/dist/">TodoMVC</a> integrated with remoteStorage.js
+    description: <a href="https://todomvc.com/examples/javascript-es5/dist/">TodoMVC</a> integrated with remoteStorage.js
     scope: todos
     source: <a href="https://github.com/0dataapp/todomvc">GitHub</a>
   - name: Taskrs
@@ -178,11 +163,7 @@ categories:
     source: <a href="https://github.com/untitaker/taskrs">GitHub</a>
   - name: Team Tool Box
     url: https://lduboeuf.github.io/team-tool-box/
-    description: >-
-      Build teams and assign members randomly. Useful for trainers, teachers,
-      managers
-
-      or anyone else who works with or within groups
+    description: Build teams and assign members randomly. Useful for trainers, teachers, managers or anyone else who works with or within groups
     scope: teams
     source: <a href="https://github.com/lduboeuf/team-tool-box">GitHub</a>
   - name: chainbook.bit
@@ -201,20 +182,13 @@ categories:
     notes: Works well on mobile and desktop
   - name: TiddlyWiki remoteStorage
     url: https://tiddly.fiatjaf.com/#%24%3A%2Fplugins%2Ffiatjaf%2FremoteStorage
-    description: >-
-      A <a href="https://tiddlywiki.com">TiddlyWiki</a> plugin that enables saving of
-      individual
-
-      tiddlers to remoteStorage.
+    description: A <a href="https://tiddlywiki.com">TiddlyWiki</a> plugin that enables saving of individual tiddlers to remoteStorage.
     scope: tiddlers
     source: <a href="https://github.com/fiatjaf/tiddlywiki-remotestorage">GitHub</a>
-    notes: A hosted version you can edit and share without installing anything is
-      available on <a href="https://tiddly.fiatjaf.com">https://tiddly.fiatjaf.com</a>
+    notes: A hosted version you can edit and share without installing anything is available on <a href="https://tiddly.fiatjaf.com">https://tiddly.fiatjaf.com</a>
   - name: QuikWik
     url: https://quik-wik.5apps.com/
-    description: |-
-      A small and simple Wiki which uses Markdown syntax and stores data in
-      localStorage and remoteStorage.
+    description: A small and simple Wiki which uses Markdown syntax and stores data in localStorage and remoteStorage.
     scope: wiki
     source: <a href="https://github.com/maheee/QuikWik">GitHub</a>
 - name: Developer
@@ -225,17 +199,13 @@ categories:
     description: Run custom JavaScript or CSS on any website via bookmarklet or extension.
     scope: launchlet
     source: <a href="https://github.com/launchlet/launchlet">GitHub</a>
-    notes: <a
-      href="https://chrome.google.com/webstore/detail/launchlet/gmgfdkajnjplpjmodjmmmkfkpjdjgnlf">Chrome Extension</a> <a
-      href="https://github.com/launchlet/launchlet-extension">Safari Extension</a> Works via bookmarklet or browser
-      extension; mostly works on mobile, but best on desktop
+    notes: <a href="https://chrome.google.com/webstore/detail/launchlet/gmgfdkajnjplpjmodjmmmkfkpjdjgnlf">Chrome Extension</a> <a href="https://github.com/launchlet/launchlet-extension">Safari Extension</a> Works via bookmarklet or browser extension; mostly works on mobile, but best on desktop
   - name: templates
     url: https://templates.fiatjaf.com
     description: Mixes Markdown/HTML templates with YAML data and outputs the results.
     scope: templates
     source: <a href="https://github.com/fiatjaf/templates">GitHub</a>
-    notes: Saves templates and data independently on remoteStorage; useful for
-      printing stuff.
+    notes: Saves templates and data independently on remoteStorage; useful for printing stuff.
 - name: Finance
   anchor: finance
   apps:
@@ -244,8 +214,7 @@ categories:
     description: Track expenses in a group of people
     scope: gruppenkasse
     source: <a href="https://github.com/xMartin/grouptabs">GitHub</a>
-    notes: Best on mobile; needs shared storage account if you want to use it with a
-      group
+    notes: Best on mobile; needs shared storage account if you want to use it with a group
   - name: JSS GroupTabs
     url: https://jss.live/remotestorage/grouptabs/
     description: Split expenses in a group. Track who paid what, see balances, and get settlement suggestions.
@@ -259,9 +228,7 @@ categories:
     notes: Can save and load multiple journals to/from remoteStorage
   - name: Road To FIRE
     url: https://roadtofire.iliviu.me/
-    description: |-
-      A portfolio manager app for your stocks, ETFs, mutual funds, bonds,
-      cryptocurrencies, commodities, P2P loans and real estate
+    description: A portfolio manager app for your stocks, ETFs, mutual funds, bonds, cryptocurrencies, commodities, P2P loans and real estate
     scope: asset-portfolio
     source: <a href="https://github.com/iLiviu/road-to-fire">GitHub</a>
     notes: Works well on mobile and desktop
@@ -270,17 +237,13 @@ categories:
   apps:
   - name: LessPass remoteStorage
     url: https://github.com/fiatjaf/lesspass-remotestorage
-    description: >-
-      A new, faster <a href="https://lesspass.com">LessPass</a> widget that does autofill and saves options on remoteStorage.
+    description: A new, faster <a href="https://lesspass.com">LessPass</a> widget that does autofill and saves options on remoteStorage.
     scope: lesspass
     source: <a href="https://github.com/fiatjaf/lesspass-remotestorage">GitHub</a>
-    notes: <a
-      href="https://addons.mozilla.org/en-US/firefox/addon/lesspass-remotestorage/">Firefox Add-on</a> Save password profiles
-      based on the domain you are; supports multiple profiles for each domain
+    notes: <a href="https://addons.mozilla.org/en-US/firefox/addon/lesspass-remotestorage/">Firefox Add-on</a> Save password profiles based on the domain you are; supports multiple profiles for each domain
   - name: "PfP: Pain-free Passwords"
     url: https://pfp.works/
-    description: A secure and convenient password manager that keeps you in control
-      of your data.
+    description: A secure and convenient password manager that keeps you in control of your data.
     scope: pfp
     source: <a href="https://github.com/palant/pfp/">GitHub</a>
     notes: <a href="https://addons.mozilla.org/addon/easy-passwords/">Firefox Add-on</a> <a href="https://chrome.google.com/webstore/detail/pfp-pain-free-passwords/hplhaekjfmjfnfdllkpjpeenlbclffgh" >Chrome Extension</a> <a href="https://addons.opera.com/en/extensions/details/easy-passwords/" >Opera Add-on</a> Syncs any number of devices via remoteStorage as long as they share the same master password; remoteStorage server doesn't have to be trusted, data is fully encrypted
@@ -329,11 +292,7 @@ categories:
     source: <a href="https://github.com/m5x5/remotestorage-log">GitHub</a>
   - name: Waves
     url: https://waves.kosmos.org/
-    description: >-
-      Log viewer for chat logs stored in RS via the chat-messages module (e.g.
-      logged
-
-      by hubot-remotestorage-logger or imported via rs-messages-importer)
+    description: Log viewer for chat logs stored in RS via the chat-messages module (e.g. logged by hubot-remotestorage-logger or imported via rs-messages-importer)
     scope: chat-messages
     source: <a href="https://github.com/67P/waves">GitHub</a>
     notes: Works well on mobile and desktop
@@ -375,17 +334,13 @@ categories:
     description: Proof-of-concept app for updating one's location profile
     scope: profile, api-keys
     source: <a href="https://gitea.kosmos.org/raucao/rs-location">Gitea</a>
-    notes: <a
-      href="https://community.remotestorage.io/t/public-protocols/627/3?u=raucao">More details</a>
+    notes: <a href="https://community.remotestorage.io/t/public-protocols/627/3?u=raucao">More details</a>
   - name: Lucchetto Onboard
     url: https://overhide.github.io/armadietto/lucchetto/onboard.html
-    description: |-
-      Enables in-app purchase SKU onboarding for <a href="https://www.npmjs.com/package/lucchetto/v/latest">luchetto.js</a> extended RS apps
+    description: Enables in-app purchase SKU onboarding for <a href="https://www.npmjs.com/package/lucchetto/v/latest">luchetto.js</a> extended RS apps
     scope: pay2my.app
-    source: <a
-      href="https://github.com/overhide/armadietto/blob/master/lucchetto/onboard.html">GitHub</a>
-    notes: wide screens only; featured in the <a
-      href="https://github.com/overhide/remotestorage-tutorial">remote-storage tutorial</a>
+    source: <a href="https://github.com/overhide/armadietto/blob/master/lucchetto/onboard.html">GitHub</a>
+    notes: wide screens only; featured in the <a href="https://github.com/overhide/remotestorage-tutorial">remote-storage tutorial</a>
   - name: AFRAME XR component
     url: https://aframe-remotestorage.5apps.com
     description: Startingpoint to load/store (Web)XR scenes from/to remoteStorage
@@ -403,15 +358,13 @@ categories:
     notes: <a href="https://www.npmjs.com/package/rs-backup">NPM</a>, based on Node.js
   - name: remotestorage-fuse
     url: https://github.com/remotestorage/fuse
-    description: Allows you to access data on any RS-compatible server via the
-      regular filesystem
+    description: Allows you to access data on any RS-compatible server via the regular filesystem
     scope: "*"
     source: <a href="https://github.com/remotestorage/fuse">GitHub</a>
   - name: hubot-remotestorage-logger
     url: https://github.com/67P/hubot-remotestorage-logger
     description: Logs chat messages from Hubot daemons to remoteStorage accounts
-    scope: <a
-      href="https://www.npmjs.com/package/remotestorage-module-chat-messages">chat-messages</a>
+    scope: <a href="https://www.npmjs.com/package/remotestorage-module-chat-messages">chat-messages</a>
     source: <a href="https://github.com/67P/hubot-remotestorage-logger">GitHub</a>
   - name: rs-messages-importer
     url: https://github.com/67P/rs-messages-importer
@@ -420,7 +373,6 @@ categories:
     source: <a href="https://github.com/67P/rs-messages-importer">GitHub</a>
   - name: Unifile
     url: https://github.com/silexlabs/unifile
-    description: ""
 - name: Testing / Debugging
   anchor: testing-debugging
   apps:
