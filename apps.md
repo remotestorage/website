@@ -15,6 +15,11 @@ categories:
     scope: emojilog
     source: <a href="https://github.com/emojilog/emojilog">GitHub</a>
     notes: Works well on mobile and desktop
+  - name: Leptum
+    url: https://leptum.mpeters.dev
+    description: Track habits, goals, and personal metrics.
+    scope: leptum, todonna, profile
+    source: <a href="https://github.com/m5x5/leptum">GitHub</a>
 - name: Bookmarks / Media
   anchor: bookmarks-media
   apps:
@@ -41,6 +46,11 @@ categories:
     description: Archive your bookmarks in remoteStorage
     scope: <a href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
     source: <a href="https://github.com/skddc/webmarks">GitHub</a>
+  - name: JSS Bookmarks
+    url: https://jss.live/remotestorage/bookmarks/
+    description: Save, tag, search, and organize your bookmarks.
+    scope: <a href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
+    source: <a href="https://github.com/JavaScriptSolidServer/remotestorage/blob/gh-pages/bookmarks">GitHub</a>
   - name: Recipe Boss
     url: https://recipes.bhdouglass.com
     description: A simple recipe manager that makes your recipes work for you.
@@ -90,6 +100,16 @@ categories:
     scope: papiers
     source: <a href="https://gitlab.com/papiers">GitLab</a>
     notes: Full <a href="https://papiers.gitlab.io">PWA</a>
+  - name: JSS Notes
+    url: https://jss.live/remotestorage/notes/
+    description: Quick plain-text notes.
+    scope: notes
+    source: <a href="https://github.com/JavaScriptSolidServer/remotestorage/blob/gh-pages/notes">GitHub</a>
+  - name: JSS Editor
+    url: https://jss.live/remotestorage/editor/
+    description: Minimal text editor with sidebar document list, auto-save, and keyboard-friendly workflow.
+    scope: documents
+    source: <a href="https://github.com/JavaScriptSolidServer/remotestorage/blob/gh-pages/editor">GitHub</a>
   - name: Snowfall
     url: https://snowfall.now.sh
     description: Workflowy / Vimflowy-inspired note-taking web-app
@@ -126,6 +146,11 @@ categories:
     scope: todonna
     source: <a href="https://gitlab.com/todonna">GitLab</a>
     notes: Full <a href="https://todonna.gitlab.io">PWA</a>
+  - name: Vif
+    url: https://vif.mpeters.dev
+    description: natural language todo list with voice commands.
+    scope: todonna, logs, ai-wallet 
+    source: <a href="https://github.com/m5x5/vif">GitHub</a>
   - name: TodoMVC
     url: https://todomvc.0data.app
     description: <a href="https://todomvc.com/examples/javascript-es5/dist/">TodoMVC</a> integrated with remoteStorage.js
@@ -190,6 +215,11 @@ categories:
     scope: gruppenkasse
     source: <a href="https://github.com/xMartin/grouptabs">GitHub</a>
     notes: Best on mobile; needs shared storage account if you want to use it with a group
+  - name: JSS GroupTabs
+    url: https://jss.live/remotestorage/grouptabs/
+    description: Split expenses in a group. Track who paid what, see balances, and get settlement suggestions.
+    scope: grouptabs
+    source: <a href="https://github.com/JavaScriptSolidServer/remotestorage/tree/gh-pages/grouptabs">GitHub</a>
   - name: hledger interactive
     url: https://hledger.fiatjaf.com
     description: Parser and playground for <a href="https://hledger.org">hledger</a> journals.
@@ -231,6 +261,35 @@ categories:
     scope: "*"
     source: <a href="https://gitea.kosmos.org/raucao/inspektor">Gitea</a>
     notes: Best on desktop
+  - name: Inspektor Plum
+    url: https://inspektor-plum.vercel.app
+    description: slightly modernized Inspektor with more features.
+    scope: "*"
+    source: <a href="https://github.com/m5x5/inspektor">Gitea</a>
+  - name: Inbox RS
+    url: https://inbox.5apps.com
+    description: Universal inbox for saving URLs, notes, images, emails, and audio.
+    scope: inbox, shares
+    source: <a href="https://github.com/silverbucket/inbox-rs">GitHub</a>
+  - name: Setlist Roller
+    url: https://setlist.5apps.com
+    description: Dice-powered setlist generator for bands who like to live dangerously.
+    scope: setlist-roller
+    source: <a href="https://github.com/silverbucket/setlist-roller">GitHub</a>
+  - name: Groceries
+    url: https://groceries.mpeters.dev
+    description: track your shopping.
+    scope: einkauf, profile, ai-wallet
+    notes: German language only
+  - name: Shopping Analysis
+    url: https://nutrition.mpeters.dev
+    description: Analyze grocery patterns.
+    scope: einkauf, ai-wallet
+  - name: RemoteStorage Log Viewer
+    url: https://remotestorage-log.mpeters.dev
+    description: View logs from your RemoteStorage apps.
+    scope: logs
+    source: <a href="https://github.com/m5x5/remotestorage-log">GitHub</a>
   - name: Waves
     url: https://waves.kosmos.org/
     description: Log viewer for chat logs stored in RS via the chat-messages module (e.g. logged by hubot-remotestorage-logger or imported via rs-messages-importer)
@@ -314,6 +373,24 @@ categories:
     source: <a href="https://github.com/67P/rs-messages-importer">GitHub</a>
   - name: Unifile
     url: https://github.com/silexlabs/unifile
+- name: Testing / Debugging
+  anchor: testing-debugging
+  apps:
+  - name: spec-check
+    url: https://spec-check.0data.app
+    description: Validate any server against the remoteStorage API spec.
+    scope: api-test-suite
+    source: <a href="https://github.com/0dataapp/spec-check">GitHub</a>
+  - name: sync-cache-watch
+    url: https://remotestorage.github.io/sync-cache-watch/
+    description: visualize local cache for debugging
+    scope: crud
+    source: <a href="https://github.com/remotestorage/sync-cache-watch">GitHub</a>
+  - name: crud-base
+    url: https://remoteStorage.github.io/crud-base/
+    description: basic test app with CRUD operations, sync, and caching.
+    scope: crud
+    source: <a href="https://github.com/remotestorage/crud-base">GitHub</a>
 archived:
   - name: Encryptic
     url: https://github.com/encryptic-team/encryptic
