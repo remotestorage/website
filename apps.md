@@ -236,11 +236,6 @@ categories:
     source: <a href="https://github.com/fiatjaf/templates">GitHub</a>
     notes: Saves templates and data independently on remoteStorage; useful for
       printing stuff.
-  - name: spec-check
-    url: https://spec-check.0data.app
-    description: Validate any server against the remoteStorage API spec.
-    scope: api-test-suite
-    source: <a href="https://github.com/0dataapp/spec-check">GitHub</a>
 - name: Finance
   anchor: finance
   apps:
@@ -426,6 +421,24 @@ categories:
   - name: Unifile
     url: https://github.com/silexlabs/unifile
     description: ""
+- name: Testing / Debugging
+  anchor: testing-debugging
+  apps:
+  - name: spec-check
+    url: https://spec-check.0data.app
+    description: Validate any server against the remoteStorage API spec.
+    scope: api-test-suite
+    source: <a href="https://github.com/0dataapp/spec-check">GitHub</a>
+  - name: sync-cache-watch
+    url: https://remotestorage.github.io/sync-cache-watch/
+    description: visualize local cache for debugging
+    scope: crud
+    source: <a href="https://github.com/remotestorage/sync-cache-watch">GitHub</a>
+  - name: crud-base
+    url: https://0dataapp.github.io/crud-base-2/
+    description: basic test app with CRUD operations, sync, and caching.
+    scope: crud
+    source: <a href="https://github.com/remotestorage/crud-base">GitHub</a>
 archived:
   - name: Encryptic
     url: https://github.com/encryptic-team/encryptic
