@@ -40,7 +40,7 @@ own fully compliant server implementation in a language you like in a matter of
 a few days to a couple of weeks usually.
 
 You can run the [RS API Test
-Suite](https://github.com/remotestorage/api-test-suite) against your server
+Suite](https://github.com/remotestorage/api-test-suite) or [spec-check](https://spec-check.0data.app) against your server
 from the outside to integration-test for spec compliance of the HTTP API
 portion of the spec.
 
