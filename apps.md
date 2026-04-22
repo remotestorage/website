@@ -48,7 +48,7 @@ categories:
     source: <a href="https://github.com/skddc/webmarks">GitHub</a>
   - name: Savr
     url: https://savr.link
-    description: Archive your bookmarks in remoteStorage
+    description: "Read later" app that works offline
     scope: savr
     source: <a href="https://github.com/jonocodes/savr">GitHub</a>
   - name: JSS Bookmarks
