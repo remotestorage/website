@@ -46,6 +46,11 @@ categories:
     description: Archive your bookmarks in remoteStorage
     scope: <a href="https://www.npmjs.com/package/@remotestorage/module-bookmarks">bookmarks</a>
     source: <a href="https://github.com/skddc/webmarks">GitHub</a>
+  - name: Savr
+    url: https://savr.link
+    description: Archive your bookmarks in remoteStorage
+    scope: savr
+    source: <a href="https://github.com/jonocodes/savr">GitHub</a>
   - name: JSS Bookmarks
     url: https://jss.live/remotestorage/bookmarks/
     description: Save, tag, search, and organize your bookmarks.
