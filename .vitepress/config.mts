@@ -58,6 +58,7 @@ export default defineConfig({
             { text: 'Servers', link: '/servers' },
             { text: 'Contribute', link: '/contribute' },
             { text: 'Design', link: '/design' },
+            { text: 'History', link: '/history' },
           ]
         }
       ],
